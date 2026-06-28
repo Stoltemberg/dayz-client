@@ -1,0 +1,4999 @@
+{
+  "version": "0.62.0.1",
+  "files": {
+    "!Start_client_parameters.ini": {
+      "md5": "4cd771d13b5ac34fefcab2246742c7ef",
+      "size": 465
+    },
+    "DayZ.exe": {
+      "md5": "4fef38af4175464e2e34badb99faa7ce",
+      "size": 13458352
+    },
+    "DayZ.gproj": {
+      "md5": "46a0049965afba0d84e7fd05c1ff7755",
+      "size": 1120
+    },
+    "DayZSetting.xml": {
+      "md5": "259cb3f11a028acfbe066df4ad636484",
+      "size": 961
+    },
+    "DayZ_BE.exe": {
+      "md5": "3d4b5d854ff811f402015ff1787bf5bb",
+      "size": 778160
+    },
+    "DayZ_x64.exe": {
+      "md5": "89d61b1dc100616679ab05a78777a70c",
+      "size": 15293360
+    },
+    "SimulBase_MD.dll": {
+      "md5": "386e8cf23a9999b0c87ae74e355f8d88",
+      "size": 299440
+    },
+    "SimulBase_MD_x64.dll": {
+      "md5": "9f09946e7ac968b7d9d3bb6304153610",
+      "size": 404912
+    },
+    "SimulCamera_MD.dll": {
+      "md5": "b3da30d87f2f75156c22c42e3dc8dc26",
+      "size": 102832
+    },
+    "SimulCamera_MD_x64.dll": {
+      "md5": "a954ce78635d8d2d147895f984b608b9",
+      "size": 57264
+    },
+    "SimulClouds_MD.dll": {
+      "md5": "7f3427b0639d6d5207505c9d423cc7c0",
+      "size": 858544
+    },
+    "SimulClouds_MD_x64.dll": {
+      "md5": "3071a1f0b9f98e08141f3e4376c750aa",
+      "size": 1164720
+    },
+    "SimulGeometry_MD.dll": {
+      "md5": "b29ab6be03fd735bbd6c8dae7bf65a6a",
+      "size": 83888
+    },
+    "SimulGeometry_MD_x64.dll": {
+      "md5": "90679ad7fe35e45f1b04ec734e53a938",
+      "size": 90032
+    },
+    "SimulMath_MD.dll": {
+      "md5": "01f6f165b5e04b51e6f73a6935ef81ce",
+      "size": 203696
+    },
+    "SimulMath_MD_x64.dll": {
+      "md5": "5aa69f6a4c5aa757590a3a91c3491f2e",
+      "size": 236464
+    },
+    "SimulMeta_MD.dll": {
+      "md5": "e51281753a5604e6c139dbf186735e8a",
+      "size": 104880
+    },
+    "SimulMeta_MD_x64.dll": {
+      "md5": "9da6e9f24904af68db3bea99f6cb21ea",
+      "size": 121776
+    },
+    "SimulSky_MD.dll": {
+      "md5": "d405d0ae9de7c9d1ee384fe1e765f015",
+      "size": 852912
+    },
+    "SimulSky_MD_x64.dll": {
+      "md5": "071d6facdb94298eda4df0d5fa6b84c9",
+      "size": 1070000
+    },
+    "SmartSteamEmu.ini": {
+      "md5": "5118a1d92f8513183cccfd1878fe1d84",
+      "size": 589
+    },
+    "steam_api.dll": {
+      "md5": "a83ade32811f1419685e90f592adf505",
+      "size": 213072
+    },
+    "steam_api64.dll": {
+      "md5": "1711464a23e9a0c222a361c3fcf3c318",
+      "size": 235600
+    },
+    "steam_appid.txt": {
+      "md5": "1cbdd9c546a239007a7d1eab7eb681cf",
+      "size": 8
+    },
+    "ValveAPI.dll": {
+      "md5": "a83ade32811f1419685e90f592adf505",
+      "size": 213072
+    },
+    "ValveAPI64.dll": {
+      "md5": "1711464a23e9a0c222a361c3fcf3c318",
+      "size": 235600
+    },
+    "Addons/anims.pbo": {
+      "md5": "62b0dc7f3cffebd914081c348bd5350e",
+      "size": 4273799
+    },
+    "Addons/anims_anm_zombie.pbo": {
+      "md5": "5c15650724ef372f3ca96243a3b6dc20",
+      "size": 15555579
+    },
+    "Addons/anims_cfg.pbo": {
+      "md5": "aa2045ef6fe9f82ecd77266da54bf2bf",
+      "size": 827847
+    },
+    "Addons/anims_workspaces.pbo": {
+      "md5": "2b6ddc6df588ec0c93932a338f31a850",
+      "size": 631075
+    },
+    "Addons/assets_misc2.pbo": {
+      "md5": "5c17efa7c28afada65153decae608d20",
+      "size": 33326855
+    },
+    "Addons/assets_rocks2.pbo": {
+      "md5": "4cb2964b667143776546777a44add7c6",
+      "size": 29881941
+    },
+    "Addons/assets_signs2.pbo": {
+      "md5": "412a9d593930301c0de3c0c9218c37b4",
+      "size": 95557867
+    },
+    "Addons/characters_bodies.pbo": {
+      "md5": "2d05e585aa703f363fd1f9d53a105d4d",
+      "size": 21943021
+    },
+    "Addons/characters_data.pbo": {
+      "md5": "2a078a2460fc4e6e83fc7642ebfa8d26",
+      "size": 16101247
+    },
+    "Addons/characters_glasses.pbo": {
+      "md5": "6d3f25b30aa524e40a7541377da65788",
+      "size": 2284216
+    },
+    "Addons/characters_gloves.pbo": {
+      "md5": "aae68174fa6d1882e08a79abd6941fa0",
+      "size": 3920137
+    },
+    "Addons/characters_masks.pbo": {
+      "md5": "ae10bcb3f5f020a5f236036cefd90c96",
+      "size": 38669631
+    },
+    "Addons/characters_proxies.pbo": {
+      "md5": "6c0e5843f21a13b1addac747bdc54b75",
+      "size": 1543797
+    },
+    "Addons/characters_shoes.pbo": {
+      "md5": "0ff4894546bd98b2531938f6a3089281",
+      "size": 27539711
+    },
+    "Addons/characters_vests.pbo": {
+      "md5": "e901ad4a218d4180c08b8f6496303e86",
+      "size": 82667132
+    },
+    "Addons/code.pbo": {
+      "md5": "2411b387ae6a671f5345d6e85228dd4c",
+      "size": 503
+    },
+    "Addons/functions.pbo": {
+      "md5": "f957e2c8431eb50a1ab595e056112833",
+      "size": 1215124
+    },
+    "Addons/gear_consumables.pbo": {
+      "md5": "69489f70f4995e9ef650f0aa71dc8251",
+      "size": 88669426
+    },
+    "Addons/gear_containers.pbo": {
+      "md5": "42b6340b4a1b6c1cb2abf018de064893",
+      "size": 29102898
+    },
+    "Addons/gear_cooking.pbo": {
+      "md5": "64c521a663218ee0d66cddbac8bed2d2",
+      "size": 58306511
+    },
+    "Addons/gear_crafting.pbo": {
+      "md5": "f505850048d49d98b2ea4b96cd4c4492",
+      "size": 12054759
+    },
+    "Addons/gear_cultivation.pbo": {
+      "md5": "2f9703c4485f044623d83e42866351be",
+      "size": 4504820
+    },
+    "Addons/gear_drinks.pbo": {
+      "md5": "10e4a6c5013344926bb0cd5680f71f6d",
+      "size": 7173155
+    },
+    "Addons/gear_medical.pbo": {
+      "md5": "51103860aed43dff5b28f698137646d1",
+      "size": 18636723
+    },
+    "Addons/gear_navigation.pbo": {
+      "md5": "074755749dd0197fe4e5dd72c5afe48e",
+      "size": 4956192
+    },
+    "Addons/gear_optics.pbo": {
+      "md5": "08d129adef350679b4b0ff20904548d0",
+      "size": 6202569
+    },
+    "Addons/gear_radio.pbo": {
+      "md5": "ff1ba1a76b7873ad7dc7860c85a53f4e",
+      "size": 42175452
+    },
+    "Addons/gear_traps.pbo": {
+      "md5": "dd05fe275528970380489ef6ca5d6528",
+      "size": 7433212
+    },
+    "Addons/items.pbo": {
+      "md5": "f48c3eda85f3ae4e17381eeae4627804",
+      "size": 12359822
+    },
+    "Addons/language.pbo": {
+      "md5": "55de093261d8ba7cf3dfde4f481631e7",
+      "size": 548704
+    },
+    "Addons/modules.pbo": {
+      "md5": "7b4a2cc422b7893087d56d544f3a8795",
+      "size": 72948
+    },
+    "Addons/modulesCore.pbo": {
+      "md5": "45d3bef9128d9624a1dba89faa223380",
+      "size": 498956
+    },
+    "Addons/modules_dayz.pbo": {
+      "md5": "66bf5513d0ab24dc20174a4d6403e66a",
+      "size": 153315
+    },
+    "Addons/plants2_bush.pbo": {
+      "md5": "9b584c49fc72fd57936df718ea18f386",
+      "size": 80754744
+    },
+    "Addons/plants2_farming.pbo": {
+      "md5": "54cc719c90812d1134d59f6cc1cb6892",
+      "size": 49250622
+    },
+    "Addons/plants2_misc.pbo": {
+      "md5": "53fc92800cb44ec1720cc146166baaca",
+      "size": 21837874
+    },
+    "Addons/plants2_plant.pbo": {
+      "md5": "26ed7954881bd112af0de89b316e3174",
+      "size": 38872337
+    },
+    "Addons/plants_bush.pbo": {
+      "md5": "234b56a48045315becb5ff3a773e74fd",
+      "size": 32679794
+    },
+    "Addons/plants_clutter.pbo": {
+      "md5": "f7d15d13a95e2cd455a67f07bb68bc41",
+      "size": 30956374
+    },
+    "Addons/server_data.pbo": {
+      "md5": "09290546001f4b3db3a1233faf5c3c9e",
+      "size": 1341599
+    },
+    "Addons/sounds_mod.pbo": {
+      "md5": "79ea75c61ba210cdeecfbd5a212adcf2",
+      "size": 36885804
+    },
+    "Addons/structures_abadoned_bulldozer.pbo": {
+      "md5": "c33627d9877d9617221d8e1547ff3113",
+      "size": 10104110
+    },
+    "Addons/structures_abandoned_digger.pbo": {
+      "md5": "a127690bf92209050ce98513e8c658cc",
+      "size": 16164390
+    },
+    "Addons/structures_barn_w.pbo": {
+      "md5": "cdb8fcf37569d96746c9df5f7ba81177",
+      "size": 14178734
+    },
+    "Addons/structures_boathouses.pbo": {
+      "md5": "1bde549c1851ffd0fb0b94068f59b488",
+      "size": 5788147
+    },
+    "Addons/structures_building_wip.pbo": {
+      "md5": "b1b0791262a0eabd009cce6819cd462d",
+      "size": 12772416
+    },
+    "Addons/structures_castle.pbo": {
+      "md5": "1eafcf85c816d68cd93901c6d31c5d09",
+      "size": 35165519
+    },
+    "Addons/structures_cranecon.pbo": {
+      "md5": "96b2d4473e6c162f68470bce5b88fe54",
+      "size": 12713446
+    },
+    "Addons/structures_industrial.pbo": {
+      "md5": "502081bb920cd47128d209e3287c1acc",
+      "size": 2124322
+    },
+    "Addons/structures_industrial_coltan_mine.pbo": {
+      "md5": "a7f959b4e464ce04ad0fc9d0a1e9ca1f",
+      "size": 27570849
+    },
+    "Addons/structures_industrial_garage.pbo": {
+      "md5": "87b16814c5dbc079fbd67b599c479d5f",
+      "size": 25011811
+    },
+    "Addons/structures_industrial_pipeline.pbo": {
+      "md5": "06d990eaa7b41df5da30ccf08e385bcf",
+      "size": 4513674
+    },
+    "Addons/structures_industrial_quarry.pbo": {
+      "md5": "2a68709df03c68b4337cfc2f6d03f9ce",
+      "size": 24728102
+    },
+    "Addons/structures_industrial_sawmill.pbo": {
+      "md5": "9e177bbddd84009449b016663b89dce7",
+      "size": 35803369
+    },
+    "Addons/structures_industrial_sheds.pbo": {
+      "md5": "196e67e58cb44ee9b3737e6d206042f2",
+      "size": 10604141
+    },
+    "Addons/structures_landings.pbo": {
+      "md5": "418af03e6cca19da60f029b60b91a132",
+      "size": 3452185
+    },
+    "Addons/structures_lighthouses.pbo": {
+      "md5": "00e345a0f0760af4ee27cd18a97c2b63",
+      "size": 4775648
+    },
+    "Addons/structures_military.pbo": {
+      "md5": "f6930da1da7e1a3a0b07869412df3eb2",
+      "size": 44942345
+    },
+    "Addons/structures_misc_powerlines.pbo": {
+      "md5": "30f1559047e0533656f18857a4073b7e",
+      "size": 21398649
+    },
+    "Addons/structures_municipal_office.pbo": {
+      "md5": "65c9ed9ef357f4441e559cd95cd60c78",
+      "size": 20583221
+    },
+    "Addons/structures_municipal_office2.pbo": {
+      "md5": "fb07edd0761bcb19680f56756d52eaac",
+      "size": 22965346
+    },
+    "Addons/structures_piers.pbo": {
+      "md5": "bce5296a4ced1ea8c8d160aa38cd3fde",
+      "size": 13751977
+    },
+    "Addons/structures_ponds.pbo": {
+      "md5": "1db150d53851a45b0dc90df2d69b4a66",
+      "size": 3588876
+    },
+    "Addons/structures_prison.pbo": {
+      "md5": "5948c75ee836ad8b4d5a114c78eb0227",
+      "size": 71658726
+    },
+    "Addons/structures_proxy_parts.pbo": {
+      "md5": "18ecd72e52b1565d3869e02e80a8e6fe",
+      "size": 3744550
+    },
+    "Addons/structures_radio_station.pbo": {
+      "md5": "3f0eec975b31ac7c70242ea2f14ec66e",
+      "size": 54213476
+    },
+    "Addons/structures_ruins.pbo": {
+      "md5": "28a4f30e04436ea00925d7272db95873",
+      "size": 12309071
+    },
+    "Addons/structures_school.pbo": {
+      "md5": "ecccf146025b91f13243e79e35c672be",
+      "size": 48081471
+    },
+    "Addons/structures_sheds.pbo": {
+      "md5": "ef755911e89a958e376b9ba56a2dc8ac",
+      "size": 2441163
+    },
+    "Addons/structures_skilift.pbo": {
+      "md5": "9ee1ee2c14152fcee5c635d543b3c4b2",
+      "size": 24092998
+    },
+    "Addons/structures_tenements.pbo": {
+      "md5": "b6b19bcc5a52583e4f471d30c25bd5a3",
+      "size": 21883527
+    },
+    "Addons/structures_tvtower.pbo": {
+      "md5": "cbb335d24583e536b827607ca39eec61",
+      "size": 13963849
+    },
+    "Addons/structures_walls.pbo": {
+      "md5": "e31208a27f1bb015ad0322c3c3ae1b67",
+      "size": 24641515
+    },
+    "Addons/structures_wrecks.pbo": {
+      "md5": "8289235670a387f00ff2c01f0581ded0",
+      "size": 4082388
+    },
+    "Addons/ui.pbo": {
+      "md5": "d0cd7a912211f8f5a24012f8ff866d4d",
+      "size": 60923602
+    },
+    "Addons/uifonts.pbo": {
+      "md5": "ec4eb2450fe9ee165a679c33cac3cfe0",
+      "size": 14642601
+    },
+    "Addons/vehicles_parts.pbo": {
+      "md5": "0664515fb50c01f6b544749d52380fbb",
+      "size": 76802754
+    },
+    "Addons/vehicles_tracked.pbo": {
+      "md5": "0fa5538060bcc91d36ddba35d6f12a36",
+      "size": 28078003
+    },
+    "Addons/weapons_ammunition.pbo": {
+      "md5": "215200b0b4f22836fc93808a2d9076ee",
+      "size": 23574073
+    },
+    "Addons/weapons_animations.pbo": {
+      "md5": "f44d143c0146c2e8bc8b6b916df2db63",
+      "size": 278
+    },
+    "Addons/weapons_archery.pbo": {
+      "md5": "6cde7a5acbab12cd07d587391133bf20",
+      "size": 22768445
+    },
+    "Addons/weapons_data.pbo": {
+      "md5": "c9897e34c715c430796544e9215ccc2a",
+      "size": 2782554
+    },
+    "Addons/weapons_explosives.pbo": {
+      "md5": "af417583a6b4378abf9f72c543aacfbc",
+      "size": 12485106
+    },
+    "Addons/weapons_launchers.pbo": {
+      "md5": "888df241eef6aa26b196dd42c531fdac",
+      "size": 27309713
+    },
+    "Addons/weapons_melee.pbo": {
+      "md5": "a97a6cd3d34f100166d1575576bc5242",
+      "size": 76430407
+    },
+    "Addons/weapons_misc.pbo": {
+      "md5": "438f5805ac0b97dfd8c15851b2bc4a99",
+      "size": 303
+    },
+    "Addons/weapons_nonlethal.pbo": {
+      "md5": "fcad87ef73c1080198c25a24765cf768",
+      "size": 21819417
+    },
+    "Addons/weapons_projectiles.pbo": {
+      "md5": "5ad0aa26b79ce10f3440a2eb402c9fa5",
+      "size": 6533728
+    },
+    "Addons/weapons_proxies.pbo": {
+      "md5": "6c1e9b37a9e6b292dcde8a962c39e2d4",
+      "size": 1268909
+    },
+    "Addons/weapons_shotguns.pbo": {
+      "md5": "161178969b89517bab782f2055cfa14c",
+      "size": 47670616
+    },
+    "Addons/weapon_lights.pbo": {
+      "md5": "44a5252506e2e2f4e30fb214d71b4df3",
+      "size": 307225
+    },
+    "Addons/weapon_magazines.pbo": {
+      "md5": "fa0bba1422f5b14232b10488ecdbf1e3",
+      "size": 50402974
+    },
+    "Addons/weapon_muzzles.pbo": {
+      "md5": "36f9bc3ef4b840ddd2bb79ac12bcec61",
+      "size": 2715336
+    },
+    "Addons/weapon_optics.pbo": {
+      "md5": "adbc8d9d2a9d807a3a538a6319d71f07",
+      "size": 30570332
+    },
+    "Addons/weapon_supports.pbo": {
+      "md5": "ecf0c1c2d1b52381a71c34838cf28bc3",
+      "size": 28485636
+    },
+    "Addons/weapon_underslung.pbo": {
+      "md5": "ca82c690bff80f32fcdbe30423b50012",
+      "size": 903654
+    },
+    "Addons/worlds_chernarusplus_ai.pbo": {
+      "md5": "252c77d478ff43fe27e7db68e3857228",
+      "size": 794156
+    },
+    "Addons/worlds_chernarusplus_am.pbo": {
+      "md5": "ad27ffce8de53ce9a027e526e1d9fbb1",
+      "size": 16777393
+    },
+    "Addons/worlds_chernarusplus_pe.pbo": {
+      "md5": "6885a24bec68cb85ab5df9f647f8efa0",
+      "size": 14917357
+    },
+    "BattlEye/BEClient.dll": {
+      "md5": "cb5f59c1e8f92756090869fb47c43586",
+      "size": 770568
+    },
+    "BattlEye/BEClient_x64.dll": {
+      "md5": "44e2f29d2a27a38f2a9bb865b4783d93",
+      "size": 994824
+    },
+    "BattlEye/BELauncher.ini": {
+      "md5": "fe0effa7e5eb2481dc8eae56486fd5ef",
+      "size": 92
+    },
+    "BattlEye/BEService.exe": {
+      "md5": "41c69643a38fc466766ca8b0da56f93d",
+      "size": 4435976
+    },
+    "BattlEye/BEService_x64.exe": {
+      "md5": "51cfe772834da428523cc9e8363eeb92",
+      "size": 7002120
+    },
+    "BattlEye/EULA.txt": {
+      "md5": "88260ebd3ac90094fbbf03d17683d440",
+      "size": 2726
+    },
+    "dll/tbb4malloc_bi.dll": {
+      "md5": "2ad0759d42cc240f3761dae80b0591ac",
+      "size": 109896
+    },
+    "dll/tbb4malloc_bi_x64.dll": {
+      "md5": "9d1bb189b5b9de1ff1b9570efd47c14b",
+      "size": 64840
+    },
+    "dta/bin.pbo": {
+      "md5": "eaeb17823c566fcaf774cf1fe9f17117",
+      "size": 543348
+    },
+    "dta/core.pbo": {
+      "md5": "425b6abfbd856089eff6dc4b04458776",
+      "size": 9700320
+    },
+    "dta/languagecore.pbo": {
+      "md5": "b4030578c51fb900c597f5df7a7215f7",
+      "size": 734243
+    },
+    "dta/product.bin": {
+      "md5": "82712d57a8a127b9804b3a87e43f004b",
+      "size": 235
+    },
+    "dta/scripts.pbo": {
+      "md5": "b38b3927cc890b97b3be089d3145a3f9",
+      "size": 12902267
+    },
+    "dta/system.pbo": {
+      "md5": "406f31bdfcd74b2b77c0c5debcd1cd18",
+      "size": 13973431
+    },
+    "gui/hud_custom/bleeding.png": {
+      "md5": "c2df31a3ae9e74f994a22f21b2645e92",
+      "size": 46528
+    },
+    "gui/hud_custom/bleeding.tga": {
+      "md5": "0c592fe1c658a41dabeb3dc070fcb8be",
+      "size": 1000018
+    },
+    "gui/hud_custom/blood_1.png": {
+      "md5": "8a09804383ad53395de2b943991fd421",
+      "size": 51217
+    },
+    "gui/hud_custom/blood_1.tga": {
+      "md5": "36668f60b3dbd1508826bcd2d025f9dd",
+      "size": 1000018
+    },
+    "gui/hud_custom/blood_2.png": {
+      "md5": "26f3a6add401c9478fa208a56ac9edd4",
+      "size": 59515
+    },
+    "gui/hud_custom/blood_2.tga": {
+      "md5": "ec58ee50c538f31a341689485ac005a8",
+      "size": 1000018
+    },
+    "gui/hud_custom/blood_3.png": {
+      "md5": "14ffd690c4313e96273c0552370c027a",
+      "size": 70677
+    },
+    "gui/hud_custom/blood_3.tga": {
+      "md5": "1f7c45884bc93c41c9aebc1a77126e7d",
+      "size": 1000018
+    },
+    "gui/hud_custom/blood_4.png": {
+      "md5": "92fbcac6e0559286aa198319e520b8d2",
+      "size": 71689
+    },
+    "gui/hud_custom/blood_4.tga": {
+      "md5": "4e0333848a2f415ec2a39f8025ef31fc",
+      "size": 1000018
+    },
+    "gui/hud_custom/blood_5.png": {
+      "md5": "3570ce9c3faaf5278ced37d2370ea47e",
+      "size": 75744
+    },
+    "gui/hud_custom/blood_5.tga": {
+      "md5": "e15dcb2db256d4c63b03fc3725c27d9b",
+      "size": 1000018
+    },
+    "gui/hud_custom/energy_1.png": {
+      "md5": "3eeda2b78edf093388411b6014262e7f",
+      "size": 49706
+    },
+    "gui/hud_custom/energy_1.tga": {
+      "md5": "7b8e8172b181ccd66b175147eb425e04",
+      "size": 1000018
+    },
+    "gui/hud_custom/energy_2.png": {
+      "md5": "ef6297f99465b3052661af6a7c9fbe23",
+      "size": 54883
+    },
+    "gui/hud_custom/energy_2.tga": {
+      "md5": "151b68df39c9325e029854b97f0b9385",
+      "size": 1000018
+    },
+    "gui/hud_custom/energy_3.png": {
+      "md5": "859d55c906d237a348f1122f7c7152a1",
+      "size": 59676
+    },
+    "gui/hud_custom/energy_3.tga": {
+      "md5": "c896e6e37274ae6252c1a93c4db9e9ea",
+      "size": 1000018
+    },
+    "gui/hud_custom/energy_4.png": {
+      "md5": "f91ef47e5d069e3700616a1cfc65075f",
+      "size": 64809
+    },
+    "gui/hud_custom/energy_4.tga": {
+      "md5": "b0e4ee0f819cb8e75451e9e77ec6de63",
+      "size": 1000018
+    },
+    "gui/hud_custom/energy_5.png": {
+      "md5": "f91ef47e5d069e3700616a1cfc65075f",
+      "size": 64809
+    },
+    "gui/hud_custom/energy_5.tga": {
+      "md5": "b0e4ee0f819cb8e75451e9e77ec6de63",
+      "size": 1000018
+    },
+    "gui/hud_custom/food_1.png": {
+      "md5": "327508d5391fbf1e37b93cb39e326c1b",
+      "size": 60866
+    },
+    "gui/hud_custom/food_1.tga": {
+      "md5": "71c9ffff00598f57c7270e976eb2e87a",
+      "size": 1000018
+    },
+    "gui/hud_custom/food_2.png": {
+      "md5": "52dd537a483b22f231bf3ac23b17ef89",
+      "size": 66883
+    },
+    "gui/hud_custom/food_2.tga": {
+      "md5": "5427eb9ea540a819e085f4ac9f67dcf3",
+      "size": 1000018
+    },
+    "gui/hud_custom/food_3.png": {
+      "md5": "7aa27d52030a8b58fa1d457eef8c7ef9",
+      "size": 75444
+    },
+    "gui/hud_custom/food_3.tga": {
+      "md5": "2e8400f8555a3f78f5bbe428b873176d",
+      "size": 1000018
+    },
+    "gui/hud_custom/food_4.png": {
+      "md5": "3b67a2d419a1d1d6d7f3d3e72ffc3c4f",
+      "size": 78914
+    },
+    "gui/hud_custom/food_4.tga": {
+      "md5": "ff7af38121afd4c1127c239c440c9b1c",
+      "size": 1000018
+    },
+    "gui/hud_custom/food_5.png": {
+      "md5": "eeda12f4f645edcd0eaedfc5c03d6a96",
+      "size": 84933
+    },
+    "gui/hud_custom/food_5.tga": {
+      "md5": "6cb75ddbc181763a133ffa38c11d8c0a",
+      "size": 1000018
+    },
+    "gui/hud_custom/health_1.png": {
+      "md5": "9dcb0f00649a24a9e9d6d10cd19bc901",
+      "size": 46915
+    },
+    "gui/hud_custom/health_1.tga": {
+      "md5": "34d2419b56efbea5d42376bbe3fc89a4",
+      "size": 1000018
+    },
+    "gui/hud_custom/health_2.png": {
+      "md5": "8063ace697c80ca3dc66f3c3a09a0468",
+      "size": 50285
+    },
+    "gui/hud_custom/health_2.tga": {
+      "md5": "2fb8e64345b351d0e2ac58d1e22e9325",
+      "size": 1000018
+    },
+    "gui/hud_custom/health_3.png": {
+      "md5": "73f48fc5b0132dae5b248bacad0126e8",
+      "size": 59386
+    },
+    "gui/hud_custom/health_3.tga": {
+      "md5": "dae9f08190bbf64ee777f97c514216c1",
+      "size": 1000018
+    },
+    "gui/hud_custom/health_4.png": {
+      "md5": "b6bdc803a208638bcbcbaa5566faf7f5",
+      "size": 57950
+    },
+    "gui/hud_custom/health_4.tga": {
+      "md5": "5dacebc90e5fbc169bbfa12c2a8f4c04",
+      "size": 1000018
+    },
+    "gui/hud_custom/health_5.png": {
+      "md5": "097d5b7e7c633d11f54a2fbb47a88e2a",
+      "size": 59598
+    },
+    "gui/hud_custom/health_5.tga": {
+      "md5": "6280b8e8fc98bbc4dde2999e3e5b500b",
+      "size": 1000018
+    },
+    "gui/hud_custom/temperature_1.png": {
+      "md5": "34726d6914ff09ff11a1575c4e299a17",
+      "size": 45105
+    },
+    "gui/hud_custom/temperature_1.tga": {
+      "md5": "dfb091364cdd356bee4e1ba21ccf84de",
+      "size": 1000018
+    },
+    "gui/hud_custom/temperature_2.png": {
+      "md5": "c01cb8e34d31e7c6a85db68daf6d732a",
+      "size": 56091
+    },
+    "gui/hud_custom/temperature_2.tga": {
+      "md5": "c5d612900826dd40269ab412b08e88ea",
+      "size": 1000018
+    },
+    "gui/hud_custom/temperature_3.png": {
+      "md5": "bc625fd8feb212b266d83f8f48d0db67",
+      "size": 55397
+    },
+    "gui/hud_custom/temperature_3.tga": {
+      "md5": "abb39fa5e24c5e7b546d39ee343dc18a",
+      "size": 1000018
+    },
+    "gui/hud_custom/temperature_4.png": {
+      "md5": "fe81500272c603c8500e5a084399cd48",
+      "size": 56790
+    },
+    "gui/hud_custom/temperature_4.tga": {
+      "md5": "922749b8c40495b5cf85f812968b868a",
+      "size": 1000018
+    },
+    "gui/hud_custom/temperature_5.png": {
+      "md5": "df09c7714cb31cf85865f5e84b9ef96a",
+      "size": 62567
+    },
+    "gui/hud_custom/temperature_5.tga": {
+      "md5": "eca1f84196b5baea644f03f8b80797f4",
+      "size": 1000018
+    },
+    "gui/hud_custom/water_1.png": {
+      "md5": "c4abfb377286ce790ada0688b97cbb59",
+      "size": 35871
+    },
+    "gui/hud_custom/water_1.tga": {
+      "md5": "677dfbd86eaee9fd4b09d463fa89a317",
+      "size": 1000018
+    },
+    "gui/hud_custom/water_2.png": {
+      "md5": "b0ccd3d8e5c26775d6206e7f64d9bf9c",
+      "size": 40203
+    },
+    "gui/hud_custom/water_2.tga": {
+      "md5": "28c7556668f7bdad409eb75545b9707e",
+      "size": 1000018
+    },
+    "gui/hud_custom/water_3.png": {
+      "md5": "19a1deee56af26cd9d845992dc74b891",
+      "size": 42759
+    },
+    "gui/hud_custom/water_3.tga": {
+      "md5": "767b8349ef2f05867f8c8af89c5f1b20",
+      "size": 1000018
+    },
+    "gui/hud_custom/water_4.png": {
+      "md5": "201d4a64593e69d1db2c911d7d0c60f4",
+      "size": 42768
+    },
+    "gui/hud_custom/water_4.tga": {
+      "md5": "61b8ac10b28d609d457ad9e328153268",
+      "size": 1000018
+    },
+    "gui/hud_custom/water_5.png": {
+      "md5": "1161e7c46c61decfa15fbfaf2b9a9e5a",
+      "size": 43873
+    },
+    "gui/hud_custom/water_5.tga": {
+      "md5": "fe07cff5fb9d2b4ef4d4d1a4bfc10092",
+      "size": 1000018
+    },
+    "gui/layouts/admin_esp_skeleton.layout": {
+      "md5": "b051b99e531ea3861aef5ef4fd7346a4",
+      "size": 51601
+    },
+    "gui/layouts/custom_hud_tests.layout": {
+      "md5": "4f2fad6be6d578a20b46c9086cba546a",
+      "size": 16314
+    },
+    "gui/layouts/custom_map_hud_marker.layout": {
+      "md5": "c894d3d11976952a23a433477c7afc4f",
+      "size": 1229
+    },
+    "gui/layouts/custom_status_hud.layout": {
+      "md5": "7a9ad405c53e9f4d1876e413d37f9461",
+      "size": 9498
+    },
+    "gui/layouts/day_z_admin_menu.layout": {
+      "md5": "902259e4c06f8729c08104d646dfaf25",
+      "size": 9107
+    },
+    "gui/layouts/day_z_hud_debug.layout": {
+      "md5": "1955a7090533d031bc953088a51ad5d0",
+      "size": 10621
+    },
+    "gui/layouts/day_z_map.layout": {
+      "md5": "6b683ba635b4c557fbebed987b9a3a17",
+      "size": 37377
+    },
+    "gui/layouts/day_z_party_menu.layout": {
+      "md5": "e2793f156058493ef1037a992df8caf5",
+      "size": 12422
+    },
+    "gui/layouts/day_z_scene_editor.layout": {
+      "md5": "ca7faa48c39edb117eeb4245c92f6374",
+      "size": 23623
+    },
+    "gui/layouts/day_z_spawn_selector.layout": {
+      "md5": "e3da92ea985ec9809351852eaf5956f0",
+      "size": 7584
+    },
+    "gui/layouts/help_screen.layout": {
+      "md5": "02ca298c8335321548a90383c5ea0808",
+      "size": 6656
+    },
+    "gui/layouts/script_console.layout": {
+      "md5": "378bd220abad44f3ab0712f6ac379796",
+      "size": 51231
+    },
+    "gui/maps/BALOTA.png": {
+      "md5": "e9457ad6ce23e46dba8fe26c99158e4f",
+      "size": 7212941
+    },
+    "gui/maps/BALOTA.tga": {
+      "md5": "a7c7d39ca369e94af87e18cb6cce1c5a",
+      "size": 12582930
+    },
+    "gui/maps/custom_marker_icon.png": {
+      "md5": "affc45e2e3fd724f2803b2ccbdcda009",
+      "size": 53260
+    },
+    "gui/maps/custom_marker_icon.tga": {
+      "md5": "cc760cf49d841a56ba9523afecb90699",
+      "size": 1000044
+    },
+    "gui/maps/player_marker.tga": {
+      "md5": "5c72a28b103663b9ae346243bfb76a28",
+      "size": 1048594
+    },
+    "scripts/$PREFIX$": {
+      "md5": "d6c5855a62cf32a4dadbc2831f0f295f",
+      "size": 7
+    },
+    "scripts/$REVISION$": {
+      "md5": "0a9a35f5a12a6b4858b9e617efb64090",
+      "size": 5
+    },
+    "scripts/profile_fixed.cfg": {
+      "md5": "692a6ee5bfe0218685e9ed0fed721b94",
+      "size": 4374
+    },
+    "scripts/1_CoreExt/constants.c": {
+      "md5": "182de2431585f37fd43f9301cb8f07d6",
+      "size": 2157
+    },
+    "scripts/1_CoreExt/param.c": {
+      "md5": "96eb080dc0dfd4134a145897356ca22f",
+      "size": 2298
+    },
+    "scripts/1_CoreExt/script.c": {
+      "md5": "3754741d4598989b7e722e6f559d8b10",
+      "size": 330
+    },
+    "scripts/1_CoreExt/proto/DbgUI.c": {
+      "md5": "2bbb461590d9c64ab4068c0436b781c6",
+      "size": 2170
+    },
+    "scripts/1_CoreExt/proto/EnConvert.c": {
+      "md5": "a910a1c60e6de2c68ec11e4fc1d234ce",
+      "size": 8601
+    },
+    "scripts/1_CoreExt/proto/EnDebug.c": {
+      "md5": "6b60bcc18ff133970263e21313ffee28",
+      "size": 5156
+    },
+    "scripts/1_CoreExt/proto/EnEntity.c": {
+      "md5": "b5a96e96f379370f0ed9a06caa4d6286",
+      "size": 17671
+    },
+    "scripts/1_CoreExt/proto/EnMath.c": {
+      "md5": "dff5d356142d0531aa91a39394788211",
+      "size": 9691
+    },
+    "scripts/1_CoreExt/proto/EnMath3D.c": {
+      "md5": "4026f91bd30ed41dae50f35117ca056d",
+      "size": 9318
+    },
+    "scripts/1_CoreExt/proto/EnPhysics.c": {
+      "md5": "d7de6eebc6baecec6edd65ee3cc666bf",
+      "size": 13154
+    },
+    "scripts/1_CoreExt/proto/EnScript.c": {
+      "md5": "bda77f7a52f2dfa64846536e9a25a3eb",
+      "size": 15075
+    },
+    "scripts/1_CoreExt/proto/EnString.c": {
+      "md5": "743aa9b902efb958eded78d85ecfa2f2",
+      "size": 7945
+    },
+    "scripts/1_CoreExt/proto/EnSystem.c": {
+      "md5": "e90622304028317b856e0129b4af80f0",
+      "size": 9903
+    },
+    "scripts/1_CoreExt/proto/EnVisual.c": {
+      "md5": "53106fe55392da01cec453c1e5488d33",
+      "size": 6246
+    },
+    "scripts/1_CoreExt/proto/EnWidgets.c": {
+      "md5": "f18616d99eac2daac1f27cf89765ef71",
+      "size": 14006
+    },
+    "scripts/1_CoreExt/proto/EnWorld.c": {
+      "md5": "21c50de528f81661685b9c73eb35696b",
+      "size": 11048
+    },
+    "scripts/1_CoreExt/proto/proto.c": {
+      "md5": "287f1256ff6a037869d3a077b17e2cd5",
+      "size": 11150
+    },
+    "scripts/1_CoreExt/proto/Serializer.c": {
+      "md5": "a194b99e7e329f8e791121e7b349426b",
+      "size": 2221
+    },
+    "scripts/2_GameLibExt/gameLib.c": {
+      "md5": "769fd07dd3c282413f2ccb7f674fcbb9",
+      "size": 2102
+    },
+    "scripts/2_GameLibExt/gameLibComponents.c": {
+      "md5": "18d6a1f712d345dd1e926faafb189e08",
+      "size": 5210
+    },
+    "scripts/2_GameLibExt/gameLibEntities.c": {
+      "md5": "72ded8bf20047e80316c1308168e37a1",
+      "size": 629
+    },
+    "scripts/2_GameLibExt/RenderTarget.c": {
+      "md5": "b05f3f452391ea78010ddc790980d810",
+      "size": 1738
+    },
+    "scripts/2_GameLibExt/ScriptCamera.c": {
+      "md5": "5bfed15dd4390559fd899c7968f1a34a",
+      "size": 3562
+    },
+    "scripts/2_GameLibExt/ScriptLight.c": {
+      "md5": "5ecc9bcd0c5d17fe2ee7774e70adff72",
+      "size": 1062
+    },
+    "scripts/2_GameLibExt/ScriptModel.c": {
+      "md5": "1034dc47a3568d62c073b1a120cc1ffc",
+      "size": 1419
+    },
+    "scripts/2_GameLibExt/WorldsMenu.c": {
+      "md5": "af9b37ff5033649622e4c3cc074c0523",
+      "size": 1993
+    },
+    "scripts/3_Game/constants.c": {
+      "md5": "707cd4dad700c2e8c013c9445abc43b9",
+      "size": 14255
+    },
+    "scripts/3_Game/DayZGame.c": {
+      "md5": "0698dd7f8525494cd03c1b717aa3b6c4",
+      "size": 18485
+    },
+    "scripts/3_Game/game.c": {
+      "md5": "35800be05a836028e306264c9c5d8ba3",
+      "size": 360
+    },
+    "scripts/3_Game/gameplay.c": {
+      "md5": "ddf348f76cb3bf9924a21fd80d9deee5",
+      "size": 114710
+    },
+    "scripts/3_Game/human.c": {
+      "md5": "0cc532d874dd8540333a7e16251a7425",
+      "size": 8489
+    },
+    "scripts/3_Game/humandzplayer.c": {
+      "md5": "f5fbd85eb8817da54382b597ab665322",
+      "size": 15940
+    },
+    "scripts/3_Game/Particle.c": {
+      "md5": "ed1416d3b1e0cd471810d2817b912e82",
+      "size": 5048
+    },
+    "scripts/3_Game/ParticleClient.c": {
+      "md5": "999a028728ccaf8de13b38cf06ce7528",
+      "size": 1903
+    },
+    "scripts/3_Game/ParticleList.c": {
+      "md5": "8dfeeb104cc5fb5481bde62d72084021",
+      "size": 519
+    },
+    "scripts/3_Game/ParticleRPC.c": {
+      "md5": "a10669284f5dbe0a0c88bc7f8f3cf360",
+      "size": 51
+    },
+    "scripts/3_Game/GUI/ContextMenu.c": {
+      "md5": "8c035eda932d44fba548005a73ff45fd",
+      "size": 5918
+    },
+    "scripts/3_Game/GUI/InventoryGrid.c": {
+      "md5": "b1ed13a85e7d9368b83c124d9ba395da",
+      "size": 22340
+    },
+    "scripts/3_Game/GUI/Tabber.c": {
+      "md5": "fcf327378cf118b8ece0ee812d3c34db",
+      "size": 1005
+    },
+    "scripts/3_Game/GUI/Containers/CollapsibleContainer.c": {
+      "md5": "1cd39ccfad473cfa3209db22ef580ecc",
+      "size": 904
+    },
+    "scripts/3_Game/GUI/Containers/ScrollBarContainer.c": {
+      "md5": "796ececada1f037845526a24726d0715",
+      "size": 3318
+    },
+    "scripts/3_Game/GUI/Effects/Bouncer.c": {
+      "md5": "7074636d90371a411d092621fb3d8449",
+      "size": 885
+    },
+    "scripts/3_Game/GUI/Effects/HoverEffect.c": {
+      "md5": "5132bfd486625690542d7cb2d91c185d",
+      "size": 1251
+    },
+    "scripts/3_Game/GUI/Effects/MainMenuButtonEffect.c": {
+      "md5": "567ded24353dcbc73d71165dc7daf0a3",
+      "size": 1345
+    },
+    "scripts/3_Game/GUI/Effects/Rotator.c": {
+      "md5": "1cbca0bc7bcd04c7b0358e4187813eb0",
+      "size": 664
+    },
+    "scripts/3_Game/GUI/Effects/WidgetObjectFollower.c": {
+      "md5": "a5c4079619f00ed5de818548437160a8",
+      "size": 1425
+    },
+    "scripts/3_Game/GUI/Spacers/AutoHeightSpacer.c": {
+      "md5": "18e8c014e82d6c08d22e549705e83e45",
+      "size": 2548
+    },
+    "scripts/3_Game/GUI/Spacers/HorizontalSpacer.c": {
+      "md5": "024f92b7b5ce36d4135fdb0f06c492ae",
+      "size": 442
+    },
+    "scripts/3_Game/GUI/Spacers/SpacerBase.c": {
+      "md5": "667bb198fcf6324b60f07bff298759ec",
+      "size": 1760
+    },
+    "scripts/3_Game/GUI/Spacers/VerticalSpacer.c": {
+      "md5": "1f6cd9352a9b7155ee56e7f0f90e8698",
+      "size": 440
+    },
+    "scripts/3_Game/tools/Component.c": {
+      "md5": "0bc57dc3d03116e69da521a091ff95bb",
+      "size": 4416
+    },
+    "scripts/3_Game/tools/ComponentsBank.c": {
+      "md5": "695dbf01b78b3de39b8f55e3d92b5ed4",
+      "size": 1808
+    },
+    "scripts/3_Game/tools/constantsActions.c": {
+      "md5": "06f0adce3f2539befa07b656f0c118f4",
+      "size": 244
+    },
+    "scripts/3_Game/tools/Debug.c": {
+      "md5": "35c811afbc8ceb89633ff443379b44c9",
+      "size": 9903
+    },
+    "scripts/3_Game/tools/DebugPrint.c": {
+      "md5": "d66d45ea16a828030130e657e6c8244a",
+      "size": 5138
+    },
+    "scripts/3_Game/tools/Dispatcher.c": {
+      "md5": "125ca8c9489bd9b2717a9e3edcc7e1c0",
+      "size": 988
+    },
+    "scripts/3_Game/tools/input.c": {
+      "md5": "14116efc09acfe5efdae25dd5bcf24ef",
+      "size": 6150
+    },
+    "scripts/3_Game/tools/JsonObject.c": {
+      "md5": "f8e815c59b2a53247f7a465c4f1fa721",
+      "size": 3051
+    },
+    "scripts/3_Game/tools/LogTemplates.c": {
+      "md5": "83a39907d0217a67c8887b778a826d86",
+      "size": 5126
+    },
+    "scripts/3_Game/tools/tools.c": {
+      "md5": "02354417ec52df15cd8bcdaab84ced59",
+      "size": 19917
+    },
+    "scripts/3_Game/tools/UIManager.c": {
+      "md5": "a76377bc10f3462c0d84598e9ab643b7",
+      "size": 4811
+    },
+    "scripts/3_Game/tools/UIScriptedMenu.c": {
+      "md5": "5bdf5ddb2ef62df9149fac0e10245f4c",
+      "size": 10815
+    },
+    "scripts/3_Game/tools/UIScriptedWindow.c": {
+      "md5": "74013231f2f5375613fdbfb6a3913d1c",
+      "size": 3033
+    },
+    "scripts/3_Game/tools/UtilityClasses.c": {
+      "md5": "2b2d4c7844936b0fc80f31fb376ba585",
+      "size": 2049
+    },
+    "scripts/3_Game/tools/Vector2.c": {
+      "md5": "9d58f9fdc802a6a5c2199bbc6fd6e9cd",
+      "size": 121
+    },
+    "scripts/3_Game/tools/Component/ComponentEnergyManager.c": {
+      "md5": "8d346fa89f9fee31847a36a139d97061",
+      "size": 35301
+    },
+    "scripts/3_Game/tools/Component/ComponentEntityDebug.c": {
+      "md5": "0fa0db226829db2302ca10c8e053f959",
+      "size": 2766
+    },
+    "scripts/3_Game/tools/Component/_constants.c": {
+      "md5": "783d7e48c9efcd8e945ec62743e60f49",
+      "size": 615
+    },
+    "scripts/3_Game/tools/Component/ComponentEnergyManager/ComponentEnergyPowerGenerator.c": {
+      "md5": "6b846be822418891c9e101388d973906",
+      "size": 1575
+    },
+    "scripts/3_Game/tools/Component/ComponentEnergyManager/ComponentEnergySpotlight.c": {
+      "md5": "635b1703282f99ab8d88350fbd275e03",
+      "size": 61
+    },
+    "scripts/4_World/entities.c": {
+      "md5": "576636e8e76e64a87fd016d8756b1754",
+      "size": 875
+    },
+    "scripts/4_World/Classes/BloodyHands.c": {
+      "md5": "acdbc64ccffe1a8c468282be116807de",
+      "size": 497
+    },
+    "scripts/4_World/Classes/Experience.c": {
+      "md5": "e2a77a1838f52a220945d3aea9f8a4ca",
+      "size": 248
+    },
+    "scripts/4_World/Classes/ExperienceLevel.c": {
+      "md5": "2e0742edbf2ef117ef7139ca211af86c",
+      "size": 821
+    },
+    "scripts/4_World/Classes/Hologram.c": {
+      "md5": "39e57ce99a7e9673dadd769ada2b4dde",
+      "size": 12124
+    },
+    "scripts/4_World/Classes/KeyBinding.c": {
+      "md5": "693420950bdf3ece9f33f5f1e56b6435",
+      "size": 960
+    },
+    "scripts/4_World/Classes/LifespanLevel.c": {
+      "md5": "f87349996be879fb2ceca03a62c90d84",
+      "size": 555
+    },
+    "scripts/4_World/Classes/MessageReceiverBase.c": {
+      "md5": "296bba57bc014811816029e14c4f2b07",
+      "size": 1695
+    },
+    "scripts/4_World/Classes/MouseBinding.c": {
+      "md5": "2a0aefa72f8f13dca098f89a35112d46",
+      "size": 1038
+    },
+    "scripts/4_World/Classes/MouseButtonInfo.c": {
+      "md5": "4d30e5948fad9d34a6775341f463c5e7",
+      "size": 777
+    },
+    "scripts/4_World/Classes/RainProcurementManager.c": {
+      "md5": "2e6a0375c4d49a1c748966bfca99510f",
+      "size": 1943
+    },
+    "scripts/4_World/Classes/SqfDebugWatcher.c": {
+      "md5": "5d4cb2183d0d89962b7ad1b46a4fd76b",
+      "size": 868
+    },
+    "scripts/4_World/Classes/StaminaHandler.c": {
+      "md5": "09d30a51ebbb6e2f33391e6a5485d4b4",
+      "size": 4300
+    },
+    "scripts/4_World/Classes/StanceIndicator.c": {
+      "md5": "d6075fcb55d947aac183b6f29d7a02a3",
+      "size": 1087
+    },
+    "scripts/4_World/Classes/StoneGenerator.c": {
+      "md5": "95d45b7c2410985b6cffea7eec5fef5a",
+      "size": 3692
+    },
+    "scripts/4_World/Classes/TempCrafting.c": {
+      "md5": "a4bc16cc9781ffc0672d4e7b93f28c36",
+      "size": 1537
+    },
+    "scripts/4_World/Classes/ToggleSelections.c": {
+      "md5": "6ae6fd783219d48c13c244cfd7837592",
+      "size": 192
+    },
+    "scripts/4_World/Classes/TrapTrigger.c": {
+      "md5": "bbf3a9c1b2c158ceffb2d0275efe74bd",
+      "size": 341
+    },
+    "scripts/4_World/Classes/BaseBuilding/ConstructionMaterial.c": {
+      "md5": "02d52e9cbb4337799156e018f0303b7e",
+      "size": 212
+    },
+    "scripts/4_World/Classes/BaseBuilding/ConstructionPart.c": {
+      "md5": "3803c7347ee58d55187c45161cfe869b",
+      "size": 147
+    },
+    "scripts/4_World/Classes/BaseBuilding/DamageTrigger.c": {
+      "md5": "041258386efcdf234c53d0f79727f611",
+      "size": 2182
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParam.c": {
+      "md5": "18365c2a79d9405bf8b5d7c85680b1c1",
+      "size": 1084
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamArray.c": {
+      "md5": "b1c7cf3fcd2db51d804ec054801a333a",
+      "size": 1278
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamBool.c": {
+      "md5": "fa65cc43c9a395133ecd82a063202b84",
+      "size": 276
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamFloat.c": {
+      "md5": "2b81a9673610a6322b20062c01fde06c",
+      "size": 278
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamInt.c": {
+      "md5": "6cd09e65ae4615bceba25bcb081e09f8",
+      "size": 266
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamString.c": {
+      "md5": "0a956f9eba8b1fd566a2b93bc409c35d",
+      "size": 295
+    },
+    "scripts/4_World/Classes/ConfigHandler/CfgParamType.c": {
+      "md5": "d96d27a5c3391cdecd506617294bc3d8",
+      "size": 87
+    },
+    "scripts/4_World/Classes/Cooking/Cooking.c": {
+      "md5": "c798f7536caeba4d085155d67abb1b14",
+      "size": 8499
+    },
+    "scripts/4_World/Classes/Cooking/FireConsumable.c": {
+      "md5": "2008d601b7beef3d2430a7cba885bb98",
+      "size": 215
+    },
+    "scripts/4_World/Classes/Cooking/FireConsumableType.c": {
+      "md5": "a8f407975470cefda9f5805ca208791b",
+      "size": 183
+    },
+    "scripts/4_World/Classes/Cooking/FireplacePoint.c": {
+      "md5": "90a96c45c89698702fbd7db3e7b76f1f",
+      "size": 1024
+    },
+    "scripts/4_World/Classes/DisplayStatus/DisplayElement.c": {
+      "md5": "e7f6d1fb296080aaefc545f73466c891",
+      "size": 2999
+    },
+    "scripts/4_World/Classes/DisplayStatus/DisplayStatus.c": {
+      "md5": "b10727a0ea0937c34d2593ccd61eab84",
+      "size": 7333
+    },
+    "scripts/4_World/Classes/DisplayStatus/_constants.c": {
+      "md5": "07c690e9cf9f7b780ddb49bf989d9747",
+      "size": 3284
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Badge/BadgeFracture.c": {
+      "md5": "01ea5495e1de180306d11de80b768577",
+      "size": 127
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Badge/BadgePoisoned.c": {
+      "md5": "781ab4c9a9adea24447b336e012f3ac0",
+      "size": 126
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Badge/BadgeSick.c": {
+      "md5": "f20da0d9d247f37981279cacab049649",
+      "size": 244
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Badge/BadgeStuffed.c": {
+      "md5": "3194addc524e4d372eebd3b8282add47",
+      "size": 124
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Badge/BadgeWet.c": {
+      "md5": "7ba764f6b3263f3c9170a39b4f7d3da0",
+      "size": 115
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeBlood.c": {
+      "md5": "3ac5d3ca930a64c58c30eeb754e4404a",
+      "size": 150
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeFever.c": {
+      "md5": "b0c9cb72128f2a17e8d4ae386f05e8af",
+      "size": 711
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeFracture.c": {
+      "md5": "42d35d078b01071e885057b50fc1d34d",
+      "size": 330
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeFullness.c": {
+      "md5": "a63ab429413ac97bd5a774babe35050b",
+      "size": 336
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeHunger.c": {
+      "md5": "86e6fa520743cd7cca424c7bc105eaa2",
+      "size": 382
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeSick.c": {
+      "md5": "d371df8944adb00d5f80a1f6667402c1",
+      "size": 346
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeThirst.c": {
+      "md5": "27dff73c219daf35e80204e8b0d11ed9",
+      "size": 392
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/InventoryBadge/InvBadgeWetness.c": {
+      "md5": "a555b83cc88c0b9e6edb4d1e61071f56",
+      "size": 374
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Misc/ElementStamina.c": {
+      "md5": "bdbcc94a087f51d94d6710063969ddd2",
+      "size": 156
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Misc/ElementStance.c": {
+      "md5": "8ad288d48356d2a44bee70cfe736be83",
+      "size": 99
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyBacteria.c": {
+      "md5": "c939a7bfb9a97feccfbd4206a67b836d",
+      "size": 129
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyBlood.c": {
+      "md5": "81a726f2034e00aa4e287519117ba4ff",
+      "size": 124
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyHealth.c": {
+      "md5": "4fe8e68840b42553b947066bed7a3e96",
+      "size": 121
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyHunger.c": {
+      "md5": "deb9d027656d5bafb4fee8adfd49c387",
+      "size": 123
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyTemperature.c": {
+      "md5": "4af0d79b461cdf9f5c1a19b6c6d7845c",
+      "size": 136
+    },
+    "scripts/4_World/Classes/DisplayStatus/Elements/Tendency/TendencyThirst.c": {
+      "md5": "5a6e2a80892637fc43dcb8ff111c4178",
+      "size": 124
+    },
+    "scripts/4_World/Classes/Environment/Environment.c": {
+      "md5": "c2b94be826221c5a6828a905adbe35a3",
+      "size": 9390
+    },
+    "scripts/4_World/Classes/FoodStage/FoodManager.c": {
+      "md5": "3fde626bc487a11825f038fe4a807553",
+      "size": 6282
+    },
+    "scripts/4_World/Classes/FoodStage/FoodStage.c": {
+      "md5": "8bface61a5ca43d562cd490a74f85944",
+      "size": 2239
+    },
+    "scripts/4_World/Classes/Gui/ButtonOptionsAccessUI.c": {
+      "md5": "cf16ba8b6d8b3aad1b39cbed39167651",
+      "size": 595
+    },
+    "scripts/4_World/Classes/Gui/ChatLine.c": {
+      "md5": "6c56a40ba96f8f8213914e4ea0e87fb4",
+      "size": 3472
+    },
+    "scripts/4_World/Classes/Gui/ComboBoxOptionsAccessUI.c": {
+      "md5": "12e82b9b137d21c858f3d5c759e59a6e",
+      "size": 1203
+    },
+    "scripts/4_World/Classes/Gui/OptionsAccessUI.c": {
+      "md5": "9a35bd8e9e9e4e5064c3de05be8a1211",
+      "size": 662
+    },
+    "scripts/4_World/Classes/Gui/PlayerNameHandler.c": {
+      "md5": "087d99b10111bd31f01f027f1e5947b5",
+      "size": 1326
+    },
+    "scripts/4_World/Classes/Gui/SliderOptionsAccessUI.c": {
+      "md5": "6e313b79e4773046ef32b415ca8c4b67",
+      "size": 1269
+    },
+    "scripts/4_World/Classes/Modules/PlantMaterial.c": {
+      "md5": "1a77e97240291204fe912f510ef58280",
+      "size": 230
+    },
+    "scripts/4_World/Classes/Modules/SyncedValue.c": {
+      "md5": "85aff0aae34af3e46ea8df2fbef5013b",
+      "size": 231
+    },
+    "scripts/4_World/Classes/PlayerModifiers/ModifierBase.c": {
+      "md5": "be8e493a1af53812187c0e09620261aa",
+      "size": 2537
+    },
+    "scripts/4_World/Classes/PlayerModifiers/ModifiersManager.c": {
+      "md5": "3e6ee90ef4ca5741acd1ddf3556ee8e4",
+      "size": 4190
+    },
+    "scripts/4_World/Classes/PlayerModifiers/_constants.c": {
+      "md5": "d5b4db6d7e2846e09ebf04b351977dd3",
+      "size": 922
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/BloodRegen.c": {
+      "md5": "4016d82d2dc3cba45304fd88100fa204",
+      "size": 1066
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/BoneRegen.c": {
+      "md5": "5df3bb6420fb32263a7416005b39b631",
+      "size": 2263
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Health.c": {
+      "md5": "bdd55648a26a9f69eaff70a2643b07b1",
+      "size": 2716
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/HealthRegen.c": {
+      "md5": "eb23a7c77e707b0d2cd476518d1ca74a",
+      "size": 1372
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Hunger.c": {
+      "md5": "8c693e5a7b8d496cca26f70e82728550",
+      "size": 1536
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/ImmuneSystem.c": {
+      "md5": "a4c845a2b6a6ae180812365843a6677c",
+      "size": 696
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Shock.c": {
+      "md5": "c4272ff4427f3fa692dd539c39490302",
+      "size": 748
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Stomach.c": {
+      "md5": "915b9266bea8b8a9ff92add116e117f0",
+      "size": 1614
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Temperature.c": {
+      "md5": "40b0952efd77a6d6bd672a655c652bec",
+      "size": 1965
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Testing.c": {
+      "md5": "a8336e9cc8e7a30f64ef9ab1ff25907e",
+      "size": 1023
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/Thirst.c": {
+      "md5": "74aeb263c64799171b383f5bea4a78ca",
+      "size": 1412
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Bleeding.c": {
+      "md5": "e4aaba16ccec186b3d073b2f80060143",
+      "size": 1249
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Blinded.c": {
+      "md5": "83c6fd908dae4c0b5295a361372540c6",
+      "size": 797
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/BrokenArms.c": {
+      "md5": "8cb17d97b57659d3638accd5f7ae4d3d",
+      "size": 903
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/BrokenLegs.c": {
+      "md5": "abf1d4bf03cba04fe86e1f61ddd26faf",
+      "size": 906
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Burning.c": {
+      "md5": "d4690fefcc56560f9da59425ef72de69",
+      "size": 1103
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Fever.c": {
+      "md5": "ede4617e096a916ce4a3972be379e3d5",
+      "size": 926
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/HeartAttack.c": {
+      "md5": "3228bd315c19fd4aee7c2e8503d143f4",
+      "size": 1089
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/HemolyticReaction.c": {
+      "md5": "7849b524a6d355a0bcb6fdb12804b3d8",
+      "size": 1034
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Hyperthermia.c": {
+      "md5": "eb4c2e6f9c5c7eaf71f5681536115bf6",
+      "size": 1388
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Hypothermia.c": {
+      "md5": "3cb2cfef85e960cd395fe2e81d0c702f",
+      "size": 1745
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Poisoning.c": {
+      "md5": "5cb4bcda63248268d9d68bb072a07e69",
+      "size": 1245
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/StuffedStomach.c": {
+      "md5": "e2976ac05fe739c3d013246eac771d1a",
+      "size": 943
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/conditions/Tremor.c": {
+      "md5": "cdcdfbce058e7c14780894bc463cfd7e",
+      "size": 1005
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/diseases/Cholera.c": {
+      "md5": "45834b699c0d9ac7be12666622ac02a8",
+      "size": 1015
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/diseases/CommonCold.c": {
+      "md5": "32485008f0f23310e668adba28347e26",
+      "size": 1226
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/diseases/Influenza.c": {
+      "md5": "011fb21406bc638b2956aa517d14c11a",
+      "size": 897
+    },
+    "scripts/4_World/Classes/PlayerModifiers/Modifiers/diseases/TestDisease.c": {
+      "md5": "62cfa1cfd7957cfcc56f2f9162f52494",
+      "size": 1037
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/NotifierBase.c": {
+      "md5": "7800b7f2e43fe7e73d5ed02dea4b9bd9",
+      "size": 5924
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/NotifiersManager.c": {
+      "md5": "5f7e07d2ed0dba0571ae80d25626ea32",
+      "size": 2074
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/AgentInfection.c": {
+      "md5": "35687e2004d299481e0d0eaae5882116",
+      "size": 957
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Bleedish.c": {
+      "md5": "2be96d09cb79dd1d673e1c8c163ac16e",
+      "size": 809
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Blood.c": {
+      "md5": "13d5704a77218a03d4ba09bbecdcfb26",
+      "size": 1318
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Feverish.c": {
+      "md5": "32b9b4fb375d8ceb7eec6988eeb6ffbf",
+      "size": 812
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Fracture.c": {
+      "md5": "8634c06686b99579d880610bfddeca10",
+      "size": 1667
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/FracturedArms.c": {
+      "md5": "3e365a77eb99deaa991a2c437aa5a35d",
+      "size": 1746
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/FracturedLegs.c": {
+      "md5": "5a0559e91380c3fe3185eb005f09994b",
+      "size": 1744
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Healthy.c": {
+      "md5": "ea00f54c30b69e12a1486aa1d08a81d1",
+      "size": 1305
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Hungry.c": {
+      "md5": "e73e6dd678ad01fd7f1b57c58eb7bb9e",
+      "size": 2678
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Lives.c": {
+      "md5": "770bf9166470a263a730d569bd4b6acd",
+      "size": 1474
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Sick.c": {
+      "md5": "0486ffa53fc66582f2491d0343ae65f2",
+      "size": 882
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Stuffed.c": {
+      "md5": "07cd1523ea74ebc05b5034ade83d6be0",
+      "size": 1905
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Thirsty.c": {
+      "md5": "400c7e77b33eafa89979814036bf3b37",
+      "size": 2648
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Warmth.c": {
+      "md5": "318c15751b295ec9d51d8898d30996db",
+      "size": 3489
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/Wetness.c": {
+      "md5": "1b7aae54a68dd4d7c0139cac699d02a3",
+      "size": 1881
+    },
+    "scripts/4_World/Classes/PlayerNotifiers/Notifiers/_constants.c": {
+      "md5": "d8eb6b0771ce7862d4159631ff301d5a",
+      "size": 1461
+    },
+    "scripts/4_World/Classes/PlayerStates/StateBase.c": {
+      "md5": "8ed36fc54c65e2669c527e67cde99eb3",
+      "size": 3506
+    },
+    "scripts/4_World/Classes/PlayerStates/StateCB.c": {
+      "md5": "fbfcefe51258325fb449c013bfe2fb83",
+      "size": 454
+    },
+    "scripts/4_World/Classes/PlayerStates/StateManager.c": {
+      "md5": "5383f98fed434997ce124d71ce5a73dd",
+      "size": 6012
+    },
+    "scripts/4_World/Classes/PlayerStates/States/Primary/CoughState.c": {
+      "md5": "adc4200d0f3947609c90d972e3c094c9",
+      "size": 1157
+    },
+    "scripts/4_World/Classes/PlayerStates/States/Primary/VomitState.c": {
+      "md5": "d545806ed7b97faa7ca0046fbc9272f3",
+      "size": 1180
+    },
+    "scripts/4_World/Classes/PlayerStates/States/Secondary/BlindnessState.c": {
+      "md5": "c4294431c473ca71862456c1b261fe12",
+      "size": 1185
+    },
+    "scripts/4_World/Classes/PlayerStates/States/Secondary/BulletHitState.c": {
+      "md5": "af4d652dbcdd48d7d2bc64fb0d3ab2e3",
+      "size": 1479
+    },
+    "scripts/4_World/Classes/PlayerStats/PlayerStatBase.c": {
+      "md5": "5140d4526a0d7a09e1d66bd116ed13a8",
+      "size": 1667
+    },
+    "scripts/4_World/Classes/PlayerStats/PlayerStats.c": {
+      "md5": "a56b95c9bc28b4f02447933589510509",
+      "size": 3425
+    },
+    "scripts/4_World/Classes/Recipes/CacheObject.c": {
+      "md5": "56cf1ab4a2740ac61046dfd78b343710",
+      "size": 1482
+    },
+    "scripts/4_World/Classes/Recipes/RecipeBase.c": {
+      "md5": "4426d68c5f414388445b86ed5b902ac7",
+      "size": 13609
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/AttachHolster.c": {
+      "md5": "9cae706b287f430c6c27519eab0bb874",
+      "size": 3009
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/AttachHolsterPouch.c": {
+      "md5": "a0136a9aa23d6ffd7817f1562aed4b51",
+      "size": 3017
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/AttachPouch.c": {
+      "md5": "2cc318f7f3a32cbbfc9ee388cd48ffe7",
+      "size": 3004
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/AttachPouchesHolster.c": {
+      "md5": "b6d915560b170f075b35adce8b7af011",
+      "size": 3016
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/BloodTest.c": {
+      "md5": "a0cf4b79c03c6c98a53f7adbece38d2c",
+      "size": 3278
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CleanRags.c": {
+      "md5": "c339c53e577ec571eb0be539a0f209be",
+      "size": 4817
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CleanWeapon.c": {
+      "md5": "c41c359582650ac6cefc161fff036390",
+      "size": 3095
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftArmbandRag.c": {
+      "md5": "22ba533a48f05335b326e5125aaf074c",
+      "size": 2018
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftArmbandRaincoat.c": {
+      "md5": "6e3c944f375638a2e5fa52047b9069dd",
+      "size": 2627
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftArrow.c": {
+      "md5": "98cb8bda976f99e42d71347272b3d82f",
+      "size": 2828
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftArrowBone.c": {
+      "md5": "5043c21d5763a2e783c87ef488cde8e8",
+      "size": 2817
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBait.c": {
+      "md5": "630af0483ab305b34d52679ade3fb239",
+      "size": 2781
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBaseBallBatNailed.c": {
+      "md5": "1367ce913e400950084691d4af9fe07a",
+      "size": 2133
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBloodBagIV.c": {
+      "md5": "94e8f5849aefd402e8d6d135f58730fd",
+      "size": 2935
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBoneHook.c": {
+      "md5": "af0241f5140bccb1f710e4cc1aadfd3a",
+      "size": 3613
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBow.c": {
+      "md5": "26a22e077a7bfb127325c16d67ab7fce",
+      "size": 2897
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftBurlapStrips.c": {
+      "md5": "91ced5d5bb3417ddbb5948042b480950",
+      "size": 3617
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftCamoNetShelter.c": {
+      "md5": "4b302ee6f80da65e44bb01f9b5d45391",
+      "size": 2827
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftCourierBag.c": {
+      "md5": "db389e8c15bf53064545e8047e5cbd62",
+      "size": 2801
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftFenceBase.c": {
+      "md5": "7487f05c3b8865113da822533b86d20d",
+      "size": 2802
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftFireplace.c": {
+      "md5": "a8ac81f656ad6c6d7fe93fb84247c622",
+      "size": 3505
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftFishingRod.c": {
+      "md5": "459be81b0bad946fb0aba1b646fd7cf9",
+      "size": 2923
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftFishNetTrap.c": {
+      "md5": "b49e7330b353eb9dc8447a0f6b348c19",
+      "size": 2805
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGhillieAttachment.c": {
+      "md5": "750c25e356c979ab978a79f9bd357e69",
+      "size": 2820
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGhillieBushrag.c": {
+      "md5": "6c00f2b5510df43a9c99f8e09ff23149",
+      "size": 2824
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGhillieHood.c": {
+      "md5": "04e62497b942b9b8198debdb9eeac375",
+      "size": 2815
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGhillieSuit.c": {
+      "md5": "7d0a42376b5caa7ba9a96fa9c80c101e",
+      "size": 2817
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGhillieTop.c": {
+      "md5": "181d6ddcf0214f4c55f8234bc5315b1c",
+      "size": 2812
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGorkaHelmetComplete.c": {
+      "md5": "0ff2d5f8cf997a31404e6c5f29f51188",
+      "size": 2723
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftGutsRope.c": {
+      "md5": "1edbf9b49e8025f19d21394a3b7c4719",
+      "size": 3498
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftHandDrillKit.c": {
+      "md5": "d6d435ae56466d6a30e42d367c0ff045",
+      "size": 2998
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftImprovisedBag.c": {
+      "md5": "a006368c421d174775712fae8132e9b2",
+      "size": 2821
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftImprovisedLeatherBag.c": {
+      "md5": "a7cfa983232882422a0c3b023bac2a08",
+      "size": 2831
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftLeatherCourierBag.c": {
+      "md5": "926b21496913a724187b2fa58c2fc2fa",
+      "size": 2823
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftRabbitSnare.c": {
+      "md5": "75261bd465fc1f722600c5329485f319",
+      "size": 2819
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftRag.c": {
+      "md5": "361ef6dfb7e1121c87706eede0680fac",
+      "size": 3889
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftRagRope.c": {
+      "md5": "3b5cbea09a6bd32c8c953055d4de4675",
+      "size": 2801
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftSalineBagIV.c": {
+      "md5": "3d62ada7ba97df8e381f4484aca4feb8",
+      "size": 2810
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftSmallFishTrap.c": {
+      "md5": "e76a39632dea344d76760e27ec00f3bd",
+      "size": 3626
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftSpear.c": {
+      "md5": "6dbc2435f19527da23025a6edabf6147",
+      "size": 2797
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftSplint.c": {
+      "md5": "4c381944c33917ea93ebd2e27377b04b",
+      "size": 2969
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftStoneKnife.c": {
+      "md5": "9a9568cb6a7d9cf9d3d034c7c32f89a5",
+      "size": 2810
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftSuppressor.c": {
+      "md5": "44a7989a0305e69de90726bb1eaeb76f",
+      "size": 2827
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftTorch.c": {
+      "md5": "202f788a1e91f158ff590624a28245c6",
+      "size": 3055
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CraftTripWire.c": {
+      "md5": "d3f61f5df04e31dce75c3f3a8ab94a25",
+      "size": 2895
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CutOutPepperSeeds.c": {
+      "md5": "343f8408f02f4eea22829828c819526b",
+      "size": 3615
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CutOutPumpkinSeeds.c": {
+      "md5": "2e41e55c3d61d5c0f7ecb7f62be069e2",
+      "size": 3609
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CutOutTomatoSeeds.c": {
+      "md5": "c544d628580dea7aaf0f8e00e42ed6ed",
+      "size": 3606
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/CutOutZucchiniSeeds.c": {
+      "md5": "e78bd8107ba0f18b6f78d3bcbaf275de",
+      "size": 3612
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftArmband.c": {
+      "md5": "28fdb26f10ff9d24219e1f5d3c34ab39",
+      "size": 2715
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftBow.c": {
+      "md5": "cd631ff6d82089b48b23db5a515bc935",
+      "size": 3740
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftCamoNetShelter.c": {
+      "md5": "1e731bedfc8b1e99e050325a7396c6fe",
+      "size": 4731
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftCourierBag.c": {
+      "md5": "82a1b0d5ee6af8fa98cc2e59ff3600dd",
+      "size": 4710
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftFishingRod.c": {
+      "md5": "8d0e6ad3be19dfcdf7fe36f0e0be6759",
+      "size": 3776
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftGhillieAttachment.c": {
+      "md5": "4b8a3dfdacc08e7491317516d20ab98b",
+      "size": 4913
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftGhillieBushrag.c": {
+      "md5": "c406cd6115cb0a214cd2625eb970bb0d",
+      "size": 4928
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftGhillieHood.c": {
+      "md5": "4077f5d14bb4870db7b2ce7f8aa35fcc",
+      "size": 4913
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftGhillieSuit.c": {
+      "md5": "3d1ae6194984c827e75c3d14b7014984",
+      "size": 4913
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftGhillieTop.c": {
+      "md5": "bed3689349c2307c12fe63638a71636e",
+      "size": 4908
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftHandDrillKit.c": {
+      "md5": "35e828b53a7403ae33916835cb22604d",
+      "size": 3757
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftImprovisedBag.c": {
+      "md5": "8c3165b9a74fe449dfa56c240db9c1e4",
+      "size": 4725
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftImprovisedLeatherBag.c": {
+      "md5": "a4cb5b57a64b73bcbbd55baca4e238df",
+      "size": 4744
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftLeatherCourierBag.c": {
+      "md5": "d68f928d4c6af6664cd3b2dd29d20b6f",
+      "size": 4729
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftSnareTrap.c": {
+      "md5": "381917ab723f9cf1b319e40d86d37ac3",
+      "size": 3755
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftSpear.c": {
+      "md5": "fc0fe2642c824a55ea89f191a83704b0",
+      "size": 3739
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftSplint.c": {
+      "md5": "16cf7c9bb0ec0296b839fcf0f47f8a6b",
+      "size": 3737
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DeCraftTripWire.c": {
+      "md5": "f37c09d73d805895a6968d300d59df42",
+      "size": 3750
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/DisinfectItem.c": {
+      "md5": "8e9fa04eed2603b4e369fb3ac8410fd0",
+      "size": 2904
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/ExtinguishTorch.c": {
+      "md5": "c2d45168f68708b652acbbe41aa79c24",
+      "size": 3669
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/FillSyringe.c": {
+      "md5": "95992c2e371532fc4f26cf628d8524c1",
+      "size": 2802
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/FuelChainsaw.c": {
+      "md5": "060eb99d27cd33c1dec82e5076b2dd90",
+      "size": 3860
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/LightTorchDrill.c": {
+      "md5": "d10b5703a692fb4dc6a36a7d96be67b7",
+      "size": 2869
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/LightTorchMatchbox.c": {
+      "md5": "83e3f642f04467baff5a975bd81b2ab3",
+      "size": 2866
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/LoadMagazine.c": {
+      "md5": "f765a646221e1c21132f489313183004",
+      "size": 3157
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/OpenCan.c": {
+      "md5": "396e1d414ed785faa31bab182174676b",
+      "size": 4914
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK101.c": {
+      "md5": "1aeef6708149302a85f09d38566169d8",
+      "size": 2678
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK10130Mag.c": {
+      "md5": "6e678a55193d96eb872eaa91ac4815a0",
+      "size": 2872
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK74.c": {
+      "md5": "8faa7042fc160897be128e96128bc07f",
+      "size": 2674
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK7430Mag.c": {
+      "md5": "63ef278185f89dd8d33c749d6e23df4d",
+      "size": 2867
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK74HndgrdBlack.c": {
+      "md5": "583e1510c8bf2a63ace0bee4f0f7414f",
+      "size": 2791
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK74HndgrdCamo.c": {
+      "md5": "044adae2e4349807993bc8968ec5c694",
+      "size": 2795
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK74WoodBttstckBlack.c": {
+      "md5": "31e8755db786afa7607eba4e3521b551",
+      "size": 2806
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAK74WoodBttstckCamo.c": {
+      "md5": "5062d0146a1ab55ca3cd0d7bb6a4d5c6",
+      "size": 2810
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKFoldingBttstck.c": {
+      "md5": "15f87b11b46ff56af89b6d33f07b6f1c",
+      "size": 2717
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKMDrumMag.c": {
+      "md5": "4ba865ba7ea11fed1c329f21c1c5357d",
+      "size": 2878
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKMPalm30Mag.c": {
+      "md5": "dda8c2648e2fc0e24c0fdee5ec59cbae",
+      "size": 2881
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKPlasticBttstck.c": {
+      "md5": "a91038773cd7d40a44f2184ce4570a2b",
+      "size": 2717
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKRailHndgrd.c": {
+      "md5": "e89864704cba40c3f9e7ee3c3b888a5d",
+      "size": 2705
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKS74U.c": {
+      "md5": "5f18d41b47344abaad062e49ed444f05",
+      "size": 2682
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKS74UBttstck.c": {
+      "md5": "8246dff09355a14ef65cb0b91f886987",
+      "size": 2708
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKWoodBttstckBlack.c": {
+      "md5": "28fe794ac7ec0e2fb72abc9773e74351",
+      "size": 2800
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintAKWoodBttstckCamo.c": {
+      "md5": "cd2b813ce528527599fe6e0d1fbe9c43",
+      "size": 2804
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintB95.c": {
+      "md5": "6986035290d4828ea072576ed321e465",
+      "size": 2670
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintBallisticHelmet.c": {
+      "md5": "ab796895859202e3ce6c18166a678ec0",
+      "size": 2729
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCMAG10.c": {
+      "md5": "d79f90beb0bf84005c8309b50d7b86ce",
+      "size": 2861
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCMAG20.c": {
+      "md5": "80d38fa86479d687c4b12823134f2b3c",
+      "size": 2861
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCMAG30.c": {
+      "md5": "6193a4ed40e0b308adc83ac38f7aa461",
+      "size": 2861
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCMAG40.c": {
+      "md5": "557dcb7d40081d35ec8cf18782058730",
+      "size": 2861
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCz527.c": {
+      "md5": "a975ced4c2a9ecb51098afb81c7334c6",
+      "size": 2675
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCz527CamoBlack.c": {
+      "md5": "6cbda5e4b25b3dc45757d457c4e59c4e",
+      "size": 2792
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintCz527CamoGreen.c": {
+      "md5": "f45783abd75c5e49059f953402b17b38",
+      "size": 2792
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintDarkMotohelmet.c": {
+      "md5": "e46dc32eb6b1a86e9bc818fa8a2c155e",
+      "size": 2720
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintFirefighterAxe.c": {
+      "md5": "59116fe26a260588bc4973c4cce84083",
+      "size": 2715
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieAttBlack.c": {
+      "md5": "4d0785a04697de80b7e900e18181b05f",
+      "size": 2841
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieAttGreen.c": {
+      "md5": "44c7e43b192fa6ad0beddbd4665e9cc2",
+      "size": 2839
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieAttGreenMossy.c": {
+      "md5": "06152b58f7ba65fe88ff221c87f6d69f",
+      "size": 2846
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieBushragBlack.c": {
+      "md5": "a1db065437987e5331431097feb4a3bb",
+      "size": 2850
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieBushragGreen.c": {
+      "md5": "5fd3593d48f4882a5f761ff6eec537d4",
+      "size": 2847
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieBushragGreenMossy.c": {
+      "md5": "759bacdc08a33fba082e564d7d959b8e",
+      "size": 2855
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieHoodBlack.c": {
+      "md5": "ff3d0d5921047064fe56a1988bbb5413",
+      "size": 2838
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieHoodGreen.c": {
+      "md5": "1d7aee325f87763755aca0223aaa5637",
+      "size": 2786
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieHoodGreenMossy.c": {
+      "md5": "98599cbb9a5946740fe7d93fc65bdf96",
+      "size": 2843
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieSuitBlack.c": {
+      "md5": "01d99e0601b3853ee58eb12fee5e739e",
+      "size": 2838
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieSuitGreen.c": {
+      "md5": "e6ac2893819bfb78fd998d9788a04a12",
+      "size": 2836
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieSuitGreenMossy.c": {
+      "md5": "c2d82c0e9690697dba4c85fed40d192e",
+      "size": 2843
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieTopBlack.c": {
+      "md5": "75167ddf65fc262fbf36e7be041bf31c",
+      "size": 2834
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieTopGreen.c": {
+      "md5": "356e12967006bace815b0a4ec1ca57a6",
+      "size": 2832
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGhillieTopGreenMossy.c": {
+      "md5": "f1e9678361f6c3996ad54322bc6fd3b8",
+      "size": 2839
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGorkaHelmet.c": {
+      "md5": "c9cb36bde83d91c8e851e77923f13c79",
+      "size": 2703
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintGorkaHelmetComplete.c": {
+      "md5": "587ea3026038608caf1b6f472c4474fe",
+      "size": 2736
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4A1.c": {
+      "md5": "4d14f586b99e7dd6cc078d4ce2d6f076",
+      "size": 2675
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4CQBBttstck.c": {
+      "md5": "8dee45d60e7ff0542a3cea2ff70b9b9c",
+      "size": 2706
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4MPBttstck.c": {
+      "md5": "6004651981ea7c1a54582d6cf7f5040a",
+      "size": 2703
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4MPHndgrd.c": {
+      "md5": "538246fb652addc11ad302956f70f7b9",
+      "size": 2700
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4OEBttstck.c": {
+      "md5": "9685513414bb81aaea71c55b5ad7511f",
+      "size": 2703
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4PlasticHndgrd.c": {
+      "md5": "05b7056a2cc989c72fee133d52e75456",
+      "size": 2715
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintM4RISHndgrd.c": {
+      "md5": "4422605c1c7232e0bdbf8f436bfd04ce",
+      "size": 2703
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintMosin.c": {
+      "md5": "c8bb5293108450ce6052454b8b7ed125",
+      "size": 2962
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintMosinCamoBlack.c": {
+      "md5": "6ac226e91e2b5e7db6e399833074ff95",
+      "size": 2801
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintMosinCamoGreen.c": {
+      "md5": "d7561a962a8f84d987d65dfa49512dad",
+      "size": 2801
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintMotohelmet.c": {
+      "md5": "ea9bdbef324aa30ebed6169d66f001e8",
+      "size": 2709
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintRuger1022.c": {
+      "md5": "d9fac020f14411d287ef1a8b61b1d95b",
+      "size": 2695
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintSawedoffMosin.c": {
+      "md5": "25e0b4347deae6b04eaae0a2d43af058",
+      "size": 2720
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintSawedoffMosinCamoBlack.c": {
+      "md5": "068f923fe368b357e2db179094ee4541",
+      "size": 2834
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintSawedoffMosinCamoGreen.c": {
+      "md5": "aab238ff74b9ff728129c3887f7194ff",
+      "size": 2834
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintSKS.c": {
+      "md5": "5fcd55280b77c375ac085044d8a815ae",
+      "size": 2671
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PaintZSh3PilotHelmet.c": {
+      "md5": "7277e208132bc0628ebf664b4dfcf4f4",
+      "size": 2721
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PatchItem.c": {
+      "md5": "c0a9b2ec4e185990f012453c0e37c19b",
+      "size": 3228
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PokeHolesBarrel.c": {
+      "md5": "2cc3731ccf96a153516bc9272d112320",
+      "size": 2703
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PourLiquid.c": {
+      "md5": "25ee19961dfaee03acc996ce0f714d22",
+      "size": 4444
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PrepareCarp.c": {
+      "md5": "19554a192ab691206d17e0cb12119dc9",
+      "size": 5649
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PrepareMackerel.c": {
+      "md5": "a02c68139e646f5d3df77a34d69aea8f",
+      "size": 5673
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/PurifyWater.c": {
+      "md5": "7e799c3995d499b1f323f0837ddb76cd",
+      "size": 3516
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/RepairWithTape.c": {
+      "md5": "e4e1854aa459532c26cc44b681f8b130",
+      "size": 3142
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SawOffIzh18.c": {
+      "md5": "c7086568ea611f9b3ec9b724036ef5bc",
+      "size": 2928
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SawoffMosin.c": {
+      "md5": "3308be4ec28fe1fd22c5675b7deb33c3",
+      "size": 2935
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SawoffMosinPainted.c": {
+      "md5": "4d9e537700fe81a676a1eecce6a90b31",
+      "size": 3046
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SawoffShotgunIzh43.c": {
+      "md5": "5ed2ca646b0bc236d5fd66e38473ec17",
+      "size": 2956
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SharpenMelee.c": {
+      "md5": "a10df00205054c57050f81175fe4374f",
+      "size": 3935
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SharpenStick.c": {
+      "md5": "80c4ab4575a83b9c6cebe446f2f8ccef",
+      "size": 2789
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SplitFirewood.c": {
+      "md5": "11d592b3a4d4350ecce65354fec3d7fa",
+      "size": 3048
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/SplitLongWoodenStick.c": {
+      "md5": "7575b0834aa07ed3410330ac58b1b00b",
+      "size": 3715
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/Test.c": {
+      "md5": "b20d077ef4034b4c71216e96ec533883",
+      "size": 3279
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/WriteLetter.c": {
+      "md5": "0c3b7dc7d529159a6b72b74b7955dec6",
+      "size": 2921
+    },
+    "scripts/4_World/Classes/Recipes/Recipes/_RecipeList.inc": {
+      "md5": "19f74c26ed1b8eb385240eb5fe94631d",
+      "size": 6414
+    },
+    "scripts/4_World/Classes/SceneEditor/SceneData.c": {
+      "md5": "657b5d8af684ccc786a5268b0351ce74",
+      "size": 9093
+    },
+    "scripts/4_World/Classes/SceneEditor/SceneObject.c": {
+      "md5": "71476f750a976fc3fa4fc9a48e2f94e7",
+      "size": 17296
+    },
+    "scripts/4_World/Classes/SceneEditor/ScenePlayer.c": {
+      "md5": "19c92ef9a43fa9a83fe2a22fcaec6019",
+      "size": 180
+    },
+    "scripts/4_World/Classes/TransmissionAgents/Agents/AgentBase.c": {
+      "md5": "f8a3c2ead717afb61bc585f6d9e87b9f",
+      "size": 646
+    },
+    "scripts/4_World/Classes/TransmissionAgents/Agents/CholeraAgent.c": {
+      "md5": "96e83378bc7cf2ba84a5b9b06da44738",
+      "size": 282
+    },
+    "scripts/4_World/Classes/TransmissionAgents/Agents/InfluenzaAgent.c": {
+      "md5": "999d962facb9561851ac66a93beb59df",
+      "size": 285
+    },
+    "scripts/4_World/Classes/TransmissionAgents/PlayerAgentPool/PlayerAgentPool.c": {
+      "md5": "ef31ed51795adb8e9f77a72fdfb5717c",
+      "size": 5041
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionBase.c": {
+      "md5": "62390568b07a38030770574387e83df0",
+      "size": 16873
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionConstructor.c": {
+      "md5": "c7f3786ab56c6798718d1309e34ed4c0",
+      "size": 7690
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionManager.c": {
+      "md5": "ae06d0f383749507736d5f268aed3e39",
+      "size": 11312
+    },
+    "scripts/4_World/Classes/UserActionsComponent/_constants.c": {
+      "md5": "cc717b97665735946527cc1127ea017a",
+      "size": 6196
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CABase.c": {
+      "md5": "55e8e671436dbaab7fa9d64b16e071bb",
+      "size": 1190
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousDryClothes.c": {
+      "md5": "c1c647f844b805671ff24e3c4fb9dd48",
+      "size": 1876
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousEmptyMagazine.c": {
+      "md5": "c48d66ffc4325b361a41174e3c5003f4",
+      "size": 1721
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousFertilizeGardenSlot.c": {
+      "md5": "25f538a7a2fe71bc6ce170b377495c2f",
+      "size": 1634
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousFill.c": {
+      "md5": "f182bbaa7d7969696a2f76f7aef00dab",
+      "size": 1770
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousFish.c": {
+      "md5": "f90096a6e441cc2955dbc1126643b859",
+      "size": 406
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousLoadMagazine.c": {
+      "md5": "0bd1f1ea009fba965fc8a2a76ce1acbf",
+      "size": 2190
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousMineRock.c": {
+      "md5": "3969023fdf70853e46bfd06101050661",
+      "size": 652
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousMineWood.c": {
+      "md5": "15c0d26c0e788778e62e1398d6f245a7",
+      "size": 2300
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousQuantity.c": {
+      "md5": "c8ece0e7941b4e91ae235b21aa609d36",
+      "size": 1721
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousQuantityEdible.c": {
+      "md5": "7e464403ab7ae16cc10209a000bb4df3",
+      "size": 708
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousRepeat.c": {
+      "md5": "07f1499a87ba54899c5441e8a4bed3ca",
+      "size": 1626
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousTime.c": {
+      "md5": "a1b1c0a6d140b9f79e104087f3cb60d2",
+      "size": 1585
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousTransferQuantity.c": {
+      "md5": "92c1a86350e90c2ffa37278047724acb",
+      "size": 2214
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAContinuousWaterPlant.c": {
+      "md5": "a57e526a026ecf794388076047aeef76",
+      "size": 1321
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CADummy.c": {
+      "md5": "fe650e8194452833c12a2b52badd6f27",
+      "size": 213
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CAInteract.c": {
+      "md5": "fd5d854c567a6c394a45c64cfbe5d7a2",
+      "size": 216
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CASingleUse.c": {
+      "md5": "5c1b72785da9699c22a781e3d9caf57c",
+      "size": 320
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CASingleUseQuantity.c": {
+      "md5": "f018a7469f7e826b9bd024195c2c898b",
+      "size": 1193
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ActionComponents/CASingleUseQuantityEdible.c": {
+      "md5": "8f2dc29dbf6c158708265a343fff93b3",
+      "size": 646
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/ActionContinuousBase.c": {
+      "md5": "de9b03d2ec611b872f36095ea2dda70e",
+      "size": 229
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/ActionInteractBase.c": {
+      "md5": "85b5ed55cb7e7b98adb280b78e71b368",
+      "size": 491
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/ActionSingleUseBase.c": {
+      "md5": "b2020a7f4080798c7f27b53238d133ca",
+      "size": 300
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionBuryAshes.c": {
+      "md5": "18bcde5dc4a433bc201c06487657ef01",
+      "size": 2130
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionBuryBody.c": {
+      "md5": "10d7c7e1d1024a17ccd30ca75b04e92c",
+      "size": 1565
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionConsume.c": {
+      "md5": "f947479cbe7f8093e4e25f1cf95dc2ef",
+      "size": 916
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionCookOnStick.c": {
+      "md5": "f95d20c64bc19acd76b6ceae405a8bb2",
+      "size": 2398
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionCoverHeadSelf.c": {
+      "md5": "42a083d486cce20c591a8f98c69dd7d7",
+      "size": 1788
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionCoverHeadTarget.c": {
+      "md5": "4091e9c4263e3ea6c0a893228fcacbba",
+      "size": 1955
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionCraft.c": {
+      "md5": "5ae5ecbea31d968dc66ab949cd0fd58f",
+      "size": 1782
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionDigSlot.c": {
+      "md5": "dbe25d42e35f55aa9f4d8f2a10a32025",
+      "size": 2146
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionDigStash.c": {
+      "md5": "b5d57f170b317ee5034f30bfc9869742",
+      "size": 2289
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionDigTile.c": {
+      "md5": "0cb825593a8d357cf2fa365249611b3e",
+      "size": 2615
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionDisinfectPlant.c": {
+      "md5": "f3417a61df5aa479f1632da4bf7ad836",
+      "size": 1536
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionDrink.c": {
+      "md5": "8c2c10b9c408ebd336f18dd6ce18ff88",
+      "size": 928
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionEat.c": {
+      "md5": "93d2ce086fb5b762c1955701ef5d2e8e",
+      "size": 801
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionEatCan.c": {
+      "md5": "6efe7186cf2a625ca64ed1fe0c6e639c",
+      "size": 294
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionEatMeat.c": {
+      "md5": "821f25450ef73f6157874f7cfe7a8361",
+      "size": 466
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionEmptyMagazine.c": {
+      "md5": "94ac538e7cd49467ab3221694f8d0206",
+      "size": 1535
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionExtinguishFireplace.c": {
+      "md5": "76ed8918bcf3a21a2616a01571fe1f54",
+      "size": 2172
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionFertilizeSlot.c": {
+      "md5": "531cfd311a30c242509039a508019394",
+      "size": 1932
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionFillBottleBase.c": {
+      "md5": "5e44ea98b3601b355805ecc505227faa",
+      "size": 1367
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionFillGeneratorTank.c": {
+      "md5": "5ed449160e15b31edd9910fa20d45c31",
+      "size": 1450
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionFillObject.c": {
+      "md5": "2b8665a5c0a92fb51bf4f63d1e819474",
+      "size": 1729
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionFishing.c": {
+      "md5": "6efd718fe3580cbda90fdc8c963f36ff",
+      "size": 779
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionForceConsume.c": {
+      "md5": "815202befbeb38509183a7ef65a173e8",
+      "size": 1154
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionForceDrink.c": {
+      "md5": "f5eb41f4eb0e4d7980eb282dacce4225",
+      "size": 1081
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionForceFeed.c": {
+      "md5": "700bcbddefcaf1eb8fdec1d71d7df67e",
+      "size": 1047
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionForceFeedCan.c": {
+      "md5": "6e4ccdd6db9bdfd2a47df0328e4def82",
+      "size": 308
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionIgniteFireplaceByHandDrill.c": {
+      "md5": "cd5927e0adb88ae411e111ef17897ccc",
+      "size": 3593
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionIgniteFireplaceByLighter.c": {
+      "md5": "d7d95342ba62d97a843cee275b892cab",
+      "size": 2931
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionIgniteFireplaceByMatch.c": {
+      "md5": "6616d1ee9719a2eae3228ec44faaddf4",
+      "size": 3286
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionIgniteFireplaceByRoadFlare.c": {
+      "md5": "256752edd9a2880cb1a51c6545608ffe",
+      "size": 3268
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionLoadMagazine.c": {
+      "md5": "da30d9048bb2c6a9144fee1637ff649c",
+      "size": 1256
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionMineBush.c": {
+      "md5": "140aecf817c32d24a7f9af03153035e2",
+      "size": 1171
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionMineRock.c": {
+      "md5": "cd09910a8f19221716826ea54d95afcd",
+      "size": 1308
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionMineTree.c": {
+      "md5": "2129b86b892d502638c074e7c1a2640c",
+      "size": 1223
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionPlaceObject.c": {
+      "md5": "de7f3db263f4cb2d110502ba5840fad9",
+      "size": 2329
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionPlaceOnGround.c": {
+      "md5": "fc7d463f67a9733bb14af8291d1fdc10",
+      "size": 1195
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionRestrainTarget.c": {
+      "md5": "ca34701a9924a23468f93ef79df8a095",
+      "size": 1121
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionSawPlanks.c": {
+      "md5": "eaa6e3369dab03d4404e8ec414569e71",
+      "size": 1607
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionShave.c": {
+      "md5": "7c80d7ec3a51bab8586d4e406313bbf3",
+      "size": 1073
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionSkinning.c": {
+      "md5": "acbac79a071da5fcd815324270f49b03",
+      "size": 5519
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionTuneFrequency.c": {
+      "md5": "5e44e5fa3893cc7286659ad085153044",
+      "size": 1327
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionTuneRadioStation.c": {
+      "md5": "6b63c4ae42967001e79201f872da76d9",
+      "size": 1257
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionUnrestrainTarget.c": {
+      "md5": "b8b7e8ade746f21368ee305b7360ce6e",
+      "size": 1112
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionUseRangefinder.c": {
+      "md5": "5664f45715692d2c8d710450b5de1fba",
+      "size": 2107
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionWaterGardenSlot.c": {
+      "md5": "0fcc4f8a75ed444eb7e3794ee178e4b7",
+      "size": 1982
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionWaterPlant.c": {
+      "md5": "5fb3d0f085139357e659b1f0cd6c7bdb",
+      "size": 1559
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionWorldCraft.c": {
+      "md5": "eb9b0ab0ee8f10992730f3b47ce4e74c",
+      "size": 1634
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/ActionWringClothes.c": {
+      "md5": "cd83df28ce43e4e55639f77afc7f0575",
+      "size": 1255
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionBandageSelf.c": {
+      "md5": "81bf5c216310aedf33e1cc66702f03cc",
+      "size": 1561
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionBandageTarget.c": {
+      "md5": "54032786f75e130dc13a211b8ad4d91f",
+      "size": 1581
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionBurnSewSelf.c": {
+      "md5": "dd6b854c87ddb8084c84febf544620c9",
+      "size": 1222
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionBurnSewTarget.c": {
+      "md5": "9c86707f9d19a018759e652f9afe0326",
+      "size": 1372
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionCollectBloodSelf.c": {
+      "md5": "984dfbf5d2beda9da2856b500941690f",
+      "size": 1375
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionCollectBloodTarget.c": {
+      "md5": "a719d81f79b01bc33315a74b16aed3b0",
+      "size": 1468
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionCollectSampleSelf.c": {
+      "md5": "3569ad8ed4fef28cc3c702f2ada26a1a",
+      "size": 1391
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionCollectSampleTarget.c": {
+      "md5": "8b50506f1968588dd05ad79b0ee1c976",
+      "size": 1406
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionDefibrilateSelf.c": {
+      "md5": "26fb18b0bd5d8f986f615bbfb7d42bb5",
+      "size": 1711
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionDefibrilateTarget.c": {
+      "md5": "5e3e666335b756aa2bd224c838eda8e1",
+      "size": 1637
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionDrinkAlcohol.c": {
+      "md5": "ffe945077042c9c207dae04f292511db",
+      "size": 232
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionDrinkDisinfectant.c": {
+      "md5": "db9757a610231f90a82ab7633ffb40a0",
+      "size": 242
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionDrinkDisinfectant2.c": {
+      "md5": "badf181095f6db6c8a97ec312d771403",
+      "size": 244
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionEatCharcoalTablets.c": {
+      "md5": "75c3ae781343406f9676395c323fb006",
+      "size": 351
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionEatPainkillerTablets.c": {
+      "md5": "066d8324d1ee426f72fa9b025c130cc1",
+      "size": 359
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionEatPurificationTablets.c": {
+      "md5": "58c0945a9f5636bb78145b7c3c5ff500",
+      "size": 368
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionEatTetracyclineAntibiotics.c": {
+      "md5": "b80de972902b52d733f43a992116aafd",
+      "size": 377
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionEatVitaminBottle.c": {
+      "md5": "09376fab1cc2c6c259698d1ba2561412",
+      "size": 346
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionFeedCharcoalTablets.c": {
+      "md5": "3f3c7be72f7a3a7c12df3acba9ce9410",
+      "size": 286
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionFeedPainkillerTablets.c": {
+      "md5": "224f2996e4f1cb7fe7f3013b68e05714",
+      "size": 295
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionFeedPurificationTablets.c": {
+      "md5": "2585f1601013c004eef3a84eb0694052",
+      "size": 299
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionFeedTetracyclineAntibiotics.c": {
+      "md5": "3ddfe7025d842bf51320c9e197e87478",
+      "size": 307
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionFeedVitaminBottle.c": {
+      "md5": "41b7858e6b1d978f14c8090ab485b80f",
+      "size": 287
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionForceDrinkAlcohol.c": {
+      "md5": "36a1aaf0462ed5ea03c93628abc99e01",
+      "size": 287
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionForceDrinkDisinfectant.c": {
+      "md5": "84d481fcf7437cc628e955c8d065b6eb",
+      "size": 288
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionGiveBloodSelf.c": {
+      "md5": "36820df2fbd354cd9d8b15641dc2bda1",
+      "size": 1922
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionGiveBloodTarget.c": {
+      "md5": "fc622006b2d272162451534f06d07def",
+      "size": 2086
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionGiveSalineSelf.c": {
+      "md5": "c5ea58a92489b63af4d876f178b81c74",
+      "size": 1376
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionGiveSalineTarget.c": {
+      "md5": "5acc33c13881c893be481e3c38b92347",
+      "size": 1470
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectEpinephrineSelf.c": {
+      "md5": "ecb07899c21bffb6b982c4739ebfa80a",
+      "size": 297
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectEpinephrineTarget.c": {
+      "md5": "c67071b5c88b3cfc7e52a103cfb50a87",
+      "size": 545
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectMorphineSelf.c": {
+      "md5": "497f260830db2697d97b53cce3b23198",
+      "size": 432
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectMorphineTarget.c": {
+      "md5": "c22e7699d238e9a91f0c2976ba564a3b",
+      "size": 491
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectSelf.c": {
+      "md5": "46dbc2fb18569da8850175c9d6d6b232",
+      "size": 1033
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionInjectTarget.c": {
+      "md5": "2896498b1d798d49a85f1040c9de43dd",
+      "size": 1022
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionMeasureTemperatureSelf.c": {
+      "md5": "1b063c99ce11b1f75f8262c86513d385",
+      "size": 1227
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionMeasureTemperatureTarget.c": {
+      "md5": "3cbbd7ca60b077362e73cbd38441a75d",
+      "size": 1367
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionSewSelf.c": {
+      "md5": "97e34a0738cdb34b752a4f536ab6bf00",
+      "size": 989
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionSewTarget.c": {
+      "md5": "c2d641095d7b0e5a41cb60802273bb81",
+      "size": 1116
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionSplintSelf.c": {
+      "md5": "558030dea99cbcf7821d6490c0bed44d",
+      "size": 1094
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionSplintTarget.c": {
+      "md5": "7c283dd129944e6ab6263b29731d8ef7",
+      "size": 1227
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionTestBloodSelf.c": {
+      "md5": "4f183ec49d027188d8f5df7122c8992a",
+      "size": 1239
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Continuous/Medical/ActionTestBloodTarget.c": {
+      "md5": "4b56f57cea41fc87c4236c9508afac92",
+      "size": 1373
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionActivateTrap.c": {
+      "md5": "8819efe0c229b1ef63a6434fe0a5586b",
+      "size": 788
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionCloseBarrel.c": {
+      "md5": "5d56b316af00401f995f036c523679bd",
+      "size": 718
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionCloseBarrelHoles.c": {
+      "md5": "a34a8806c8740dd481cebad0e97b68be",
+      "size": 720
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionCoverPlantedSeed.c": {
+      "md5": "9498a353359c7545adb400fc52fd5b6c",
+      "size": 1312
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionDrinkPond.c": {
+      "md5": "0e0fe9392ed6c173d0288215741c3ac1",
+      "size": 831
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionFoldObject.c": {
+      "md5": "1b0773855981d00514fe6eb2a6a807a9",
+      "size": 890
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionHarvestCrops.c": {
+      "md5": "fddec3b6b4c1bba11cb8d95ac45ab3a6",
+      "size": 891
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionITest.c": {
+      "md5": "b1cb88efa0dc09809d0155ae6525a289",
+      "size": 279
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionOpenBarrel.c": {
+      "md5": "d4c7cdf944c459def57561808f109257",
+      "size": 699
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionOpenBarrelHoles.c": {
+      "md5": "2d7e2ce589795a3a7474a81bf4206678",
+      "size": 778
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionPackTent.c": {
+      "md5": "526ea5e55cbbb36b9fcf88a1dc448073",
+      "size": 1214
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionPickBerry.c": {
+      "md5": "8d8f5a7ac41c5f24805213e3d72dd246",
+      "size": 1180
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionPullOutPlug.c": {
+      "md5": "ff70545d67b533be28e50c457f15a128",
+      "size": 1324
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionReigniteFireplace.c": {
+      "md5": "ecb6c91f512923f7960e279cf443391d",
+      "size": 1477
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionRemovePlant.c": {
+      "md5": "0da25c820808cc685cacc20462da25fe",
+      "size": 899
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionRepositionPluggedItem.c": {
+      "md5": "e5a2b2c362755323eb6740e9a34a975b",
+      "size": 1940
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTakeFireplaceIndoor.c": {
+      "md5": "7980c6a68f6fb9a56d299ed367c45298",
+      "size": 2061
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionToggleTentOpen.c": {
+      "md5": "2cea0674a43658c52bbdabc3d200d4cb",
+      "size": 1932
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTuneFrequencyOnGround.c": {
+      "md5": "fa281c3fc454eaeb354782694b36c2e4",
+      "size": 940
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOffPowerGenerator.c": {
+      "md5": "450d22402f247b834a1d8b684422c7b3",
+      "size": 889
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOffSpotlight.c": {
+      "md5": "b5bbde7488476293db17a83e72aebaa5",
+      "size": 860
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOffTransmitterOnGround.c": {
+      "md5": "d4967191e63c4edea89992214aa2442f",
+      "size": 974
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOffWhileOnGround.c": {
+      "md5": "2b31a07b28c4f587021d0856182c4e3f",
+      "size": 776
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOnPowerGenerator.c": {
+      "md5": "485e326993accf0f05ae03585845485c",
+      "size": 867
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOnSpotlight.c": {
+      "md5": "7e3ffc9b1857af5a758d2e7aaf2d96a3",
+      "size": 844
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOnTransmitterOnGround.c": {
+      "md5": "17f635efb34d634d441059dfd7899177",
+      "size": 1315
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionTurnOnWhileOnGround.c": {
+      "md5": "d6ffd5dd677dd2d797a14e0c7370738d",
+      "size": 800
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/Interact/ActionUnplugThisByCord.c": {
+      "md5": "fb3b1d62e53775e160d265d6543d0cab",
+      "size": 1171
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionAttach.c": {
+      "md5": "4ae4816c8bbb5390d495d49e6a305195",
+      "size": 2291
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionAttachToCharger.c": {
+      "md5": "c848f15dec570e7c8bba57c1ac254686",
+      "size": 1086
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionAttachWheels.c": {
+      "md5": "84260b2704ebf35713a6db06328966a5",
+      "size": 2358
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionClose.c": {
+      "md5": "1e5399e453f4adb4df863d8c90484788",
+      "size": 610
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionConsumeSingle.c": {
+      "md5": "d3f72d96bf98e14f5ba0b77c7cb5d012",
+      "size": 684
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionDisinfectPlantBit.c": {
+      "md5": "1c1a0ea27dac9c499dad4c0dbdd63d95",
+      "size": 1586
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionFertilizeSlotBit.c": {
+      "md5": "cf216a9d99bf7afd20c0d95161104135",
+      "size": 1606
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionForceABite.c": {
+      "md5": "dd4c879dab6b1b9c0a21db2d2f6086cd",
+      "size": 800
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionForceABiteCan.c": {
+      "md5": "f31e0f975db20f1802af7fe352a74620",
+      "size": 315
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionForceASip.c": {
+      "md5": "4b56cb2b68eb66682e58b76ff529415c",
+      "size": 435
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionForceConsumeSingle.c": {
+      "md5": "7d487fddeed49f37f3832ebc5e2c1414",
+      "size": 1129
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionMeasureBattery.c": {
+      "md5": "2f06aee1951aa0d4c5ab9c24c956e95b",
+      "size": 845
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionOpen.c": {
+      "md5": "056cfa25c0bc6ca5e2c5dfc0eff586ba",
+      "size": 606
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionPlaceFireplaceIndoor.c": {
+      "md5": "7705a8fa64081abb6b52c09e3a28e848",
+      "size": 3613
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionPlantSeed.c": {
+      "md5": "9b78503815637842a3e2e1e7c33ae3c1",
+      "size": 1328
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionPlugIn.c": {
+      "md5": "24367611628f4c4b1856fe3998274ae6",
+      "size": 2245
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionPlugIntoFence.c": {
+      "md5": "a5c8ed56f7e2ca7cf41b93094bed955e",
+      "size": 1450
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionReadPaper.c": {
+      "md5": "34e74420ee722b68ace91f017e1bb95a",
+      "size": 500
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionRepairWithToolFromHands.c": {
+      "md5": "f450817b40f608b65b9035c92f2cc39d",
+      "size": 1411
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTakeABite.c": {
+      "md5": "ee39ca27255dfc9d8d83c80cdb28a6b4",
+      "size": 645
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTakeABiteCan.c": {
+      "md5": "1b03cdf0fac1e06054ba07888cfb9eda",
+      "size": 312
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTakeASip.c": {
+      "md5": "ff3876af2436f2c95c6f320cd719cacf",
+      "size": 265
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionToggleDigTile.c": {
+      "md5": "c1c827e492d0a0375800e307c542c1ef",
+      "size": 1178
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionToggleFishing.c": {
+      "md5": "ade8ba69c5491c17d77585b78ebbfb68",
+      "size": 1299
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTogglePlaceObject.c": {
+      "md5": "da5250e1bbca1eff07a3c55f7bcec14b",
+      "size": 1890
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOffTransmitter.c": {
+      "md5": "74120e6ede84d4294697d03e85cb6fee",
+      "size": 701
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOffWhileInHands.c": {
+      "md5": "de17da6b2604094268f123893533b3e1",
+      "size": 726
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnChemlight.c": {
+      "md5": "e0dbd1a8680328206fa505892f150757",
+      "size": 333
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnHeatpack.c": {
+      "md5": "45cbc5aafd25138d3755ceda93527c86",
+      "size": 633
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnRoadFlare.c": {
+      "md5": "1f909123f28a63913f9b85a04082bd78",
+      "size": 548
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnTorch.c": {
+      "md5": "22b8dc0994ed8d654aa866dd98646fd3",
+      "size": 1443
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnTransmitter.c": {
+      "md5": "ef4f6f926326669b79c1bbc2259fb9e9",
+      "size": 1085
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionTurnOnWhileInHands.c": {
+      "md5": "bac9a1a6beb6d3dec79ee7e59845b3d3",
+      "size": 1015
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionWashHands.c": {
+      "md5": "48519b41734b423c1721cc0427df7df6",
+      "size": 674
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/ActionWaterPlantBit.c": {
+      "md5": "ab806915e2ab06000ef5957d42fbcaea",
+      "size": 1723
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionBiteCharcoalTablets.c": {
+      "md5": "c0b40a10f6b367495d4b6d8b9be5f5fa",
+      "size": 361
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionBitePainkillerTablets.c": {
+      "md5": "d70e701f35f10566e76ba25a5b636bc2",
+      "size": 370
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionBitePurificationTablets.c": {
+      "md5": "01556cea3cb1453bf3ab3a8d805af4e2",
+      "size": 378
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionBiteTetracyclineAntibiotics.c": {
+      "md5": "3a2e00c1cf3e63453ab904d2c2324e04",
+      "size": 390
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionBiteVitaminBottle.c": {
+      "md5": "c99e89f1e0ff49e3912aacadc67c8c12",
+      "size": 358
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionDisinfectSelf.c": {
+      "md5": "ee2356529e02700754a24fddf4ae1a3e",
+      "size": 829
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionDisinfectTarget.c": {
+      "md5": "338edb65f640b1303b256794d169d8cb",
+      "size": 943
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionForceBiteCharcoalTablets.c": {
+      "md5": "4c7d3533c857561be6811f3a00e8722d",
+      "size": 303
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionForceBitePainkillerTablets.c": {
+      "md5": "413dc49ff9d6103f5bdb715a486ca3b7",
+      "size": 311
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionForceBitePurificationTablets.c": {
+      "md5": "fcfca6f151eeec2c622cfba83e85892d",
+      "size": 315
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionForceBiteTetracyclineAntibiotics.c": {
+      "md5": "8275668cee82b6e3cf8e9f40ccac5381",
+      "size": 323
+    },
+    "scripts/4_World/Classes/UserActionsComponent/Actions/SingleUse/Medical/ActionForceBiteVitaminBottle.c": {
+      "md5": "f83268bbf0d7113898313c11b78b9c9b",
+      "size": 303
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ItemConditionComponents/CCIBase.c": {
+      "md5": "264c67f9d3efadfe3545e413ba4777a5",
+      "size": 85
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ItemConditionComponents/CCIDummy.c": {
+      "md5": "5bc3d277dae61394f08ea13b59466f3b",
+      "size": 123
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ItemConditionComponents/CCINone.c": {
+      "md5": "a5c981636440b62d9b082a60756689c0",
+      "size": 95
+    },
+    "scripts/4_World/Classes/UserActionsComponent/ItemConditionComponents/CCINonRuined.c": {
+      "md5": "f5a6cad721baa8c134a72651785b226c",
+      "size": 152
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTBase.c": {
+      "md5": "5f8616289dffb69c124f42de180273f2",
+      "size": 279
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTCursor.c": {
+      "md5": "da9452e55aeef165c0fa5047c9a0b31c",
+      "size": 512
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTDummy.c": {
+      "md5": "affbccb7a1a39a75d83e4744ec757726",
+      "size": 177
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTMan.c": {
+      "md5": "e5934d9b71e74f1e9cdab5d9ce1cdabd",
+      "size": 591
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTNone.c": {
+      "md5": "f9155621bf5c7223b5b31bbdb25e9e35",
+      "size": 176
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTNonRuined.c": {
+      "md5": "017b34f88fc89b44034c9e51b920dc93",
+      "size": 533
+    },
+    "scripts/4_World/Classes/UserActionsComponent/TargetConditionsComponents/CCTSelf.c": {
+      "md5": "1fa8cb2a0a88920888d94563845d9512",
+      "size": 197
+    },
+    "scripts/4_World/Entities/DayZPlayerImplement.c": {
+      "md5": "c3e264fc7bae6e63c695ba4484726688",
+      "size": 2504
+    },
+    "scripts/4_World/Entities/ItemBase.c": {
+      "md5": "c0f8286bf4a1691479a01074bb59d2cc",
+      "size": 55285
+    },
+    "scripts/4_World/Entities/ManBase.c": {
+      "md5": "65b8999d1e8a6c5761bd774308f13cd6",
+      "size": 2731
+    },
+    "scripts/4_World/Entities/PAS_Broadcaster.c": {
+      "md5": "2a4790c83b6a2704e29bac5f1729adba",
+      "size": 477
+    },
+    "scripts/4_World/Entities/RockBase.c": {
+      "md5": "53ab486d417956b9992f46189c521d02",
+      "size": 1897
+    },
+    "scripts/4_World/Entities/scriptedEntities.c": {
+      "md5": "eb9aefe5382c3b0d597f0bb3e0ecbcd2",
+      "size": 3627
+    },
+    "scripts/4_World/Entities/StaticRadio.c": {
+      "md5": "98c344a68d835a21b77db8b1f6d78d47",
+      "size": 1567
+    },
+    "scripts/4_World/Entities/WoodBase.c": {
+      "md5": "f7cdc99c373722ec871b3f27e92290a1",
+      "size": 1886
+    },
+    "scripts/4_World/Entities/Building/BuildingWithFireplace.c": {
+      "md5": "003031d677df97a382a84728fa5aea56",
+      "size": 1467
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_1I3.c": {
+      "md5": "0e30b1a52dbc5828b7f7ef6546269416",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_1L1.c": {
+      "md5": "f115164bf5d90de576a8856c92cda7c7",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_1L2.c": {
+      "md5": "e7902f2a86f232fe4ff5c6728f90e729",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_2T2.c": {
+      "md5": "1f10e4a7b25a20e901a5d6c547491079",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_3I1.c": {
+      "md5": "c4876f82bb9d22f726d153f09d8984f4",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/House/Land_HouseV_3I3.c": {
+      "md5": "aeb5a5746b8493d267394cd25cb26617",
+      "size": 55
+    },
+    "scripts/4_World/Entities/Building/Village_Pub/Land_Village_pub.c": {
+      "md5": "5b1d116a3151b37b702b65dc904fcbd0",
+      "size": 56
+    },
+    "scripts/4_World/Entities/BuildingBase/EN5C_Greenhouse.c": {
+      "md5": "96e09fa3d2170f924f8931132452aaca",
+      "size": 556
+    },
+    "scripts/4_World/Entities/BuildingBase/GardenBase.c": {
+      "md5": "b7ff774e2deb317cdb77f0135dc5ad22",
+      "size": 19778
+    },
+    "scripts/4_World/Entities/BuildingBase/GardenPlot.c": {
+      "md5": "2ee2f65701d53caaa1ca9ce66b44a907",
+      "size": 560
+    },
+    "scripts/4_World/Entities/BuildingBase/PlantBase.c": {
+      "md5": "4a3acb8c648fb31e8734865b08ec88c9",
+      "size": 18120
+    },
+    "scripts/4_World/Entities/BuildingBase/Slot.c": {
+      "md5": "7d1d06879208a30ac666547216099dec",
+      "size": 5188
+    },
+    "scripts/4_World/Entities/BuildingBase/UndergroundStash.c": {
+      "md5": "2141e8f2313b3ed4c38b84313426daae",
+      "size": 194
+    },
+    "scripts/4_World/Entities/Core/Inherited/Building.c": {
+      "md5": "07ffd546c68d9756ac438501af9ca11a",
+      "size": 749
+    },
+    "scripts/4_World/Entities/Core/Inherited/InventoryItem.c": {
+      "md5": "0bbcfbb1f1fd5c036a2b1f0ae69da136",
+      "size": 2916
+    },
+    "scripts/4_World/Entities/Core/Inherited/LightAI.c": {
+      "md5": "f9ccb2a73c319d346b9d3e2e3c116a9d",
+      "size": 239
+    },
+    "scripts/4_World/Entities/Core/Inherited/Man.c": {
+      "md5": "8a48ebb7862d948b520580bada77067b",
+      "size": 116
+    },
+    "scripts/4_World/Entities/Core/Inherited/Plant.c": {
+      "md5": "2c38ea3aa49683204a9e2d19cced54c1",
+      "size": 1038
+    },
+    "scripts/4_World/Entities/Game/Super/Building.c": {
+      "md5": "4e6757da2b08891ce30b8180c84eb828",
+      "size": 71
+    },
+    "scripts/4_World/Entities/Game/Super/InventoryItem.c": {
+      "md5": "95e7154b408fea97b6fd951b82a131bd",
+      "size": 113
+    },
+    "scripts/4_World/Entities/Game/Super/LightAI.c": {
+      "md5": "cf07a5a3a5b5c9f81c93cc3479fe448e",
+      "size": 33
+    },
+    "scripts/4_World/Entities/Game/Super/Man.c": {
+      "md5": "067bf14dd6e529e1d53d6055507495d6",
+      "size": 25
+    },
+    "scripts/4_World/Entities/Game/Super/Plant.c": {
+      "md5": "00de0c82b5ebd08b1a816a3c09077df8",
+      "size": 28
+    },
+    "scripts/4_World/Entities/ItemBase/Bandage.c": {
+      "md5": "9c4a8f859afa46030cdb75ac6977c830",
+      "size": 586
+    },
+    "scripts/4_World/Entities/ItemBase/BarbedWire.c": {
+      "md5": "2c21b0c697eabd395b106a0208b0a55c",
+      "size": 3942
+    },
+    "scripts/4_World/Entities/ItemBase/Bark_ColorBase.c": {
+      "md5": "da3349b84136d29a4fef8d064d036fd7",
+      "size": 46
+    },
+    "scripts/4_World/Entities/ItemBase/Barrel_ColorBase.c": {
+      "md5": "8562ad73481fff6971670615583a5999",
+      "size": 9069
+    },
+    "scripts/4_World/Entities/ItemBase/BaseBuildingBase.c": {
+      "md5": "36a06e0a405251fb664521bcbf84fa8f",
+      "size": 11041
+    },
+    "scripts/4_World/Entities/ItemBase/BatteryCharger.c": {
+      "md5": "f55e620942a415baa8f4536280a952fe",
+      "size": 8581
+    },
+    "scripts/4_World/Entities/ItemBase/BinocularsBase.c": {
+      "md5": "b06d795663476b90dc8ebc935a344508",
+      "size": 186
+    },
+    "scripts/4_World/Entities/ItemBase/Book_Base.c": {
+      "md5": "cdba65ccd950625f0b96ceaddd10a6c2",
+      "size": 41
+    },
+    "scripts/4_World/Entities/ItemBase/CableReel.c": {
+      "md5": "d2b1c88cc33c181cfdcbde999bc7d9d2",
+      "size": 2076
+    },
+    "scripts/4_World/Entities/ItemBase/CarBattery.c": {
+      "md5": "04be2cf6adc430fb6d9e9f7ddfc5d71e",
+      "size": 534
+    },
+    "scripts/4_World/Entities/ItemBase/ChemLight.c": {
+      "md5": "70497d5d1e281575bae0ea5d3c5fc6af",
+      "size": 174
+    },
+    "scripts/4_World/Entities/ItemBase/Compass.c": {
+      "md5": "75c004bb769d452c9ad2c17cff80425a",
+      "size": 307
+    },
+    "scripts/4_World/Entities/ItemBase/Container_Base.c": {
+      "md5": "a9a3479bb9879b80270457b036c3fd7e",
+      "size": 87
+    },
+    "scripts/4_World/Entities/ItemBase/Defibrillator.c": {
+      "md5": "783d3a71c70ee4097ae7850b58f475c0",
+      "size": 244
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base.c": {
+      "md5": "eab2a90d6739e89fc505ad4d4898b6fc",
+      "size": 2896
+    },
+    "scripts/4_World/Entities/ItemBase/EN5C_MetalWire.c": {
+      "md5": "3d6bc67825be50cdf30e28f83d31a75a",
+      "size": 130
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase.c": {
+      "md5": "84b1de5b51140dd7022f4342af178252",
+      "size": 35616
+    },
+    "scripts/4_World/Entities/ItemBase/Firewood.c": {
+      "md5": "0c74826227a037d76cfafef882757e45",
+      "size": 587
+    },
+    "scripts/4_World/Entities/ItemBase/FishingRod_Base.c": {
+      "md5": "1b86ca36c2ea959dcbbe08ef1baafca5",
+      "size": 7023
+    },
+    "scripts/4_World/Entities/ItemBase/Flashlight.c": {
+      "md5": "9d8c059e08c3a85f0eb291311513400b",
+      "size": 161
+    },
+    "scripts/4_World/Entities/ItemBase/Grenade_Base.c": {
+      "md5": "232683eb3a942fdf561d08c5b9d02c81",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Heatpack.c": {
+      "md5": "9d2ee500dcd68dc3899710b1c7b57c1f",
+      "size": 134
+    },
+    "scripts/4_World/Entities/ItemBase/HescoBox.c": {
+      "md5": "38360f314e0676c5beb7f3a74723232c",
+      "size": 1120
+    },
+    "scripts/4_World/Entities/ItemBase/LargeGasCannister.c": {
+      "md5": "bfacf2d27db6db33c3547e14184ba433",
+      "size": 225
+    },
+    "scripts/4_World/Entities/ItemBase/MediumGasCannister.c": {
+      "md5": "f0d7b798762a249529428a78bb0ee185",
+      "size": 226
+    },
+    "scripts/4_World/Entities/ItemBase/Megaphone.c": {
+      "md5": "a62ca94ef68f66666362632873a8848b",
+      "size": 406
+    },
+    "scripts/4_World/Entities/ItemBase/PaperBase.c": {
+      "md5": "311304f0c2f256152f2cf89c8139be0b",
+      "size": 804
+    },
+    "scripts/4_World/Entities/ItemBase/ParticleTest.c": {
+      "md5": "385353557f6b3b759ad31074bab38d57",
+      "size": 1014
+    },
+    "scripts/4_World/Entities/ItemBase/Pelt_Base.c": {
+      "md5": "5db14bc9553b0ec2fa9e1073eb7c205d",
+      "size": 83
+    },
+    "scripts/4_World/Entities/ItemBase/PileOfWoodenPlanks.c": {
+      "md5": "f413229e501eca4ac8be89ab57fd2d81",
+      "size": 3797
+    },
+    "scripts/4_World/Entities/ItemBase/PortableGasLamp.c": {
+      "md5": "74c25c6f122e94307e26d623278a1415",
+      "size": 658
+    },
+    "scripts/4_World/Entities/ItemBase/PortableGasStove.c": {
+      "md5": "eefe1cb152cd410fade2c75108c46324",
+      "size": 2248
+    },
+    "scripts/4_World/Entities/ItemBase/PowerGenerator.c": {
+      "md5": "eee121c41b654ab70b821e063817dca5",
+      "size": 6339
+    },
+    "scripts/4_World/Entities/ItemBase/Radio.c": {
+      "md5": "e596c7a0b089cea13f09ab0f13ab8abf",
+      "size": 769
+    },
+    "scripts/4_World/Entities/ItemBase/Rag.c": {
+      "md5": "97a7228d0df32d870a1f79e8a80b9dd8",
+      "size": 582
+    },
+    "scripts/4_World/Entities/ItemBase/Rangefinder.c": {
+      "md5": "2af2812948ce1c2280e80b0a559a3e8f",
+      "size": 1306
+    },
+    "scripts/4_World/Entities/ItemBase/Refridgerator.c": {
+      "md5": "56538740477cfda2e689adb0f24aa55c",
+      "size": 727
+    },
+    "scripts/4_World/Entities/ItemBase/Roadflare.c": {
+      "md5": "894e7b031e8805c35897d66c119d015c",
+      "size": 660
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase.c": {
+      "md5": "7bece87089323527c578a04a8ce03190",
+      "size": 2466
+    },
+    "scripts/4_World/Entities/ItemBase/SmallGasCannister.c": {
+      "md5": "bc2929e5623c91fd9d76153811cac92c",
+      "size": 225
+    },
+    "scripts/4_World/Entities/ItemBase/Spotlight.c": {
+      "md5": "cf6a645221688b94c3af365d0d259616",
+      "size": 3933
+    },
+    "scripts/4_World/Entities/ItemBase/Stone.c": {
+      "md5": "37eeb77436c04ebee382f16aa91e7b68",
+      "size": 584
+    },
+    "scripts/4_World/Entities/ItemBase/TelescopicBaton.c": {
+      "md5": "2374025cce9ac652ae7f1e77ee96fd3a",
+      "size": 322
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase.c": {
+      "md5": "18818b86efa57c449463d32003c99b80",
+      "size": 4232
+    },
+    "scripts/4_World/Entities/ItemBase/Torch.c": {
+      "md5": "9e7b69a0cfa348bb32d0347c9e5acaad",
+      "size": 1206
+    },
+    "scripts/4_World/Entities/ItemBase/TransmitterBase.c": {
+      "md5": "3e7168db0ee41350412935943a1d4635",
+      "size": 482
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase.c": {
+      "md5": "fbcb02df59c22ccdb93f678b2303c418",
+      "size": 13197
+    },
+    "scripts/4_World/Entities/ItemBase/TrapSpawnBase.c": {
+      "md5": "0a300798109dc0808047e3d531dc9aee",
+      "size": 11236
+    },
+    "scripts/4_World/Entities/ItemBase/Trap_Base.c": {
+      "md5": "bf8062c22a5fe2eeb54dea53cb97e645",
+      "size": 65
+    },
+    "scripts/4_World/Entities/ItemBase/Tripod.c": {
+      "md5": "abd8a5c3950ab53e7cbc8a20b4cee469",
+      "size": 585
+    },
+    "scripts/4_World/Entities/ItemBase/TruckBattery.c": {
+      "md5": "42ab2305555b84bdd2d66fcad025f7f7",
+      "size": 541
+    },
+    "scripts/4_World/Entities/ItemBase/WoodenStick.c": {
+      "md5": "e3fe2c383e51fcdd77ee477267239d06",
+      "size": 590
+    },
+    "scripts/4_World/Entities/ItemBase/WorldContainer_Base.c": {
+      "md5": "dbc583b516c1101abda656c6628559f5",
+      "size": 51
+    },
+    "scripts/4_World/Entities/ItemBase/XmasLights.c": {
+      "md5": "4259e32806bd103aa29e85ca851c60fb",
+      "size": 2937
+    },
+    "scripts/4_World/Entities/ItemBase/Bark_ColorBase/Bark_Birch.c": {
+      "md5": "935e956c74efa87ea872cfd3056f10e2",
+      "size": 394
+    },
+    "scripts/4_World/Entities/ItemBase/Bark_ColorBase/Bark_Oak.c": {
+      "md5": "2bc6e5727fe73f93c60062c368cc34c4",
+      "size": 392
+    },
+    "scripts/4_World/Entities/ItemBase/Barrel_ColorBase/Barrel_Green.c": {
+      "md5": "1c62adc202117c2a441f461da670737f",
+      "size": 49
+    },
+    "scripts/4_World/Entities/ItemBase/BaseBuildingBase/Fence.c": {
+      "md5": "adf692e968ecf296e8aa44e3127822e2",
+      "size": 17968
+    },
+    "scripts/4_World/Entities/ItemBase/BaseBuildingBase/Watchtower.c": {
+      "md5": "d612981b63b39c3512e84c83843e7b13",
+      "size": 550
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/Armband_White.c": {
+      "md5": "c18e1ec81339aac3df56b3b41e778682",
+      "size": 80
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/BurlapSackCover.c": {
+      "md5": "073a46b5d0b2603012e8fbd3359f9fd7",
+      "size": 123
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/Headtorch_Black.c": {
+      "md5": "57818066f760062763e5dda4cbfbcd66",
+      "size": 58
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/Headtorch_ColorBase.c": {
+      "md5": "bf6de1cd29a3041b0fb63e776156ab5b",
+      "size": 194
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/Headtorch_Grey.c": {
+      "md5": "96f6b34dc1b42d404c9cec043788cc5e",
+      "size": 57
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherHat_Natural.c": {
+      "md5": "d70a03cb7e200cbcfbd7b5277a4a5ef0",
+      "size": 85
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherJacket_Natural.c": {
+      "md5": "4f37a2cd3f58ac3087f26d3c1d13bc88",
+      "size": 88
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherMoccasinsShoes_Natural.c": {
+      "md5": "e33ba30260d871bf9e9f88447f0b667f",
+      "size": 96
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherPants_Natural.c": {
+      "md5": "d1dca5a91a96560868f5f96c251771ee",
+      "size": 87
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherSack_Natural.c": {
+      "md5": "c9c734722de7c8749b69404a4381c739",
+      "size": 86
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/LeatherStorageVest_Natural.c": {
+      "md5": "fbc2cfe46f414b8133839c31214905f4",
+      "size": 93
+    },
+    "scripts/4_World/Entities/ItemBase/Clothing/TShirt_White.c": {
+      "md5": "b8cf2495784e801b69205bfcab738feb",
+      "size": 79
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/BakedBeansCan.c": {
+      "md5": "f6023629db2e406347ea751c8d7e162e",
+      "size": 402
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/BearSteakMeat.c": {
+      "md5": "496832ffa6ad7f9e4f4fd3d8ca04ebe0",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/BoarSteakMeat.c": {
+      "md5": "f04c57aec512dd6f7ce924fc00d8c643",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/Bottle_Base.c": {
+      "md5": "bfd8c0cd85bae5f63a0168131809a544",
+      "size": 83
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/BoxCerealCrunchin.c": {
+      "md5": "57cef4caf736460598119e7724df1d5f",
+      "size": 96
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/CaninaBerry.c": {
+      "md5": "49944182816fbc1d82d4b3cb9d590da7",
+      "size": 950
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/CarpFilletMeat.c": {
+      "md5": "8da9e2135a4a853f02f2c119d2aefe9a",
+      "size": 91
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/ChickenBreastMeat.c": {
+      "md5": "476e95eec5175e5e36456e0efd93fca7",
+      "size": 94
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/CowSteakMeat.c": {
+      "md5": "69c4dad02beda91f3afc8c10d9e1d07e",
+      "size": 89
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/DeerSteakMeat.c": {
+      "md5": "f3efe38012cbf68fc74ea625c9c9ee3c",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/Food_Lard.c": {
+      "md5": "0f3baa5f40e869eb6ee87f8c1876fc8f",
+      "size": 208
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/FoxSteakMeat.c": {
+      "md5": "f3ec8cf5feda58eb8c979978005983b6",
+      "size": 89
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/GoatSteakMeat.c": {
+      "md5": "41ded300f30f2f01f5dd0e43ed162b6d",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/HumanSteakMeat.c": {
+      "md5": "89f047bacd75d11a3d6a55f5cf3839c5",
+      "size": 91
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/Lard.c": {
+      "md5": "1d67f74f9b9b769d51f3fcdea193887f",
+      "size": 81
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/MackerelFilletMeat.c": {
+      "md5": "b236def9925ccab37385718926d5329d",
+      "size": 95
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/MouflonSteakMeat.c": {
+      "md5": "1998776ffe04075f9c80f38e50ec002c",
+      "size": 93
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/PeachesCan.c": {
+      "md5": "17465a7cca99e52ba5b458df89d0c1fc",
+      "size": 392
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/PigSteakMeat.c": {
+      "md5": "6160f3bfe07f1220416a86ff64cdf3b0",
+      "size": 89
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/PurificationTablets.c": {
+      "md5": "2637de8ae56cccb84d1fe18e7772319f",
+      "size": 99
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/RabbitLegMeat.c": {
+      "md5": "e9cf153d9b737dfa4d2227780b17008c",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/SambucusBerry.c": {
+      "md5": "62c3241f9ea49ba17e9a4c49328794fa",
+      "size": 954
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/SardinesCan.c": {
+      "md5": "873abf7ad14bd92d9b7ef111a20d169f",
+      "size": 395
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/SheepSteakMeat.c": {
+      "md5": "c850d95132d8e6215a794eea0041a42c",
+      "size": 91
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/SpaghettiCan.c": {
+      "md5": "2b87042672306d465f90800b659b0db4",
+      "size": 398
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/TacticalBaconCan.c": {
+      "md5": "bf4d4da1021f1460ceca3930b8d22b5c",
+      "size": 410
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/TunaCan.c": {
+      "md5": "b6c91403dc44cdae66b6a67382104842",
+      "size": 383
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/WolfSteakMeat.c": {
+      "md5": "526d13112eedb8f1e5674be8e27d3838",
+      "size": 90
+    },
+    "scripts/4_World/Entities/ItemBase/Edible_Base/Bottle_Base/Pot.c": {
+      "md5": "d3623a602f5b366b011453f6caefb092",
+      "size": 900
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/BarrelHoles_ColorBase.c": {
+      "md5": "2a99a88356da7f36b8471a618a655c5e",
+      "size": 3851
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/Fireplace.c": {
+      "md5": "ec13e90c3111e3574c24795bc830f9a5",
+      "size": 4430
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/FireplaceIndoor.c": {
+      "md5": "09537d63b3911e6be886a615aa199024",
+      "size": 3134
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/BarrelHoles_ColorBase/BarrelHoles_Blue.c": {
+      "md5": "dc927483b76c6f3292772cfd3063b926",
+      "size": 68
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/BarrelHoles_ColorBase/BarrelHoles_Green.c": {
+      "md5": "d847f52558aafd021bdd205dc0b9f4fa",
+      "size": 69
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/BarrelHoles_ColorBase/BarrelHoles_Red.c": {
+      "md5": "b7956a34c09ca6c18be5b353d4f20f9b",
+      "size": 67
+    },
+    "scripts/4_World/Entities/ItemBase/FireplaceBase/BarrelHoles_ColorBase/BarrelHoles_Yellow.c": {
+      "md5": "5d5edc881f827419f2b603c53ea803b3",
+      "size": 70
+    },
+    "scripts/4_World/Entities/ItemBase/Magazine/Magazine.c": {
+      "md5": "b9ad4268f626339b3da0992480d41f30",
+      "size": 2010
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase/CannabisSeedsPack.c": {
+      "md5": "db22e74d4771a627aa0e501b8915fcca",
+      "size": 59
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase/PepperSeedsPack.c": {
+      "md5": "658556ecabdf70ef8935ca47a054cabe",
+      "size": 57
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase/PumpkinSeedsPack.c": {
+      "md5": "b07e4f9af9e526690e5644885ebdf21d",
+      "size": 58
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase/TomatoSeedsPack.c": {
+      "md5": "8a7051e9bab9c3d7745767b99440c859",
+      "size": 56
+    },
+    "scripts/4_World/Entities/ItemBase/SeedPackBase/ZucchiniSeedsPack.c": {
+      "md5": "f080140b50c7d015c9cb0b04829bf47f",
+      "size": 59
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/AdvancedImprovisedShelterPitched.c": {
+      "md5": "ba12645a1d2ba4793b3a80b7fd8c4a95",
+      "size": 113
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/CarTent.c": {
+      "md5": "54f107fcb18fb9f4602dba2a3255d6d4",
+      "size": 330
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/ImprovisedShelterPitched.c": {
+      "md5": "755b2822fb6d78f2d2ce4ee5f154e36a",
+      "size": 97
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/LargeTent.c": {
+      "md5": "baa8d4410645ecdb9b9a5291f5c64823",
+      "size": 2175
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/MediumTent.c": {
+      "md5": "229826956b6bbd66b2a9170c3d1795c5",
+      "size": 356
+    },
+    "scripts/4_World/Entities/ItemBase/TentBase/PartyTent.c": {
+      "md5": "13e267e56db0adc4db1b37f6efbc80b1",
+      "size": 67
+    },
+    "scripts/4_World/Entities/ItemBase/TransmitterBase/BaseRadio.c": {
+      "md5": "6ce29730d8b7a794ec31873b15f44422",
+      "size": 1393
+    },
+    "scripts/4_World/Entities/ItemBase/TransmitterBase/PersonalRadio.c": {
+      "md5": "d509eb418c53538f770be3850a95e5e8",
+      "size": 1324
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/FishNetTrap.c": {
+      "md5": "4666df64477214b5f6dbe4771eff6061",
+      "size": 69
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/RabbitSnareTrap.c": {
+      "md5": "4dee6d2d8b2c397d65fd0f6217a9ac81",
+      "size": 82
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/SmallFishTrap.c": {
+      "md5": "338df8babdc4cae4ce9cc9e78c2a229a",
+      "size": 1127
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/Trap_Bear.c": {
+      "md5": "a7ab71c1321722dc12946f4eddfcb956",
+      "size": 2181
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/Trap_LandMine.c": {
+      "md5": "2c71dddcb87b67f66e84be006a645804",
+      "size": 821
+    },
+    "scripts/4_World/Entities/ItemBase/TrapBase/Trap_TripWire.c": {
+      "md5": "e89363f4de7a3a692074997c3642d5e7",
+      "size": 2245
+    },
+    "scripts/4_World/Entities/ItemBase/TrapSpawnBase/Trap_FishNet.c": {
+      "md5": "ebccd259b86ea5b4c6e78bb3e2822a4d",
+      "size": 1507
+    },
+    "scripts/4_World/Entities/ItemBase/TrapSpawnBase/Trap_RabbitSnare.c": {
+      "md5": "044e9f9c2209d947fcaee7d0c316bca6",
+      "size": 2331
+    },
+    "scripts/4_World/Entities/ItemBase/TrapSpawnBase/Trap_SmallFish.c": {
+      "md5": "ce1c20944a7eab9839ee9b155488e859",
+      "size": 1090
+    },
+    "scripts/4_World/Entities/ItemBase/Trap_Base/BearTrap.c": {
+      "md5": "f89d0b37a002c8c26100fb6b6cefeafc",
+      "size": 558
+    },
+    "scripts/4_World/Entities/ItemBase/Trap_Base/LandMineTrap.c": {
+      "md5": "d8939b00a45836bec9f8e587fb2bed24",
+      "size": 96
+    },
+    "scripts/4_World/Entities/ItemBase/Trap_Base/TripwireTrap.c": {
+      "md5": "98149820264769f5bb7f45bca537f820",
+      "size": 50
+    },
+    "scripts/4_World/Entities/ManBase/LightAIBase.c": {
+      "md5": "4faff05f028d04c15e14a9f089e9c685",
+      "size": 39
+    },
+    "scripts/4_World/Entities/ManBase/PlayerBase.c": {
+      "md5": "b086666a823b29aeb78316c2466513d8",
+      "size": 44440
+    },
+    "scripts/4_World/Entities/ManBase/PlayerBaseClient.c": {
+      "md5": "804a54bf7a9cf8ee010b8bfcb4761e55",
+      "size": 48
+    },
+    "scripts/4_World/Entities/ManBase/DayZPlayer/DayZPlayerCamera1stPerson.c": {
+      "md5": "17de3ee81bc0602cce0de62d303f3705",
+      "size": 1772
+    },
+    "scripts/4_World/Entities/ManBase/DayZPlayer/DayZPlayerCamera3rdPerson.c": {
+      "md5": "18d13e122f91e07379278e9e3f00d0d3",
+      "size": 9166
+    },
+    "scripts/4_World/Entities/ManBase/DayZPlayer/DayZPlayerCameras.c": {
+      "md5": "b3f903af34dd19f936aa9bcfd21c01c3",
+      "size": 1779
+    },
+    "scripts/4_World/Entities/ManBase/DayZPlayer/DayZPlayerCamera_Base.c": {
+      "md5": "f5dc3dc2c18683a58a5bdb9b28b4cc2f",
+      "size": 1252
+    },
+    "scripts/4_World/Entities/ManBase/DayZPlayer/DayZPlayerCfgBase.c": {
+      "md5": "929f8b8255ca97dc167eaea22a830131",
+      "size": 60950
+    },
+    "scripts/4_World/Entities/ManBase/LightAIBase/AnimalBase.c": {
+      "md5": "0c50ae52248243438b5124c7de9871fc",
+      "size": 206
+    },
+    "scripts/4_World/Entities/ManBase/LightAIBase/ZombieBase.c": {
+      "md5": "a39b859867cdadb6bdf1bd073174b2fe",
+      "size": 37
+    },
+    "scripts/4_World/Entities/ManBase/PlayerBase/SurvivorBase.c": {
+      "md5": "80759b48d281aba1afd4cbb8e71b829b",
+      "size": 49
+    },
+    "scripts/4_World/Entities/WoodBase/Bushes.c": {
+      "md5": "63003e9c751137f546bc260fc3328a67",
+      "size": 1834
+    },
+    "scripts/4_World/Entities/WoodBase/Trees.c": {
+      "md5": "83da4309ff0ccd493d457d4c0a4d9dce",
+      "size": 2234
+    },
+    "scripts/4_World/GUI/AssignmentMenu.c": {
+      "md5": "bc3867be7b20e7f21062d1ccaaef09c7",
+      "size": 8564
+    },
+    "scripts/4_World/GUI/Chat.c": {
+      "md5": "68570ead2447e9efe2b3e741ea0ad8af",
+      "size": 2099
+    },
+    "scripts/4_World/GUI/ChatInputMenu.c": {
+      "md5": "18a9e27b320fe64432ae3aff73dd9e56",
+      "size": 2499
+    },
+    "scripts/4_World/Plugins/PluginBase.c": {
+      "md5": "0ae9512a6e23918a8049acf23703cc32",
+      "size": 356
+    },
+    "scripts/4_World/Plugins/PluginManager.c": {
+      "md5": "2547aaf9b14a34b50bcdb02919e89842",
+      "size": 6782
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginAdmin.c": {
+      "md5": "360c371246cfc37815f2913ac742ded7",
+      "size": 25030
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginConfigViewer.c": {
+      "md5": "1ce7805ef4b40c58f885025097673d3e",
+      "size": 14827
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginCustomChat.c": {
+      "md5": "7e807599eb24725596a676f9c310c6b8",
+      "size": 17472
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDayzPlayerDebug.c": {
+      "md5": "d741cce77cfca5645c8561e30ab8ba51",
+      "size": 26436
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDeveloper.c": {
+      "md5": "72979c77cb72e80882131495e515b8d1",
+      "size": 29523
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDeveloperSync.c": {
+      "md5": "eaf5fc6ab4ff33ebcf10355e27fc5ca1",
+      "size": 11375
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginExperience.c": {
+      "md5": "4898d7dd7180f5985f705522dee37b1a",
+      "size": 15249
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler.c": {
+      "md5": "2abdd830178b7b1ed7f4bc4edfc99bbf",
+      "size": 2280
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginHologramDebug.c": {
+      "md5": "372cf6d15fc82720ad8407f2409b51e6",
+      "size": 1012
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginHorticulture.c": {
+      "md5": "2221387de0a0eeecca22fd87af845507",
+      "size": 3328
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginItemDiagnostic.c": {
+      "md5": "051f24c936e9c1e4bf871a7b6aa4d082",
+      "size": 11319
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginKeyBinding.c": {
+      "md5": "327de60dd3d547343f6c672966454820",
+      "size": 18320
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginLifespan.c": {
+      "md5": "7916888e5ac896ce828f10afcf35e383",
+      "size": 11043
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginMessageManager.c": {
+      "md5": "79b63e18ce1cb6adb4930742763d049d",
+      "size": 4268
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginObjectsInteractionManager.c": {
+      "md5": "35a4f670347070acc318d3b28e6fd304",
+      "size": 1706
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginParty.c": {
+      "md5": "166407e4bd17b6f18c5c8cb20b016f90",
+      "size": 32864
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginPlayerStatus.c": {
+      "md5": "48f6a9f6814ddf9d4a140892259e667e",
+      "size": 3257
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginRecipesManager.c": {
+      "md5": "adb1176f5005e4281a6aa899b2ce26a3",
+      "size": 21069
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginRepairing.c": {
+      "md5": "a6d96f6e63f8cd40c005096eefb22e83",
+      "size": 5229
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginSceneManager.c": {
+      "md5": "215ef42beacb48b99d46d61cd25f6986",
+      "size": 34271
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginSpawnSelector.c": {
+      "md5": "9f71ea12face338bbcdf5f4f4c3450f8",
+      "size": 8848
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginTransmissionAgents.c": {
+      "md5": "15c4f3b58744235c6c3efeed97b717f2",
+      "size": 5235
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginVariables.c": {
+      "md5": "daba1c29acb94ed90dfb0e54032ae67d",
+      "size": 605
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDeveloper/DeveloperFreeCamera.c": {
+      "md5": "a109896682cb56b78fdaeb67979b478d",
+      "size": 4210
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDeveloper/DeveloperTeleport.c": {
+      "md5": "f33547fcca1556405ea1015424b1a795",
+      "size": 2436
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginDeveloper/EDeveloperMask.c": {
+      "md5": "8bd2699a74bb653fb7991914fdb8b6cc",
+      "size": 120
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginConfigHandler.c": {
+      "md5": "882d5888e8d8715fb597d91937847c0b",
+      "size": 10308
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginLocalEnscriptHistory.c": {
+      "md5": "a07fa5e7f5ea9c9d8ea6126e2def6d96",
+      "size": 215
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginLocalHistoryBase.c": {
+      "md5": "163a20071df189d3b12344645f1b967b",
+      "size": 958
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginLocalProfile.c": {
+      "md5": "ccc6375218e286ee06981af76d0d11a7",
+      "size": 14040
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginLocalSqfHistory.c": {
+      "md5": "6f75d575e059a596d166454dfd636d51",
+      "size": 198
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginConfigHandler/PluginConfigDebugProfile.c": {
+      "md5": "85fa57ab7743ea4418ef857e4535cd72",
+      "size": 19445
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginConfigHandler/PluginConfigDebugProfileFixed.c": {
+      "md5": "7638042cbbd751275c02ffebb65c6bf7",
+      "size": 1795
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginConfigHandler/PluginConfigScene.c": {
+      "md5": "cc3b9bf32d4312d5ad50d14923ee16eb",
+      "size": 19665
+    },
+    "scripts/4_World/Plugins/PluginBase/PluginFileHandler/PluginLocalProfile/PluginLocalProfileScene.c": {
+      "md5": "2677926025d445723b4e824a60487844",
+      "size": 2982
+    },
+    "scripts/4_World/Static/Liquid.c": {
+      "md5": "ef592ad8d47a63e9ae2ee64791c58acf",
+      "size": 5795
+    },
+    "scripts/4_World/Static/MiscGameplayFunctions.c": {
+      "md5": "ac0fe29d4ec2b3858b2edd200cf58349",
+      "size": 5512
+    },
+    "scripts/4_World/Static/OpenItem.c": {
+      "md5": "1423226aa291aa3452a589c944b14d14",
+      "size": 2289
+    },
+    "scripts/4_World/Static/PPEffects.c": {
+      "md5": "d534b02e94205078f5252e88ff30c296",
+      "size": 1068
+    },
+    "scripts/5_Mission/DayZIntroScene.c": {
+      "md5": "a1b8039ff169fb2a1735c673cfde1f53",
+      "size": 14952
+    },
+    "scripts/5_Mission/someMission.c": {
+      "md5": "b351292ece0ad6fbd01cde82de07411d",
+      "size": 634
+    },
+    "scripts/5_Mission/GUI/ActionMenu.c": {
+      "md5": "e813734b97c0903310fef3ff5f08f0c4",
+      "size": 4826
+    },
+    "scripts/5_Mission/GUI/AdminMenu.c": {
+      "md5": "f9e754c902c532a3c811e9554b682b9f",
+      "size": 12404
+    },
+    "scripts/5_Mission/GUI/BookMenu.c": {
+      "md5": "599e2a0333cd0ede898ea31df0e7953b",
+      "size": 2015
+    },
+    "scripts/5_Mission/GUI/CharacterMenu.c": {
+      "md5": "9fbc2fb01b3110def3b96ac1eca73069",
+      "size": 11797
+    },
+    "scripts/5_Mission/GUI/EarlyAccessMenu.c": {
+      "md5": "2c69e05d30ee3b30f734a7881cb17ee8",
+      "size": 439
+    },
+    "scripts/5_Mission/GUI/HelpScreen.c": {
+      "md5": "cdb79c21acd7c3d13f5272b2b97d4a72",
+      "size": 1568
+    },
+    "scripts/5_Mission/GUI/HudDebug.c": {
+      "md5": "04e75af571cf826ae809a26943e77d41",
+      "size": 4817
+    },
+    "scripts/5_Mission/GUI/IngameHud.c": {
+      "md5": "06afada901cf28869ff46bfbfe4847f5",
+      "size": 60171
+    },
+    "scripts/5_Mission/GUI/InGameMenu.c": {
+      "md5": "406c71a8cda4db96745e31d19e532095",
+      "size": 2831
+    },
+    "scripts/5_Mission/GUI/InspectMenu.c": {
+      "md5": "24d1aa1802894d8cadc8f49850b9ed3e",
+      "size": 10546
+    },
+    "scripts/5_Mission/GUI/InventoryMenu.c": {
+      "md5": "41b2b05803698f0f52ec4dc9977f0f7d",
+      "size": 25754
+    },
+    "scripts/5_Mission/GUI/LoadingMenu.c": {
+      "md5": "4788068881d32ca65dbca75e44942f2c",
+      "size": 600
+    },
+    "scripts/5_Mission/GUI/MainMenu.c": {
+      "md5": "9dae133105ef2d718d235aea39d2e942",
+      "size": 4658
+    },
+    "scripts/5_Mission/GUI/MainMenu2.c": {
+      "md5": "7ce9e014d553079417b4c863d27035cd",
+      "size": 4306
+    },
+    "scripts/5_Mission/GUI/MapMenu.c": {
+      "md5": "b921217e060c19b48c9097ebb9528943",
+      "size": 23012
+    },
+    "scripts/5_Mission/GUI/NoteMenu.c": {
+      "md5": "274be5fb5cd913e7122039d1fe6fff22",
+      "size": 1494
+    },
+    "scripts/5_Mission/GUI/OptionsMenu.c": {
+      "md5": "5a8ea7109dafa18919c06079eb5662c4",
+      "size": 16859
+    },
+    "scripts/5_Mission/GUI/PartyMenu.c": {
+      "md5": "594564a32b6bcfd6449a7fa8c1bb634f",
+      "size": 16083
+    },
+    "scripts/5_Mission/GUI/PresetsMenu.c": {
+      "md5": "c4a7e43aa4cc72cac7d97aa8db8609fe",
+      "size": 1238
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu.c": {
+      "md5": "68bdba654b565841b470767fd70179a0",
+      "size": 46601
+    },
+    "scripts/5_Mission/GUI/ScriptConsole.c": {
+      "md5": "6246541d199e3bf824f5d19908d67546",
+      "size": 51377
+    },
+    "scripts/5_Mission/GUI/SpawnSelectorMenu.c": {
+      "md5": "7c024ee61e7c0f0e30bd84477b31d1a9",
+      "size": 8554
+    },
+    "scripts/5_Mission/GUI/StartupMenu.c": {
+      "md5": "0b13a2e929d6efb031be052547f8698d",
+      "size": 324
+    },
+    "scripts/5_Mission/GUI/DayzPlayerDebug/DayzPlayerDebug.c": {
+      "md5": "68b329da9893e34099c7d8ad5cb9c940",
+      "size": 1
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryCombinationFlags.c": {
+      "md5": "3d5c1d503a316fef93736ac8eaaad1f5",
+      "size": 444
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryDragFromType.c": {
+      "md5": "94bcd55dda5e90d140f17ed753fbde07",
+      "size": 117
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryDragToType.c": {
+      "md5": "b6fc178d5b02f8f4983d62dc2d6e9747",
+      "size": 238
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryManager.c": {
+      "md5": "58ffbdc05b3049638adb8d0f31e46841",
+      "size": 20021
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryQuickbar.c": {
+      "md5": "3fad902ff1dee9974f60a6ffde82384b",
+      "size": 6403
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryContainer/InventoryContainer.c": {
+      "md5": "0c26299255212095bb2f409de8f51230",
+      "size": 6297
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryContainer/InventoryContainerEntity.c": {
+      "md5": "781787c0bbf746cfbdbd1cc907f5c7f2",
+      "size": 13454
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryContainer/InventoryContainerHands.c": {
+      "md5": "91579f1db02c2aad841f9f8911f4d931",
+      "size": 2635
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryContainer/InventoryContainerVicinity.c": {
+      "md5": "afe51dd13cac950ddfaa0dcd9ac7d15f",
+      "size": 5448
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryView/InventoryView.c": {
+      "md5": "039331e94163636c657f447b8774e8bc",
+      "size": 33685
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryView/InventoryViewBase.c": {
+      "md5": "e2d4c449b981f3ba8458eb04428bd1fd",
+      "size": 12755
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryView/InventoryViewGrid.c": {
+      "md5": "bd71aba38e3c012249147762b8b74d80",
+      "size": 10541
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryView/InventoryViewHands.c": {
+      "md5": "d4b4ed9b1c152a4ad2352e0849ed1c6a",
+      "size": 9542
+    },
+    "scripts/5_Mission/GUI/Inventory/InventoryView/InventoryViewProperties.c": {
+      "md5": "4d2aedd64f9e918ffd2fee08f7be1a1c",
+      "size": 99
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript.c": {
+      "md5": "b2b7dcf66ab86781e0db1000797dc51c",
+      "size": 1278
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPropertyAttachment.c": {
+      "md5": "6c77d67cbc6882c2c2879ee78aaebb6b",
+      "size": 2662
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptConfigs.c": {
+      "md5": "afce1eccc120aa20a272c43e184cfb5f",
+      "size": 7782
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptEditorSettings.c": {
+      "md5": "e051950f6d818601a0cac966ea820621",
+      "size": 2171
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptInitScript.c": {
+      "md5": "8c023b0effbab69b31baf478feab0e8b",
+      "size": 2158
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptNotify.c": {
+      "md5": "a117171cbb151b8eb15cd61316b71f41",
+      "size": 882
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptPositionManager.c": {
+      "md5": "de37bbdde4eb3553d47a0e02d9aedbb0",
+      "size": 2961
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptPresetNew.c": {
+      "md5": "11219d45292b66d35e419bf5e0b23c3c",
+      "size": 1121
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptPresetRename.c": {
+      "md5": "1c4a78b3872769e31c3788b4df69d03b",
+      "size": 1237
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSceneDelete.c": {
+      "md5": "ec15d56a00b8e66126636b8911380d2b",
+      "size": 1028
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSceneManager.c": {
+      "md5": "9503ac442ef20dc64001ee4f7e698dca",
+      "size": 11945
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSceneNew.c": {
+      "md5": "9b5b514909e05c665b9ac7996a946e8e",
+      "size": 1022
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSceneRename.c": {
+      "md5": "5e1625ced0a0fc15132cd114bcaf4b4d",
+      "size": 1271
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSceneSettings.c": {
+      "md5": "b276a1ae7830b1d9c9e662c7984a3c77",
+      "size": 8803
+    },
+    "scripts/5_Mission/GUI/SceneEditorMenu/UIPopupScript/UIPopupScriptSQFWatchers.c": {
+      "md5": "34597daf0864d722c9f0a36d107ab6bb",
+      "size": 9634
+    },
+    "scripts/5_Mission/GUI/ScriptConsole/ScriptConsoleNewPresetDialog.c": {
+      "md5": "abb3501294c7b4e7c3662ba57d1ad202",
+      "size": 998
+    },
+    "scripts/5_Mission/GUI/ScriptConsole/ScriptConsoleRenamePresetDialog.c": {
+      "md5": "4ffbe72282e62a57e25f12cee4c1d86d",
+      "size": 1410
+    },
+    "scripts/5_Mission/GUI/ScriptedWindows/MissionLoader.c": {
+      "md5": "4b15b031e414d2442a3c831def789584",
+      "size": 1995
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugHudTests.c": {
+      "md5": "5614c0e7608bb0befa0534c7ab73553b",
+      "size": 12819
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugWinBase.c": {
+      "md5": "3d9e0250a2a8e25fe8afc01881dbc561",
+      "size": 1585
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugWinCharAgents.c": {
+      "md5": "f7b068167b8841bf36800053cbb2a83c",
+      "size": 2543
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugWinCharDebug.c": {
+      "md5": "15f12e49f6088d5ecb2da44716cb2611",
+      "size": 1791
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugWinCharModifiers.c": {
+      "md5": "1e428071b8f97cf4991b6cd8f90744e7",
+      "size": 3555
+    },
+    "scripts/5_Mission/GUI/ScriptsHudDebug/HudDebugWinCharStats.c": {
+      "md5": "b98fd5a20fb23b0237c6110bbaac5c44",
+      "size": 2467
+    },
+    "scripts/5_Mission/mission/DispatcherCaller.c": {
+      "md5": "3ef718c34c18bd642d3f3b4e5a630cd4",
+      "size": 3462
+    },
+    "scripts/5_Mission/mission/missionBase.c": {
+      "md5": "75e0f63e97cd9a4c1cdb1dd2de4d2954",
+      "size": 9066
+    },
+    "scripts/5_Mission/mission/missionGameplay.c": {
+      "md5": "985476f8052e043b516c0ddddb099fb7",
+      "size": 12990
+    },
+    "scripts/5_Mission/mission/missionMainMenu.c": {
+      "md5": "4f819a40f0fbdf1e1ff28571489fb802",
+      "size": 1997
+    },
+    "scripts/5_Mission/mission/missionServer.c": {
+      "md5": "09d380141298f9345da939e260286b52",
+      "size": 6647
+    },
+    "scripts/data/cache_recipes.cache": {
+      "md5": "db0543dad1635b636ac0750c9a817fad",
+      "size": 158373
+    },
+    "scripts/data/strings_English.xml": {
+      "md5": "8a92eef48cc0c7c97c77f83b1560c395",
+      "size": 30299
+    },
+    "scripts/DataBase/DataBase.c": {
+      "md5": "859ad4b3c41cff0fbfedb9e3490b16bf",
+      "size": 2837
+    },
+    "scripts/DataBase/DataBase.h": {
+      "md5": "c8d6930795f04fdc523ee0097a9d24f5",
+      "size": 726
+    },
+    "scripts/documentation/DayZEnfLogo_205x100.png": {
+      "md5": "5b008c3777b5b22d624a4a3b6b9692d1",
+      "size": 28605
+    },
+    "scripts/documentation/EnfusionScript.chi": {
+      "md5": "78568e1c15c60f1b038b46db8f726fdf",
+      "size": 1036450
+    },
+    "scripts/documentation/EnfusionScript.chm": {
+      "md5": "2db3c95161da1bf565171e6b69f152ff",
+      "size": 8487490
+    },
+    "scripts/documentation/EnfusionScript.chw": {
+      "md5": "4cdf948eb67585096da9a6ac2969df02",
+      "size": 2527972
+    },
+    "scripts/documentation/scriptAPI": {
+      "md5": "bd5cf59b06a12000535af2c973eaae83",
+      "size": 105097
+    },
+    "scripts/documentation/scriptAPI_html": {
+      "md5": "0478bc30fce819d9b89032d0faae0418",
+      "size": 106487
+    },
+    "scripts/documentation/stylesheet.css": {
+      "md5": "c8869e10035fb954876f680f04372fc9",
+      "size": 32
+    },
+    "scripts/editor/workbench-dark.qss": {
+      "md5": "f6c2240cbc77aec751a0b765f15e1526",
+      "size": 25560
+    },
+    "scripts/editor/workbench-dark2.qss": {
+      "md5": "2165a1310c01bb9c5de977534cf53618",
+      "size": 10138
+    },
+    "scripts/editor/workbench-dark3.qss": {
+      "md5": "b745902c158bfecc8910a47a86a42556",
+      "size": 10159
+    },
+    "scripts/editor/projects/DayZ.ssln": {
+      "md5": "cc294d0ad80dda3bd9ede3256dd39912",
+      "size": 478
+    },
+    "scripts/editor/projects/Engine.sproj": {
+      "md5": "f97305e7a5ec46586db04fa53f61b272",
+      "size": 52
+    },
+    "scripts/editor/projects/Game.sproj": {
+      "md5": "f97305e7a5ec46586db04fa53f61b272",
+      "size": 52
+    },
+    "scripts/editor/projects/GameLib.sproj": {
+      "md5": "f97305e7a5ec46586db04fa53f61b272",
+      "size": 52
+    },
+    "scripts/editor/projects/Mission.sproj": {
+      "md5": "f97305e7a5ec46586db04fa53f61b272",
+      "size": 52
+    },
+    "scripts/editor/projects/World.sproj": {
+      "md5": "f97305e7a5ec46586db04fa53f61b272",
+      "size": 52
+    },
+    "SmartSteamEmu/SmartSteamEmu.dll": {
+      "md5": "04c104b053033de230ca0cf2fb7551db",
+      "size": 5036032
+    },
+    "SmartSteamEmu/SmartSteamEmu64.dll": {
+      "md5": "5dc6236319a29bd23ac65f6bf958f60c",
+      "size": 6373376
+    },
+    "SmartSteamEmu/SmartSteamLoader.exe": {
+      "md5": "d8a09db41481b0567601d2cab42db466",
+      "size": 232448
+    },
+    "SmartSteamEmu/SmartSteamEmu/Common/avatar.png": {
+      "md5": "95a1d699b01c4c98f55c1195641e7543",
+      "size": 797
+    },
+    "SmartSteamEmu/SmartSteamEmu/Common/218620/inventory.bin": {
+      "md5": "8bee66d4e958dccfa79a796a3200a3c2",
+      "size": 76
+    },
+    "SmartSteamEmu/SmartSteamEmu/Common/218620/item_schema.bin": {
+      "md5": "9df654c7397ae142118c44d024c83d3b",
+      "size": 1447855
+    },
+    "SmartSteamEmu/SmartSteamEmu/Common/620/items.bin": {
+      "md5": "775bdcfccc2d7336326484f4fc1647d7",
+      "size": 444
+    },
+    "SmartSteamEmu/SmartSteamEmu/Common/730/items.bin": {
+      "md5": "d62e8ba533693468983e91c167c2807b",
+      "size": 3228
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEFirewall.dll": {
+      "md5": "3c16a45dd3b0d6214d5e292982e9ad22",
+      "size": 16384
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEFirewall.ini": {
+      "md5": "afaa8b912dbe7f8ecf5253ad01732937",
+      "size": 87
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEFirewall64.dll": {
+      "md5": "f5753caf0fdf0aaaff4dd542d2eaf441",
+      "size": 20992
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay.ini": {
+      "md5": "648a406fe0f2ca3b32ccd1fb7493d294",
+      "size": 55
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/Language.ini": {
+      "md5": "d5eaa5cb50a1b0c57edc63d77d366113",
+      "size": 63064
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/message.wav": {
+      "md5": "85f38f41d28633a6b08ddd7ce2f64582",
+      "size": 20780
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/screenshot.wav": {
+      "md5": "ba95b09f6c80b6d4fcc218a4009c0ace",
+      "size": 18086
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/achievements.db": {
+      "md5": "74b9e060c8fe5c5154870d98718921cc",
+      "size": 6787
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/01b253f506175f7385acb54263c8e29463c0dffe.jpg": {
+      "md5": "1d86e7b53132a6c84bdac870fb00b6ea",
+      "size": 21916
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/0a3822dc7bed34a941843b56aa5eb492172cbdf3.jpg": {
+      "md5": "9fa51d7cb877a2b1d6d0760b6204cb60",
+      "size": 7442
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/0ea500665f4c7a8b8de270a2766ada8f839fd5be.jpg": {
+      "md5": "d6570c4f57c451f54812f47d28fabe77",
+      "size": 15666
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/17c88f19d374d99f50e7c6222f9a09fa103dc632.jpg": {
+      "md5": "d3e20c0bb38f5e8a0ab7d59739273bf9",
+      "size": 14355
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/2fc0c1726b1e125139e52d1785623686d8171c43.jpg": {
+      "md5": "cbf596188d2abd7157474d9a9093f382",
+      "size": 13879
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/3306649a5fa2bc140ef29b60db5c44c3e177efa1.jpg": {
+      "md5": "b8f81dc2aaf92169ca265acdc0cb7525",
+      "size": 6640
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/3d5b450d9fffdf38100c8db557a9dd33661b9841.jpg": {
+      "md5": "44850b16bd966304e408580ccc2940d9",
+      "size": 15517
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/421a04478fea3e23e31bf6eaf6ab013548c421ab.jpg": {
+      "md5": "3c746304aee46f7274800f85cc371155",
+      "size": 13927
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/5124d1b2eabdf43ec8d25a2039f110e225c8e55b.jpg": {
+      "md5": "d9a14f5d7dd099f6cf7b00c8ea6c1e9a",
+      "size": 7740
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/51c1bad3aebace0c26b18cb24ec11f9c0ee913a5.jpg": {
+      "md5": "5e190aaba3509e1f9362a84ff11a770d",
+      "size": 12771
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/51f0ee439e234702ffa6020163c3413599c95a02.jpg": {
+      "md5": "e4c2fb84e2c6f18f811f09e89793bb52",
+      "size": 8361
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/549d556abf077393b6777d51ff2ab1fdf564d00a.jpg": {
+      "md5": "d2feda36885ce31915e610a7f168be23",
+      "size": 9730
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/5774c79f9791165844b3b301dc6101864373305b.jpg": {
+      "md5": "e22b904db4bafbcbe49e667fe2b0a132",
+      "size": 17074
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/587cc901b695683088c3c15d6e62e8bdb067f639.jpg": {
+      "md5": "b1f89f7003c739a2e8d8492ce2195785",
+      "size": 8886
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/6e6f90964daf90b48be3c3bcb9ab0dfb3043c012.jpg": {
+      "md5": "914fb0a4706bbd6fbfbeaca922f2bc92",
+      "size": 15922
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/73251bf5eb582d49e288c53c340ed9a2f5283275.jpg": {
+      "md5": "796a7eb6bfc1cb77ce5158c54ebd9a91",
+      "size": 14455
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/7cb1211fd376b101570d59f51229c04f23af9afd.jpg": {
+      "md5": "e5e1d352bbed192374ae9d588a0fc7a7",
+      "size": 8322
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/9520cd1446a0a9a650add5a6163408bca52b5011.jpg": {
+      "md5": "27ccd2729b259bf989ec4af546b3fc4b",
+      "size": 7492
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/a6fe42512ec808d20bcb2caa3f3d69308e2ecf78.jpg": {
+      "md5": "bd346fa415ce4aad44e6663ec58d9a86",
+      "size": 6759
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/b2972f215606150deaa04acf535d76a3919f0da1.jpg": {
+      "md5": "8098f4809ebe56432dec11446b2f7563",
+      "size": 8328
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/b3d91deb6e4a93e2bbc975ea757ee53bdda7bccd.jpg": {
+      "md5": "921126ac1294991575e9fbcb0dd9fad0",
+      "size": 11384
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/b7afd100ff3c3d320b2ff2a35904242dbc8e6144.jpg": {
+      "md5": "935140820c9fa7c11bf6c9792feb8600",
+      "size": 7333
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/c5566ebbaa445b473e555fecb77e6fe8e3318b2b.jpg": {
+      "md5": "831b2d485462cb076315f5e4abafdb9e",
+      "size": 14167
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/d0850331ea7745c163e8fbd381077a8600e730ac.jpg": {
+      "md5": "cd3c7abcf6ae4ad2aad9a5f9b4ccd14f",
+      "size": 18428
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/d1183661daccfb93eb03d8d00bc9f26547753ebe.jpg": {
+      "md5": "0891be08f143900de340ec2d1bee0b64",
+      "size": 12415
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/221100/icon/f4a4b85a99e15fe96dc7d11207a221e9aa439555.jpg": {
+      "md5": "1f2f8f6ff42c13c754b4b86a8bb8eb40",
+      "size": 7494
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/x64/SSEOverlay.dll": {
+      "md5": "7f6a1e877cbfd1bb706c9c73c5bb359b",
+      "size": 1098752
+    },
+    "SmartSteamEmu/SmartSteamEmu/Plugins/x86/SSEOverlay.dll": {
+      "md5": "f204ca9b0cbc6bccf9df5549ae16b5cf",
+      "size": 875520
+    },
+    "Addons/animals.pbo": {
+      "md5": "e00cc02a9ec822b23bbd225f9fee046c",
+      "size": 243890419,
+      "parts": [
+        "Addons/animals.pbo.part0",
+        "Addons/animals.pbo.part1",
+        "Addons/animals.pbo.part2"
+      ]
+    },
+    "Addons/anims_anm_player.pbo": {
+      "md5": "47621cfea6cbdb12fdbe414a6c152bb5",
+      "size": 254839495,
+      "parts": [
+        "Addons/anims_anm_player.pbo.part0",
+        "Addons/anims_anm_player.pbo.part1",
+        "Addons/anims_anm_player.pbo.part2"
+      ]
+    },
+    "Addons/anims_rtm.pbo": {
+      "md5": "b89ae6ace508832e1c7403f4bf997808",
+      "size": 180106354,
+      "parts": [
+        "Addons/anims_rtm.pbo.part0",
+        "Addons/anims_rtm.pbo.part1"
+      ]
+    },
+    "Addons/assets_buildings.pbo": {
+      "md5": "6046801c8b5ce475ff4399600b358d19",
+      "size": 264637732,
+      "parts": [
+        "Addons/assets_buildings.pbo.part0",
+        "Addons/assets_buildings.pbo.part1",
+        "Addons/assets_buildings.pbo.part2"
+      ]
+    },
+    "Addons/assets_buildings2.pbo": {
+      "md5": "bb389d0fcb9895e2dafce91e916cf51a",
+      "size": 579495968,
+      "parts": [
+        "Addons/assets_buildings2.pbo.part0",
+        "Addons/assets_buildings2.pbo.part1",
+        "Addons/assets_buildings2.pbo.part2",
+        "Addons/assets_buildings2.pbo.part3",
+        "Addons/assets_buildings2.pbo.part4",
+        "Addons/assets_buildings2.pbo.part5",
+        "Addons/assets_buildings2.pbo.part6"
+      ]
+    },
+    "Addons/assets_misc.pbo": {
+      "md5": "653926ab0c639493e5d4f91bf420cd8b",
+      "size": 121758326,
+      "parts": [
+        "Addons/assets_misc.pbo.part0",
+        "Addons/assets_misc.pbo.part1"
+      ]
+    },
+    "Addons/assets_misc3.pbo": {
+      "md5": "148b77ea32d69a42fb79bb097141406a",
+      "size": 239211765,
+      "parts": [
+        "Addons/assets_misc3.pbo.part0",
+        "Addons/assets_misc3.pbo.part1",
+        "Addons/assets_misc3.pbo.part2"
+      ]
+    },
+    "Addons/assets_roads2.pbo": {
+      "md5": "f7db475ca45491a03482363f8603aeb5",
+      "size": 224450974,
+      "parts": [
+        "Addons/assets_roads2.pbo.part0",
+        "Addons/assets_roads2.pbo.part1",
+        "Addons/assets_roads2.pbo.part2"
+      ]
+    },
+    "Addons/assets_structures.pbo": {
+      "md5": "62c42fcb4a670cac5f7a7a52ba0b74a9",
+      "size": 824159489,
+      "parts": [
+        "Addons/assets_structures.pbo.part0",
+        "Addons/assets_structures.pbo.part1",
+        "Addons/assets_structures.pbo.part2",
+        "Addons/assets_structures.pbo.part3",
+        "Addons/assets_structures.pbo.part4",
+        "Addons/assets_structures.pbo.part5",
+        "Addons/assets_structures.pbo.part6",
+        "Addons/assets_structures.pbo.part7",
+        "Addons/assets_structures.pbo.part8"
+      ]
+    },
+    "Addons/books.pbo": {
+      "md5": "8c20aed6a8e32d012676eab1a78a8a59",
+      "size": 148613903,
+      "parts": [
+        "Addons/books.pbo.part0",
+        "Addons/books.pbo.part1"
+      ]
+    },
+    "Addons/characters_backpacks.pbo": {
+      "md5": "534428878611a187a74754829e2f21c3",
+      "size": 155341279,
+      "parts": [
+        "Addons/characters_backpacks.pbo.part0",
+        "Addons/characters_backpacks.pbo.part1"
+      ]
+    },
+    "Addons/characters_headgear.pbo": {
+      "md5": "4cc09438f8b3100ec5d75d00653202b3",
+      "size": 184171661,
+      "parts": [
+        "Addons/characters_headgear.pbo.part0",
+        "Addons/characters_headgear.pbo.part1"
+      ]
+    },
+    "Addons/characters_heads.pbo": {
+      "md5": "e122d9448ffd6bf5ad00b73c88178776",
+      "size": 745199070,
+      "parts": [
+        "Addons/characters_heads.pbo.part0",
+        "Addons/characters_heads.pbo.part1",
+        "Addons/characters_heads.pbo.part2",
+        "Addons/characters_heads.pbo.part3",
+        "Addons/characters_heads.pbo.part4",
+        "Addons/characters_heads.pbo.part5",
+        "Addons/characters_heads.pbo.part6",
+        "Addons/characters_heads.pbo.part7"
+      ]
+    },
+    "Addons/characters_pants.pbo": {
+      "md5": "58e2653dc2910ebb574f72ba80ce8117",
+      "size": 144346920,
+      "parts": [
+        "Addons/characters_pants.pbo.part0",
+        "Addons/characters_pants.pbo.part1"
+      ]
+    },
+    "Addons/characters_tops.pbo": {
+      "md5": "df5f06efe322a042a74f7126a654b3ca",
+      "size": 364926230,
+      "parts": [
+        "Addons/characters_tops.pbo.part0",
+        "Addons/characters_tops.pbo.part1",
+        "Addons/characters_tops.pbo.part2",
+        "Addons/characters_tops.pbo.part3"
+      ]
+    },
+    "Addons/characters_zombies.pbo": {
+      "md5": "e0ae65da36396ea0ab69dc4fc0290112",
+      "size": 651734010,
+      "parts": [
+        "Addons/characters_zombies.pbo.part0",
+        "Addons/characters_zombies.pbo.part1",
+        "Addons/characters_zombies.pbo.part2",
+        "Addons/characters_zombies.pbo.part3",
+        "Addons/characters_zombies.pbo.part4",
+        "Addons/characters_zombies.pbo.part5",
+        "Addons/characters_zombies.pbo.part6"
+      ]
+    },
+    "Addons/DZ.pbo": {
+      "md5": "5a06d17093857f527a76924888fba9e5",
+      "size": 120963680,
+      "parts": [
+        "Addons/DZ.pbo.part0",
+        "Addons/DZ.pbo.part1"
+      ]
+    },
+    "Addons/gear_camping.pbo": {
+      "md5": "ebaf6802e447fdd577f29bcd4812e405",
+      "size": 152334213,
+      "parts": [
+        "Addons/gear_camping.pbo.part0",
+        "Addons/gear_camping.pbo.part1"
+      ]
+    },
+    "Addons/gear_food.pbo": {
+      "md5": "ef208a5b4da7d00f99d6658ae1f4f1eb",
+      "size": 198486412,
+      "parts": [
+        "Addons/gear_food.pbo.part0",
+        "Addons/gear_food.pbo.part1",
+        "Addons/gear_food.pbo.part2"
+      ]
+    },
+    "Addons/gear_tools.pbo": {
+      "md5": "96b6f12c25f2c85a2607f45bf7a4d723",
+      "size": 118314405,
+      "parts": [
+        "Addons/gear_tools.pbo.part0",
+        "Addons/gear_tools.pbo.part1"
+      ]
+    },
+    "Addons/pistols.pbo": {
+      "md5": "baed57d75a48a1df2473bb546fab0129",
+      "size": 111576349,
+      "parts": [
+        "Addons/pistols.pbo.part0",
+        "Addons/pistols.pbo.part1"
+      ]
+    },
+    "Addons/plants.pbo": {
+      "md5": "841cd2421269cb858e45e654d64b9c94",
+      "size": 552072103,
+      "parts": [
+        "Addons/plants.pbo.part0",
+        "Addons/plants.pbo.part1",
+        "Addons/plants.pbo.part2",
+        "Addons/plants.pbo.part3",
+        "Addons/plants.pbo.part4",
+        "Addons/plants.pbo.part5"
+      ]
+    },
+    "Addons/plants2_tree.pbo": {
+      "md5": "de346f0ee84aaca26b0f1148475539fc",
+      "size": 320548086,
+      "parts": [
+        "Addons/plants2_tree.pbo.part0",
+        "Addons/plants2_tree.pbo.part1",
+        "Addons/plants2_tree.pbo.part2",
+        "Addons/plants2_tree.pbo.part3"
+      ]
+    },
+    "Addons/plants_tree.pbo": {
+      "md5": "9d388d8a667ae13ed60308bcf2a4189a",
+      "size": 488429655,
+      "parts": [
+        "Addons/plants_tree.pbo.part0",
+        "Addons/plants_tree.pbo.part1",
+        "Addons/plants_tree.pbo.part2",
+        "Addons/plants_tree.pbo.part3",
+        "Addons/plants_tree.pbo.part4",
+        "Addons/plants_tree.pbo.part5"
+      ]
+    },
+    "Addons/rocks3.pbo": {
+      "md5": "300e22d91cd044647b0c3e06160d9c65",
+      "size": 171264704,
+      "parts": [
+        "Addons/rocks3.pbo.part0",
+        "Addons/rocks3.pbo.part1"
+      ]
+    },
+    "Addons/sounds_arma2.pbo": {
+      "md5": "ba84e94cce5dc65d72aaa3b091493f77",
+      "size": 435184655,
+      "parts": [
+        "Addons/sounds_arma2.pbo.part0",
+        "Addons/sounds_arma2.pbo.part1",
+        "Addons/sounds_arma2.pbo.part2",
+        "Addons/sounds_arma2.pbo.part3",
+        "Addons/sounds_arma2.pbo.part4"
+      ]
+    },
+    "Addons/sound_effects.pbo": {
+      "md5": "760890b80370f0b73d8cb378b3d4b91d",
+      "size": 1726375445,
+      "parts": [
+        "Addons/sound_effects.pbo.part0",
+        "Addons/sound_effects.pbo.part1",
+        "Addons/sound_effects.pbo.part2",
+        "Addons/sound_effects.pbo.part3",
+        "Addons/sound_effects.pbo.part4",
+        "Addons/sound_effects.pbo.part5",
+        "Addons/sound_effects.pbo.part6",
+        "Addons/sound_effects.pbo.part7",
+        "Addons/sound_effects.pbo.part8",
+        "Addons/sound_effects.pbo.part9",
+        "Addons/sound_effects.pbo.part10",
+        "Addons/sound_effects.pbo.part11",
+        "Addons/sound_effects.pbo.part12",
+        "Addons/sound_effects.pbo.part13",
+        "Addons/sound_effects.pbo.part14",
+        "Addons/sound_effects.pbo.part15",
+        "Addons/sound_effects.pbo.part16",
+        "Addons/sound_effects.pbo.part17",
+        "Addons/sound_effects.pbo.part18"
+      ]
+    },
+    "Addons/sound_weapons.pbo": {
+      "md5": "65eea1140dead87b00bf579944635ddf",
+      "size": 446865822,
+      "parts": [
+        "Addons/sound_weapons.pbo.part0",
+        "Addons/sound_weapons.pbo.part1",
+        "Addons/sound_weapons.pbo.part2",
+        "Addons/sound_weapons.pbo.part3",
+        "Addons/sound_weapons.pbo.part4"
+      ]
+    },
+    "Addons/structures_abandoned_ship.pbo": {
+      "md5": "a2813b4503f15fc203b79d178779fbfa",
+      "size": 113728461,
+      "parts": [
+        "Addons/structures_abandoned_ship.pbo.part0",
+        "Addons/structures_abandoned_ship.pbo.part1"
+      ]
+    },
+    "Addons/structures_furniture.pbo": {
+      "md5": "1f5866c89c2b60181adff61077ef7f26",
+      "size": 178798718,
+      "parts": [
+        "Addons/structures_furniture.pbo.part0",
+        "Addons/structures_furniture.pbo.part1"
+      ]
+    },
+    "Addons/structures_houses.pbo": {
+      "md5": "2f0197820c86b74b10562f3b9ed3f318",
+      "size": 456639856,
+      "parts": [
+        "Addons/structures_houses.pbo.part0",
+        "Addons/structures_houses.pbo.part1",
+        "Addons/structures_houses.pbo.part2",
+        "Addons/structures_houses.pbo.part3",
+        "Addons/structures_houses.pbo.part4"
+      ]
+    },
+    "Addons/structures_misc.pbo": {
+      "md5": "ad7b0d314543b449aa19d036ec4f4cfe",
+      "size": 138083803,
+      "parts": [
+        "Addons/structures_misc.pbo.part0",
+        "Addons/structures_misc.pbo.part1"
+      ]
+    },
+    "Addons/structures_railway.pbo": {
+      "md5": "25c1b852ccb19a438a91209ca982e301",
+      "size": 124235754,
+      "parts": [
+        "Addons/structures_railway.pbo.part0",
+        "Addons/structures_railway.pbo.part1"
+      ]
+    },
+    "Addons/structures_tisy_base.pbo": {
+      "md5": "973a32af02c5c4004bb1ac9b48eac59a",
+      "size": 231950010,
+      "parts": [
+        "Addons/structures_tisy_base.pbo.part0",
+        "Addons/structures_tisy_base.pbo.part1",
+        "Addons/structures_tisy_base.pbo.part2"
+      ]
+    },
+    "Addons/surfaces.pbo": {
+      "md5": "f3135b4de5b5ce1962f59487cdafa977",
+      "size": 138469024,
+      "parts": [
+        "Addons/surfaces.pbo.part0",
+        "Addons/surfaces.pbo.part1"
+      ]
+    },
+    "Addons/vehicles_wheeled.pbo": {
+      "md5": "fcb8011f3a4b3e0988f7ed50d44629e6",
+      "size": 495737662,
+      "parts": [
+        "Addons/vehicles_wheeled.pbo.part0",
+        "Addons/vehicles_wheeled.pbo.part1",
+        "Addons/vehicles_wheeled.pbo.part2",
+        "Addons/vehicles_wheeled.pbo.part3",
+        "Addons/vehicles_wheeled.pbo.part4",
+        "Addons/vehicles_wheeled.pbo.part5"
+      ]
+    },
+    "Addons/vehicles_wrecks.pbo": {
+      "md5": "7eb872b5bdd574c4f995eef193bca069",
+      "size": 263876397,
+      "parts": [
+        "Addons/vehicles_wrecks.pbo.part0",
+        "Addons/vehicles_wrecks.pbo.part1",
+        "Addons/vehicles_wrecks.pbo.part2"
+      ]
+    },
+    "Addons/weapons_firearms.pbo": {
+      "md5": "1f4ba1bd4002ed0081d29ec617abcc88",
+      "size": 388002923,
+      "parts": [
+        "Addons/weapons_firearms.pbo.part0",
+        "Addons/weapons_firearms.pbo.part1",
+        "Addons/weapons_firearms.pbo.part2",
+        "Addons/weapons_firearms.pbo.part3",
+        "Addons/weapons_firearms.pbo.part4"
+      ]
+    },
+    "Addons/weapon_attachments_textures.pbo": {
+      "md5": "9060dc8037397d4796321fd4d5caeee5",
+      "size": 141043833,
+      "parts": [
+        "Addons/weapon_attachments_textures.pbo.part0",
+        "Addons/weapon_attachments_textures.pbo.part1"
+      ]
+    },
+    "Addons/worlds_chernarusplus.pbo": {
+      "md5": "e76534a5963dab71356e2d22fde8583f",
+      "size": 241724953,
+      "parts": [
+        "Addons/worlds_chernarusplus.pbo.part0",
+        "Addons/worlds_chernarusplus.pbo.part1",
+        "Addons/worlds_chernarusplus.pbo.part2"
+      ]
+    },
+    "Addons/worlds_chernarusplus_data.pbo": {
+      "md5": "27d4cdbffd860453e2d64c9fdb38469a",
+      "size": 286615697,
+      "parts": [
+        "Addons/worlds_chernarusplus_data.pbo.part0",
+        "Addons/worlds_chernarusplus_data.pbo.part1",
+        "Addons/worlds_chernarusplus_data.pbo.part2",
+        "Addons/worlds_chernarusplus_data.pbo.part3"
+      ]
+    },
+    "Addons/worlds_chernarusplus_nav.pbo": {
+      "md5": "f0c9b96f58d65840aa96d34cc789901b",
+      "size": 742252222,
+      "parts": [
+        "Addons/worlds_chernarusplus_nav.pbo.part0",
+        "Addons/worlds_chernarusplus_nav.pbo.part1",
+        "Addons/worlds_chernarusplus_nav.pbo.part2",
+        "Addons/worlds_chernarusplus_nav.pbo.part3",
+        "Addons/worlds_chernarusplus_nav.pbo.part4",
+        "Addons/worlds_chernarusplus_nav.pbo.part5",
+        "Addons/worlds_chernarusplus_nav.pbo.part6",
+        "Addons/worlds_chernarusplus_nav.pbo.part7"
+      ]
+    },
+    "dta/graphics.pbo": {
+      "md5": "7b618b626ed10b1c41617c17712c7c72",
+      "size": 169562448,
+      "parts": [
+        "dta/graphics.pbo.part0",
+        "dta/graphics.pbo.part1"
+      ]
+    },
+    "dta/gui.pbo": {
+      "md5": "1fecc3ef6ca4b586883d7678ce2b8e81",
+      "size": 240389938,
+      "parts": [
+        "dta/gui.pbo.part0",
+        "dta/gui.pbo.part1",
+        "dta/gui.pbo.part2"
+      ]
+    }
+  }
+}

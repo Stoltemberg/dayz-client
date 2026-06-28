@@ -1,0 +1,28 @@
+# Keep binary game assets untouched
+*.pbo binary
+*.part* binary
+*.dll binary
+*.exe binary
+*.bin binary
+*.db binary
+*.paa binary
+*.p3d binary
+*.rtm binary
+*.wrp binary
+*.ogg binary
+*.wav binary
+*.png binary
+*.jpg binary
+*.ico binary
+
+# Normalize text files
+*.ini text eol=crlf
+*.cfg text eol=crlf
+*.xml text eol=crlf
+*.txt text eol=crlf
+*.json text eol=lf
+*.sqf text eol=crlf
+*.c text eol=crlf
+*.h text eol=crlf
+*.layout text eol=crlf
+*.gproj text eol=crlf

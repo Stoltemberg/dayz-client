@@ -1,0 +1,45 @@
+# Launcher/runtime local state
+launcher_config.json
+launcher_cache.json
+*.download
+*.tmp
+*.bak
+*.old
+*.backup_*
+
+# Logs and crash dumps
+*.log
+*.rpt
+*.mdmp
+*.bidmp
+*.dmp
+logs/
+**/logs/
+SmartSteamEmu.log
+**/SmartSteamEmu.log
+
+# Runtime-changing game/server state
+DayZSetting.xml
+*.DayZProfile
+profile.vars.DayZProfile
+*.vars.DayZProfile
+*.vdf.tmp
+*.async*.tmp
+appcache/
+steamapps/downloading/
+steamapps/temp/
+storage_*/
+PlayerSaves/
+
+# Script generated lists / temporary lists
+*.lst
+
+# Start scripts are intentionally not distributed; launcher button starts the game
+*.bat
+*.cmd
+
+# Full large PBO originals are kept outside Client after split; never commit accidental backups
+*_backup*/
+PBO_BACKUP*/
+*.pbo.backup*
+*.pbo.bak*
