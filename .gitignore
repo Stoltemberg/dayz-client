@@ -34,9 +34,8 @@ PlayerSaves/
 # Script generated lists / temporary lists
 *.lst
 
-# Start scripts are intentionally not distributed; launcher button starts the game
-*.bat
-*.cmd
+# Start script is not distributed; launcher button starts the game
+!Start_client_game.cmd
 
 # Full large PBO originals are kept outside Client after split; never commit accidental backups
 *_backup*/

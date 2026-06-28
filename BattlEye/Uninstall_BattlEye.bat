@@ -1,0 +1,3 @@
+@echo off
+echo Uninstalling BattlEye...
+..\DayZ_BE.exe 4
