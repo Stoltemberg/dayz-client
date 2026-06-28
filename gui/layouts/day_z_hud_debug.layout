@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="FrameWidget" name="HudDebugFrameWidget">
+        <property name="position" value="0 -1" />
+        <property name="size" value="1 1" />
+        <property name="halign" value="right_ref" />
+        <property name="hexactpos" value="1" />
+        <property name="vexactpos" value="1" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <widget class="WindowWidget" name="wdw_CharacterStats">
+            <property name="visible" value="1" />
+            <property name="position" value="0 0.05" />
+            <property name="size" value="232 218" />
+            <property name="halign" value="right_ref" />
+            <property name="hexactpos" value="1" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="1" />
+            <property name="vexactsize" value="1" />
+            <property name="style" value="rover_sim_black_2" />
+            <property name="title visible" value="0" />
+            <widget class="TextWidget" name="txt_CharStats_Title">
+                <property name="disabled" value="0" />
+                <property name="position" value="7 7" />
+                <property name="size" value="0.9 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="style" value="Normal" />
+                <property name="text" value="Character Stats" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="TextListboxWidget" name="txl_CharStats_Values">
+                <property name="disabled" value="1" />
+                <property name="position" value="13 30" />
+                <property name="size" value="208 177" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="font" value="gui/fonts/etelkatextpro14" />
+                <property name="colums" value="text;110;text2;100;" />
+                <property name="lines" value="0" />
+            </widget>
+        </widget>
+        <widget class="WindowWidget" name="wdw_CharacterModifiers">
+            <property name="position" value="0 0.4" />
+            <property name="size" value="260 218" />
+            <property name="halign" value="right_ref" />
+            <property name="hexactpos" value="1" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="1" />
+            <property name="vexactsize" value="1" />
+            <property name="scriptclass" value="" />
+            <property name="style" value="rover_sim_black_2" />
+            <property name="title visible" value="0" />
+            <widget class="TextWidget" name="txt_CharModifiers_Title">
+                <property name="disabled" value="0" />
+                <property name="inheritalpha" value="0" />
+                <property name="ignorepointer" value="0" />
+                <property name="keepsafezone" value="0" />
+                <property name="position" value="7 7" />
+                <property name="size" value="0.9 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="text" value="Character Modifiers" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="TextListboxWidget" name="txl_CharModifiers_Values">
+                <property name="disabled" value="1" />
+                <property name="position" value="13 30" />
+                <property name="size" value="235 177" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="scriptclass" value="" />
+                <property name="font" value="gui/fonts/etelkatextpro14" />
+                <property name="colums" value="text;180;text1;100" />
+                <property name="lines" value="0" />
+            </widget>
+        </widget>
+        <widget class="WindowWidget" name="wdw_CharacterDebug">
+            <property name="clipchildren" value="1" />
+            <property name="position" value="0 0" />
+            <property name="size" value="704 36" />
+            <property name="halign" value="right_ref" />
+            <property name="hexactpos" value="1" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="1" />
+            <property name="vexactsize" value="1" />
+            <property name="style" value="rover_sim_black_2" />
+            <widget class="TextWidget" name="txt_PlayerPos">
+                <property name="position" value="21 8" />
+                <property name="size" value="170 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="text" value="Pos:" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="TextWidget" name="txt_Clipboard">
+                <property name="position" value="204 8" />
+                <property name="size" value="315 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="text" value="Clipboard:" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="TextWidget" name="txt_GodMode">
+                <property name="position" value="534 8" />
+                <property name="size" value="152 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="text" value="God mode: DISABLED" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="wdw_Crosshair">
+            <property name="visible" value="0" />
+            <property name="size" value="1 0.03" />
+            <property name="halign" value="center_ref" />
+            <property name="valign" value="center_ref" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="img_crosshair">
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.01 0.01" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="set:ccgui_enforce image:MapDroid" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="WindowWidget" name="wdw_CharacterAgents">
+            <property name="visible" value="1" />
+            <property name="position" value="279 0.05194" />
+            <property name="size" value="232 218" />
+            <property name="halign" value="right_ref" />
+            <property name="hexactpos" value="1" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="1" />
+            <property name="vexactsize" value="1" />
+            <property name="style" value="rover_sim_black_2" />
+            <property name="title visible" value="0" />
+            <widget class="TextWidget" name="txt_CharAgents_Title">
+                <property name="disabled" value="0" />
+                <property name="position" value="7 7" />
+                <property name="size" value="0.9 19" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="style" value="Normal" />
+                <property name="text" value="Character Agents" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="TextListboxWidget" name="txl_CharAgents_Values">
+                <property name="disabled" value="1" />
+                <property name="position" value="13 30" />
+                <property name="size" value="208 177" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="1" />
+                <property name="vexactsize" value="1" />
+                <property name="font" value="gui/fonts/etelkatextpro14" />
+                <property name="colums" value="text;110;text2;100;" />
+                <property name="lines" value="0" />
+            </widget>
+        </widget>
+    </widget>
+</layout>

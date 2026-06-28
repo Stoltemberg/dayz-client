@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+	<widget class="WindowWidget" name="PartyRoot">
+		<property name="disabled" value="0" />
+		<property name="inheritalpha" value="0" />
+		<property name="position" value="0 0" />
+		<property name="size" value="1 1" />
+		<property name="hexactpos" value="0" />
+		<property name="vexactpos" value="0" />
+		<property name="hexactsize" value="0" />
+		<property name="vexactsize" value="0" />
+		<property name="color" value="0 0 0 0.38" />
+		<property name="style" value="Colorable" />
+		<property name="priority" value="1000" />
+		<widget class="PanelWidget" name="PartyShade">
+			<property name="visible" value="1" />
+			<property name="inheritalpha" value="0" />
+			<property name="position" value="0 0" />
+			<property name="size" value="1 1" />
+			<property name="hexactpos" value="0" />
+			<property name="vexactpos" value="0" />
+			<property name="hexactsize" value="0" />
+			<property name="vexactsize" value="0" />
+			<property name="color" value="0 0 0 0.35" />
+			<property name="style" value="Colorable" />
+		</widget>
+		<widget class="PanelWidget" name="PartyMainPanel">
+			<property name="visible" value="1" />
+			<property name="clipchildren" value="1" />
+			<property name="inheritalpha" value="0" />
+			<property name="position" value="0.12 0.10" />
+			<property name="size" value="0.76 0.78" />
+			<property name="hexactpos" value="0" />
+			<property name="vexactpos" value="0" />
+			<property name="hexactsize" value="0" />
+			<property name="vexactsize" value="0" />
+			<property name="color" value="0 0 0 0.82" />
+			<property name="style" value="rover_sim_black_2" />
+			<widget class="PanelWidget" name="PartyTopBar">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0 0" />
+				<property name="size" value="1 0.07" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0.02 0.08 0.18 0.95" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyTitle">
+					<property name="position" value="0.025 0.12" />
+					<property name="size" value="0.18 0.76" />
+					<property name="text" value="PARTY / CLAN" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextWidget" name="PartyStatus">
+					<property name="position" value="0.22 0.12" />
+					<property name="size" value="0.54 0.76" />
+					<property name="text" value="Carregando..." />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFE5EEF7" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyRefresh">
+					<property name="position" value="0.765 0.14" />
+					<property name="size" value="0.10 0.68" />
+					<property name="text" value="Atualizar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyClose">
+					<property name="position" value="0.875 0.14" />
+					<property name="size" value="0.10 0.68" />
+					<property name="text" value="Fechar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="PartyCreatePanel">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0.025 0.095" />
+				<property name="size" value="0.95 0.13" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.58" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyCreateTitle">
+					<property name="position" value="0.025 0.12" />
+					<property name="size" value="0.18 0.24" />
+					<property name="text" value="Criar clan" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="EditBoxWidget" name="PartyTagEdit">
+					<property name="position" value="0.025 0.48" />
+					<property name="size" value="0.18 0.36" />
+					<property name="text" value="TAG" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+				<widget class="EditBoxWidget" name="PartyNameEdit">
+					<property name="position" value="0.225 0.48" />
+					<property name="size" value="0.42 0.36" />
+					<property name="text" value="Nome do clan" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyCreate">
+					<property name="position" value="0.67 0.44" />
+					<property name="size" value="0.14 0.44" />
+					<property name="text" value="Criar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyLeave">
+					<property name="position" value="0.83 0.44" />
+					<property name="size" value="0.14 0.44" />
+					<property name="text" value="Sair" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="PartyMembersPanel">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0.025 0.25" />
+				<property name="size" value="0.455 0.42" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.62" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyMembersTitle">
+					<property name="position" value="0.035 0.025" />
+					<property name="size" value="0.38 0.08" />
+					<property name="text" value="Membros do clan" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyKickMember">
+					<property name="position" value="0.77 0.02" />
+					<property name="size" value="0.19 0.08" />
+					<property name="text" value="Expulsar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyRankTrial">
+					<property name="position" value="0.035 0.12" />
+					<property name="size" value="0.21 0.08" />
+					<property name="text" value="Trial" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyRankMember">
+					<property name="position" value="0.27 0.12" />
+					<property name="size" value="0.21 0.08" />
+					<property name="text" value="Membro" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyRankVice">
+					<property name="position" value="0.505 0.12" />
+					<property name="size" value="0.21 0.08" />
+					<property name="text" value="Vice" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyRankLeader">
+					<property name="position" value="0.74 0.12" />
+					<property name="size" value="0.22 0.08" />
+					<property name="text" value="Lider" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextListboxWidget" name="PartyMemberList">
+					<property name="position" value="0.035 0.24" />
+					<property name="size" value="0.93 0.71" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="PartyClansPanel">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0.025 0.69" />
+				<property name="size" value="0.455 0.26" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.62" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyClansTitle">
+					<property name="position" value="0.035 0.04" />
+					<property name="size" value="0.60 0.14" />
+					<property name="text" value="Clans criados" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextListboxWidget" name="PartyClanList">
+					<property name="position" value="0.035 0.22" />
+					<property name="size" value="0.93 0.72" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="PartyOnlinePanel">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0.505 0.25" />
+				<property name="size" value="0.47 0.36" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.62" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyOnlineTitle">
+					<property name="position" value="0.035 0.04" />
+					<property name="size" value="0.58 0.10" />
+					<property name="text" value="Jogadores online" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyInvite">
+					<property name="position" value="0.68 0.035" />
+					<property name="size" value="0.28 0.12" />
+					<property name="text" value="Convidar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextListboxWidget" name="PartyOnlineList">
+					<property name="position" value="0.035 0.20" />
+					<property name="size" value="0.93 0.74" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="PartyInvitesPanel">
+				<property name="visible" value="1" />
+				<property name="inheritalpha" value="0" />
+				<property name="position" value="0.505 0.635" />
+				<property name="size" value="0.47 0.315" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.62" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="PartyInvitesTitle">
+					<property name="position" value="0.035 0.04" />
+					<property name="size" value="0.56 0.12" />
+					<property name="text" value="Convites recebidos" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyAcceptInvite">
+					<property name="position" value="0.60 0.035" />
+					<property name="size" value="0.17 0.14" />
+					<property name="text" value="Aceitar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="PartyDenyInvite">
+					<property name="position" value="0.79 0.035" />
+					<property name="size" value="0.17 0.14" />
+					<property name="text" value="Recusar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextListboxWidget" name="PartyInviteList">
+					<property name="position" value="0.035 0.23" />
+					<property name="size" value="0.93 0.70" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+			</widget>
+		</widget>
+	</widget>
+</layout>

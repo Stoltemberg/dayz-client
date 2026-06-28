@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+	<widget class="WindowWidget" name="SpawnSelectorRoot">
+		<property name="disabled" value="0" />
+		<property name="inheritalpha" value="0" />
+		<property name="position" value="0 0" />
+		<property name="size" value="1 1" />
+		<property name="hexactpos" value="0" />
+		<property name="vexactpos" value="0" />
+		<property name="hexactsize" value="0" />
+		<property name="vexactsize" value="0" />
+		<property name="color" value="0 0 0 0.55" />
+		<property name="style" value="Colorable" />
+		<property name="priority" value="1000" />
+		<widget class="PanelWidget" name="SpawnSelectorMainPanel">
+			<property name="visible" value="1" />
+			<property name="clipchildren" value="1" />
+			<property name="inheritalpha" value="0" />
+			<property name="position" value="0.12 0.08" />
+			<property name="size" value="0.76 0.78" />
+			<property name="hexactpos" value="0" />
+			<property name="vexactpos" value="0" />
+			<property name="hexactsize" value="0" />
+			<property name="vexactsize" value="0" />
+			<property name="color" value="0 0 0 0.82" />
+			<property name="style" value="rover_sim_black_2" />
+			<widget class="PanelWidget" name="SpawnSelectorHeaderLeft">
+				<property name="position" value="0.02 0.025" />
+				<property name="size" value="0.20 0.065" />
+				<property name="color" value="0 0 0 0.85" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="SpawnSelectorTitle">
+					<property name="position" value="0.04 0.18" />
+					<property name="size" value="0.92 0.64" />
+					<property name="text" value="Spawn position" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="SpawnSelectorHeaderCenter">
+				<property name="position" value="0.37 0.025" />
+				<property name="size" value="0.26 0.065" />
+				<property name="color" value="0.85 0 0 0.95" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="SpawnSelectorCardTitle">
+					<property name="position" value="0.08 0.16" />
+					<property name="size" value="0.84 0.68" />
+					<property name="text" value="DAYZ CARD" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+			</widget>
+			<widget class="TextWidget" name="SpawnSelectorStatus">
+				<property name="position" value="0.245 0.10" />
+				<property name="size" value="0.70 0.04" />
+				<property name="text" value="Aguardando escolha de spawn." />
+				<property name="font" value="gui/fonts/system" />
+				<property name="color" value="0xFFE5EEF7" />
+			</widget>
+			<widget class="PanelWidget" name="SpawnSelectorListPanel">
+				<property name="position" value="0.02 0.12" />
+				<property name="size" value="0.20 0.69" />
+				<property name="color" value="0 0 0 0.88" />
+				<property name="style" value="Colorable" />
+				<widget class="ButtonWidget" name="SpawnSelectorCity0">
+					<property name="position" value="0.04 0.03" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Kamenka" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity1">
+					<property name="position" value="0.04 0.14" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="West Balota" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity2">
+					<property name="position" value="0.04 0.25" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Chernogorsk" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity3">
+					<property name="position" value="0.04 0.36" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Eletrozavodsk" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity4">
+					<property name="position" value="0.04 0.47" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Kamyshovo" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity5">
+					<property name="position" value="0.04 0.58" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Solnechny" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity6">
+					<property name="position" value="0.04 0.69" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Berezino" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="SpawnSelectorCity7">
+					<property name="position" value="0.04 0.80" />
+					<property name="size" value="0.92 0.085" />
+					<property name="text" value="Svetloyarsk" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="SpawnSelectorMapPanel">
+				<property name="position" value="0.245 0.15" />
+				<property name="size" value="0.73 0.66" />
+				<property name="inheritalpha" value="0" />
+				<property name="color" value="0.07 0.13 0.20 0.35" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="SpawnSelectorMapHint">
+					<property name="position" value="0.06 0.08" />
+					<property name="size" value="0.86 0.10" />
+					<property name="text" value="Selecione uma regiao costeira para nascer." />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextWidget" name="SpawnSelectorSelected">
+					<property name="position" value="0.06 0.22" />
+					<property name="size" value="0.86 0.08" />
+					<property name="text" value="Escolha uma cidade na lista." />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFE082" />
+				</widget>
+			</widget>
+			<widget class="ButtonWidget" name="SpawnSelectorClose">
+				<property name="position" value="0.02 0.84" />
+				<property name="size" value="0.20 0.07" />
+				<property name="text" value="Fechar" />
+				<property name="font" value="gui/fonts/system" />
+				<property name="style" value="Default" />
+			</widget>
+			<widget class="ButtonWidget" name="SpawnSelectorUse">
+				<property name="position" value="0.37 0.84" />
+				<property name="size" value="0.32 0.07" />
+				<property name="text" value="Usar spawn" />
+				<property name="font" value="gui/fonts/system" />
+				<property name="style" value="Default" />
+			</widget>
+			<widget class="ButtonWidget" name="SpawnSelectorRandom">
+				<property name="position" value="0.72 0.84" />
+				<property name="size" value="0.16 0.07" />
+				<property name="text" value="Random" />
+				<property name="font" value="gui/fonts/system" />
+				<property name="style" value="Default" />
+			</widget>
+		</widget>
+	</widget>
+</layout>

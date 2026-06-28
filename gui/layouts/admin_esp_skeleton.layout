@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="FrameWidget" name="AdminEspRoot">
+        <property name="position" value="0 0" />
+        <property name="size" value="1 1" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <property name="priority" value="1000" />
+        <widget class="TextWidget" name="AdminEspLine0">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine1">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine2">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine3">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine4">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine5">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine6">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine7">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine8">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine9">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine10">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine11">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine12">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine13">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine14">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine15">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine16">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine17">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine18">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine19">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine20">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine21">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine22">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine23">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine24">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine25">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine26">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine27">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine28">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine29">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine30">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine31">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine32">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine33">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine34">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine35">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine36">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine37">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine38">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine39">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine40">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine41">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine42">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine43">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine44">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine45">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine46">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine47">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine48">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine49">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine50">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine51">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine52">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine53">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine54">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine55">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine56">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine57">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine58">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine59">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine60">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine61">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine62">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine63">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine64">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine65">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine66">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine67">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine68">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine69">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine70">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine71">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine72">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine73">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine74">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine75">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine76">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine77">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine78">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine79">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine80">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine81">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine82">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine83">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine84">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine85">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine86">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine87">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine88">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLine89">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.016 0.016" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="+" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xEE00D8FF" />
+        </widget>
+        <widget class="TextWidget" name="AdminEspLabel">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.12 0.05" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="PLAYER" />
+            <property name="font" value="gui/fonts/system" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+    </widget>
+</layout>

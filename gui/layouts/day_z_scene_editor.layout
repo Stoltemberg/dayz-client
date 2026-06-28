@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="FrameWidget" name="SceneEditorRoot">
+        <property name="position" value="0 0" />
+        <property name="size" value="1 1" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <property name="priority" value="999" />
+        <widget class="PanelWidget" name="pnl_SceneControl">
+            <property name="position" value="0 0" />
+            <property name="size" value="1 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.38" />
+            <property name="style" value="Colorable" />
+        </widget>
+        <widget class="PanelWidget" name="SceneEditorShade">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="1 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.18" />
+            <property name="style" value="Colorable" />
+        </widget>
+        <widget class="PanelWidget" name="TopBar">
+            <property name="position" value="0.01 0.015" />
+            <property name="size" value="0.98 0.055" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.98" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="SceneEditorTitle">
+                <property name="position" value="0.012 0.08" />
+                <property name="size" value="0.20 0.84" />
+                <property name="text" value="SCENE EDITOR" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="TextWidget" name="txt_left_label_loaded_scene">
+                <property name="position" value="0.18 0.12" />
+                <property name="size" value="0.32 0.76" />
+                <property name="text" value="Loaded Scene" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="TextWidget" name="SceneEditorHint">
+                <property name="position" value="0.49 0.12" />
+                <property name="size" value="0.29 0.76" />
+                <property name="text" value="RMB: freecam | duplo clique: spawn | Delete: deletar" />
+                <property name="color" value="0xFFE0E0E0" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_delete_ruler">
+                <property name="position" value="0.78 0.18" />
+                <property name="size" value="0.07 0.64" />
+                <property name="text" value="REGUA" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_top_save_scene">
+                <property name="position" value="0.855 0.18" />
+                <property name="size" value="0.07 0.64" />
+                <property name="text" value="SALVAR" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_scene_close">
+                <property name="position" value="0.93 0.18" />
+                <property name="size" value="0.06 0.64" />
+                <property name="text" value="FECHAR" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="ClassPanel">
+            <property name="position" value="0.015 0.09" />
+            <property name="size" value="0.27 0.43" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.98" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="ClassTitle">
+                <property name="position" value="0.025 0.02" />
+                <property name="size" value="0.95 0.07" />
+                <property name="text" value="Construcoes / estaticos" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="edit_left_search_class">
+                <property name="position" value="0.025 0.10" />
+                <property name="size" value="0.95 0.08" />
+                <property name="text" value="" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="TextListboxWidget" name="txtlist_left_classes">
+                <property name="position" value="0.025 0.20" />
+                <property name="size" value="0.95 0.64" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_scene_spawn">
+                <property name="position" value="0.025 0.87" />
+                <property name="size" value="0.95 0.10" />
+                <property name="text" value="SPAWN NA MIRA" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="ObjectsPanel">
+            <property name="position" value="0.015 0.54" />
+            <property name="size" value="0.27 0.40" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.98" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="ObjectsTitle">
+                <property name="position" value="0.025 0.02" />
+                <property name="size" value="0.95 0.08" />
+                <property name="text" value="Objetos criados pelo painel" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="edit_left_search_item">
+                <property name="position" value="0.025 0.11" />
+                <property name="size" value="0.95 0.09" />
+                <property name="text" value="" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="TextListboxWidget" name="txtlist_left_items">
+                <property name="position" value="0.025 0.22" />
+                <property name="size" value="0.95 0.49" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_left_select">
+                <property name="position" value="0.025 0.75" />
+                <property name="size" value="0.22 0.10" />
+                <property name="text" value="SEL" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_left_focus">
+                <property name="position" value="0.255 0.75" />
+                <property name="size" value="0.23 0.10" />
+                <property name="text" value="FOCO" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_scene_duplicate">
+                <property name="position" value="0.495 0.75" />
+                <property name="size" value="0.23 0.10" />
+                <property name="text" value="DUP" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_scene_delete">
+                <property name="position" value="0.735 0.75" />
+                <property name="size" value="0.24 0.10" />
+                <property name="text" value="DEL" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="TextWidget" name="ObjectsRule">
+                <property name="position" value="0.025 0.88" />
+                <property name="size" value="0.95 0.08" />
+                <property name="text" value="So objetos desta lista podem ser deletados." />
+                <property name="color" value="0xFFE0E0E0" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="PropsPanel">
+            <property name="position" value="0.735 0.09" />
+            <property name="size" value="0.25 0.67" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.98" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="PropsTitle">
+                <property name="position" value="0.03 0.015" />
+                <property name="size" value="0.94 0.055" />
+                <property name="text" value="Propriedades do objeto" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="TextWidget" name="txt_right_prop_class_value">
+                <property name="position" value="0.03 0.075" />
+                <property name="size" value="0.94 0.055" />
+                <property name="text" value="n/a" />
+                <property name="color" value="0xFFE0E0E0" />
+            </widget>
+            <widget class="TextWidget" name="PosTitle">
+                <property name="position" value="0.03 0.145" />
+                <property name="size" value="0.94 0.045" />
+                <property name="text" value="Posicao" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_x_value">
+                <property name="position" value="0.03 0.20" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_y_value">
+                <property name="position" value="0.355 0.20" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_z_value">
+                <property name="position" value="0.68 0.20" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="TextWidget" name="RotTitle">
+                <property name="position" value="0.03 0.295" />
+                <property name="size" value="0.94 0.045" />
+                <property name="text" value="Rotacao: yaw / pitch / roll" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_dir_value">
+                <property name="position" value="0.03 0.35" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_pitch_value">
+                <property name="position" value="0.355 0.35" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_roll_value">
+                <property name="position" value="0.68 0.35" />
+                <property name="size" value="0.29 0.07" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="TextWidget" name="StepTitle">
+                <property name="position" value="0.03 0.45" />
+                <property name="size" value="0.35 0.045" />
+                <property name="text" value="Passos" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="txt_scene_move_step">
+                <property name="position" value="0.30 0.445" />
+                <property name="size" value="0.30 0.065" />
+                <property name="text" value="0.25" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="EditBoxWidget" name="txt_scene_rot_step">
+                <property name="position" value="0.66 0.445" />
+                <property name="size" value="0.31 0.065" />
+                <property name="text" value="5" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_x_neg">
+                <property name="position" value="0.03 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="X-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_x_pos">
+                <property name="position" value="0.18 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="X+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_y_neg">
+                <property name="position" value="0.355 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="Y-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_y_pos">
+                <property name="position" value="0.505 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="Y+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_z_neg">
+                <property name="position" value="0.68 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="Z-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_move_z_pos">
+                <property name="position" value="0.83 0.535" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="Z+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_yaw_neg">
+                <property name="position" value="0.03 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="YW-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_yaw_pos">
+                <property name="position" value="0.18 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="YW+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_pitch_neg">
+                <property name="position" value="0.355 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="PT-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_pitch_pos">
+                <property name="position" value="0.505 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="PT+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_roll_neg">
+                <property name="position" value="0.68 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="RL-" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_rot_roll_pos">
+                <property name="position" value="0.83 0.625" />
+                <property name="size" value="0.14 0.065" />
+                <property name="text" value="RL+" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="TextWidget" name="DamageTitle">
+                <property name="position" value="0.03 0.73" />
+                <property name="size" value="0.25 0.05" />
+                <property name="text" value="Dano" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="EditBoxWidget" name="ebx_right_prop_pos_dmg_value">
+                <property name="position" value="0.30 0.725" />
+                <property name="size" value="0.30 0.065" />
+                <property name="text" value="n/a" />
+                <property name="font" value="gui/fonts/system" />
+            </widget>
+            <widget class="ButtonWidget" name="btn_right_prop_pos_iscr_value">
+                <property name="visible" value="0" />
+                <property name="position" value="0.66 0.725" />
+                <property name="size" value="0.31 0.065" />
+                <property name="text" value="INIT" />
+                <property name="font" value="gui/fonts/system" />
+                <property name="style" value="Default" />
+            </widget>
+            <widget class="PanelWidget" name="pnl_right_inspector_attachments">
+                <property name="visible" value="0" />
+                <property name="position" value="0.03 0.82" />
+                <property name="size" value="0.94 0.12" />
+            </widget>
+            <widget class="PanelWidget" name="pnl_att_title">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="1 0.1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="pnl_notify">
+            <property name="position" value="0.36 0.88" />
+            <property name="size" value="0.28 0.055" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0 0 0 0.98" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="txt_notify">
+                <property name="position" value="0.03 0.12" />
+                <property name="size" value="0.94 0.76" />
+                <property name="text" value="" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="pnl_popups">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="1 1" />
+            <widget class="PanelWidget" name="pnl_popup_bg">
+                <property name="position" value="0 0" />
+                <property name="size" value="1 1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="pnl_presets_wrapper_outer">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_top_scene_manager">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_top_position_manager">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_top_settings">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_top_editor_settings">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_left_cl_add_attachment">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+        <widget class="ButtonWidget" name="btn_left_presets">
+            <property name="visible" value="0" />
+            <property name="position" value="0 0" />
+            <property name="size" value="0.01 0.01" />
+        </widget>
+    </widget>
+</layout>

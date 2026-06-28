@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="WindowWidget" name="HelpWindow">
+        <property name="disabled" value="0" />
+        <property name="inheritalpha" value="0" />
+        <property name="color" value="0.000000 0.000000 0.000000 0.501961" />
+        <property name="position" value="0.000000 0.000000" />
+        <property name="size" value="1.000000 1.000000" />
+        <property name="halign" value="center_ref" />
+        <property name="valign" value="center_ref" />
+        <property name="style" value="Colorable" />
+        <widget class="PanelWidget" name="HelpPanel">
+            <property name="visible" value="1" />
+            <property name="clipchildren" value="1" />
+            <property name="inheritalpha" value="0" />
+            <property name="position" value="0.008000 0.065600" />
+            <property name="size" value="0.984000 0.877778" />
+            <property name="style" value="rover_sim_black_2" />
+            <widget class="TextWidget" name="HeaderTextWidget">
+                <property name="visible" value="1" />
+                <property name="position" value="0.014000 0.019000" />
+                <property name="size" value="0.975447 36.000000" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="style" value="Normal" />
+                <property name="text" value="Ajuda" />
+                <property name="exact text" value="1" />
+                <property name="text valign" value="center" />
+            </widget>
+            <widget class="FrameWidget" name="KeyBindingsFrameWidget">
+                <property name="position" value="0.014500 0.078000" />
+                <property name="size" value="0.480000 0.904000" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <widget class="TextWidget" name="KeyBindingsMultilineTextWidget">
+                    <property name="visible" value="1" />
+                    <property name="position" value="0.000000 0.000000" />
+                    <property name="size" value="1.000000 27.000000" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Normal" />
+                    <property name="text" value="Atalhos do teclado:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="TextListboxWidget" name="KeyBindingsTextListboxWidget">
+                    <property name="disabled" value="1" />
+                    <property name="clipchildren" value="0" />
+                    <property name="position" value="0.000000 0.061000" />
+                    <property name="size" value="1.000000 0.930000" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="font" value="gui/fonts/AmorSerifPro-Bold16" />
+                    <property name="title visible" value="0" />
+                    <property name="colums" value="text;25;text2;75" />
+                </widget>
+            </widget>
+            <widget class="FrameWidget" name="MouseBindingsFrameWidget">
+                <property name="position" value="0.510000 0.078000" />
+                <property name="size" value="0.480000 0.899900" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <widget class="TextWidget" name="MouseBindingsMultilineTextWidget">
+                    <property name="visible" value="1" />
+                    <property name="position" value="0.000000 0.000000" />
+                    <property name="size" value="1.000000 27.000000" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Normal" />
+                    <property name="text" value="Atalhos do mouse:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="TextListboxWidget" name="MouseBindingsTextListboxWidget">
+                    <property name="disabled" value="1" />
+                    <property name="clipchildren" value="0" />
+                    <property name="position" value="0.000000 0.061000" />
+                    <property name="size" value="1.000000 0.930000" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="font" value="gui/fonts/AmorSerifPro-Bold16" />
+                    <property name="title visible" value="0" />
+                    <property name="colums" value="text;25;text2;75" />
+                </widget>
+            </widget>
+        </widget>
+        <widget class="ButtonWidget" name="CloseButtonWidget">
+            <property name="visible" value="1" />
+            <property name="position" value="0.008491 0.015451" />
+            <property name="size" value="0.220000 20.000000" />
+            <property name="halign" value="right_ref" />
+            <property name="valign" value="bottom_ref" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="1" />
+            <property name="userID" value="0" />
+            <property name="style" value="Default" />
+            <property name="text" value="Fechar" />
+            <property name="switch" value="once" />
+        </widget>
+    </widget>
+</layout>

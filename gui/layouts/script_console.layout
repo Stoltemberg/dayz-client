@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="FrameWidget" name="FrameWidget">
+        <property name="color" value="0 0 0 1" />
+        <property name="position" value="0 0" />
+        <property name="size" value="1 1" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <property name="priority" value="999" />
+        <widget class="WindowWidget" name="MenuWindow">
+            <property name="visible" value="1" />
+            <property name="disabled" value="0" />
+            <property name="inheritalpha" value="0" />
+            <property name="color" value="0 0 0 0.502" />
+            <property name="position" value="0 0" />
+            <property name="size" value="1 1" />
+            <property name="halign" value="center_ref" />
+            <property name="valign" value="center_ref" />
+            <property name="style" value="Colorable" />
+            <widget class="PanelWidget" name="SQFPanel">
+                <property name="visible" value="0" />
+                <property name="clipchildren" value="1" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0.008 0.05556" />
+                <property name="size" value="0.984 0.87778" />
+                <property name="style" value="rover_sim_black" />
+                <widget class="PanelWidget" name="PanelWidget0">
+                    <property name="position" value="0.01 0.66" />
+                    <property name="size" value="0.98 0.26" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="editor_quad" />
+                    <property name="font" value="gui/fonts/system" />
+                    <widget class="MultilineEditBoxWidget" name="EditBoxSQF">
+                        <property name="position" value="0 0" />
+                        <property name="size" value="1 1" />
+                        <property name="hexactpos" value="0" />
+                        <property name="vexactpos" value="0" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="0" />
+                    </widget>
+                </widget>
+                <widget class="ButtonWidget" name="ButtonSQFOK">
+                    <property name="position" value="0.9187 0.93671" />
+                    <property name="size" value="0.06504 0.05063" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text" value="OK" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonSQFApply">
+                    <property name="position" value="0.84553 0.93671" />
+                    <property name="size" value="0.06504 0.05063" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text" value="APLICAR" />
+                </widget>
+                <widget class="PanelWidget" name="SqfDebugWatchersPanel">
+                    <property name="position" value="5 5" />
+                    <property name="size" value="900 510" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <widget class="ButtonWidget" name="SqfDebugWatcherAddButton">
+                        <property name="position" value="680 0" />
+                        <property name="size" value="100 40" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="1" />
+                        <property name="vexactsize" value="1" />
+                        <property name="style" value="Default" />
+                        <property name="font" value="gui/fonts/system" />
+                        <property name="text" value="ADICIONAR" />
+                    </widget>
+                    <widget class="ButtonWidget" name="SqfDebugWatcherRemoveButton">
+                        <property name="position" value="680 42" />
+                        <property name="size" value="100 40" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="1" />
+                        <property name="vexactsize" value="1" />
+                        <property name="style" value="Default" />
+                        <property name="font" value="gui/fonts/system" />
+                        <property name="text" value="REMOVER" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="WindowWidget" name="TabsWindowWidget1">
+                <property name="visible" value="1" />
+                <property name="clipchildren" value="1" />
+                <property name="inheritalpha" value="0" />
+                <property name="color" value="0 0 0 0.498" />
+                <property name="size" value="0.99 40" />
+                <property name="halign" value="center_ref" />
+                <property name="hexactpos" value="1" />
+                <property name="vexactpos" value="1" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="style" value="Colorable" />
+                <widget class="ButtonWidget" name="OutputButtonWidget">
+                    <property name="position" value="0.6 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Logs" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+                <widget class="ButtonWidget" name="ItemsButtonWidget">
+                    <property name="position" value="0.12 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Itens" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+                <widget class="ButtonWidget" name="ConfigsButtonWidget">
+                    <property name="position" value="0.24 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Configs" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+                <widget class="ButtonWidget" name="EnScriptButtonWidget">
+                    <property name="position" value="0.48 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="EnfScript" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+                <widget class="ButtonWidget" name="GeneralButtonWidget">
+                    <property name="position" value="0 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Geral" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+                <widget class="ButtonWidget" name="SQFButtonWidget">
+                    <property name="position" value="0.36 8" />
+                    <property name="size" value="0.1 0.625" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="userID" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="SQF" />
+                    <property name="text_proportion" value="0.8" />
+                    <property name="switch" value="once" />
+                </widget>
+            </widget>
+            <widget class="PanelWidget" name="ItemsPanel">
+                <property name="visible" value="0" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0.008 0.05556" />
+                <property name="size" value="0.984 0.87778" />
+                <property name="style" value="rover_sim_black" />
+                <widget class="TextListboxWidget" name="ObjectsList">
+                    <property name="visible" value="1" />
+                    <property name="position" value="0.00813 0.07595" />
+                    <property name="size" value="0.28659 0.91139" />
+                    <property name="colums" value="" />
+                    <property name="lines" value="30" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonSpawnInInv">
+                    <property name="position" value="0.8224 0.882" />
+                    <property name="size" value="0.1577 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Criar no inventário" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonSpawnInGround">
+                    <property name="position" value="0.82237 0.84" />
+                    <property name="size" value="0.1577 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Criar no chão" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="EditBoxWidget" name="ObjectFilter">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.01 0.01" />
+                    <property name="size" value="0.27846 0.05063" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="object name" />
+                </widget>
+                <widget class="TextListboxWidget" name="PresetList">
+                    <property name="position" value="0.38 0.09" />
+                    <property name="size" value="0.54471 0.36709" />
+                    <property name="lines" value="12" />
+                </widget>
+                <widget class="TextWidget" name="TextWidget1">
+                    <property name="inheritalpha" value="0" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.38 0.04" />
+                    <property name="size" value="0.17073 0.03797" />
+                    <property name="halign" value="left" />
+                    <property name="text" value="PRESETS" />
+                    <property name="exact text" value="1" />
+                    <property name="text halign" value="left" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="ButtonWidget" name="NewPresetButton">
+                    <property name="position" value="0.62602 0.46835" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="New" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="SetDefaultPresetButton">
+                    <property name="position" value="0.71545 0.46835" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Default" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="RenamePresetButton">
+                    <property name="position" value="0.89431 0.46835" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Rename" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="DeletePresetButton">
+                    <property name="position" value="0.80488 0.46835" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Delete" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="AddToPresetButton">
+                    <property name="position" value="0.30081 0.64557" />
+                    <property name="size" value="0.06118 0.05063" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text" value="&gt;&gt;" />
+                </widget>
+                <widget class="ButtonWidget" name="RemoveFromPresetButton">
+                    <property name="position" value="0.30081 0.70886" />
+                    <property name="size" value="0.06118 0.05063" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text" value="&lt;&lt;" />
+                </widget>
+                <widget class="TextListboxWidget" name="PresetItemsList">
+                    <property name="position" value="0.38 0.59" />
+                    <property name="size" value="0.31707 0.35443" />
+                    <property name="lines" value="12" />
+                </widget>
+                <widget class="TextWidget" name="TextWidget2">
+                    <property name="inheritalpha" value="0" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.38 0.54" />
+                    <property name="size" value="0.25 20" />
+                    <property name="halign" value="left" />
+                    <property name="vexactsize" value="1" />
+                    <property name="text" value="ITEMS IN PRESETS" />
+                    <property name="exact text" value="1" />
+                    <property name="text halign" value="left" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="ButtonWidget" name="ItemMoveUpButton">
+                    <property name="disabled" value="0" />
+                    <property name="position" value="0.7 0.59" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Up" />
+                </widget>
+                <widget class="ButtonWidget" name="ItemMoveDownButton">
+                    <property name="disabled" value="0" />
+                    <property name="position" value="0.7 0.65" />
+                    <property name="size" value="0.0732 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Down" />
+                </widget>
+                <widget class="TextWidget" name="DamageLabel">
+                    <property name="position" value="0.79 0.59" />
+                    <property name="size" value="0.07317 0.05063" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="Damage:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="EditBoxWidget" name="DamageValue">
+                    <property name="position" value="0.87 0.59" />
+                    <property name="size" value="32 32" />
+                    <property name="valign" value="top" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="text" value="" />
+                </widget>
+                <widget class="TextWidget" name="QuantityLabel">
+                    <property name="position" value="0.79 0.65" />
+                    <property name="size" value="0.07317 0.05063" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="Quantity:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="EditBoxWidget" name="QuantityValue">
+                    <property name="position" value="0.87 0.65" />
+                    <property name="size" value="48 32" />
+                    <property name="valign" value="top" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="text" value="" />
+                </widget>
+                <widget class="TextWidget" name="SelectedObject">
+                    <property name="inheritalpha" value="0" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.78 0.8" />
+                    <property name="size" value="0.2 20" />
+                    <property name="halign" value="left" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="vexactsize" value="1" />
+                    <property name="draggable" value="0" />
+                    <property name="exact text" value="1" />
+                    <property name="text halign" value="right" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="EditBoxWidget" name="SpawnDistance">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.75 0.84" />
+                    <property name="size" value="0.03401 0.05063" />
+                    <property name="halign" value="left" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="0" />
+                </widget>
+                <widget class="TextWidget" name="DistanceLabel">
+                    <property name="inheritalpha" value="0" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.79 0.85" />
+                    <property name="size" value="0.02278 0.03797" />
+                    <property name="halign" value="left" />
+                    <property name="style" value="Normal" />
+                    <property name="text" value="m" />
+                    <property name="exact text" value="1" />
+                    <property name="text halign" value="left" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="ButtonWidget" name="ItemNameCopy">
+                    <property name="position" value="0.30171 0.46988" />
+                    <property name="size" value="0.2 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Copiar para clipboard" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+                <widget class="ButtonWidget" name="SpawnAsAttachment">
+                    <property name="position" value="0.8224 0.9265" />
+                    <property name="size" value="0.1577 20" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Spawn As Attachment" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CloseConsoleButtonWidget">
+                <property name="visible" value="1" />
+                <property name="position" value="0.01552 0.0117" />
+                <property name="size" value="0.22 20" />
+                <property name="halign" value="right_ref" />
+                <property name="valign" value="bottom_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="userID" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="Fechar" />
+                <property name="switch" value="once" />
+            </widget>
+            <widget class="PanelWidget" name="ConfigsPanel">
+                <property name="visible" value="0" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0 0.05556" />
+                <property name="size" value="1.28 0.87778" />
+                <property name="style" value="rover_sim_black" />
+                <widget class="EditBoxWidget" name="ObjectConfigFilter">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="0.00855 0.01518" />
+                    <property name="size" value="0.27846 0.05063" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="" />
+                </widget>
+                <widget class="TextListboxWidget" name="ConfigVariables">
+                    <property name="position" value="0.13187 0.0761" />
+                    <property name="size" value="0.6467 0.9114" />
+                    <property name="hexactsize" value="0" />
+                    <property name="draggable" value="0" />
+                    <property name="font" value="gui/fonts/MetronBook12" />
+                    <property name="next left" value="" />
+                    <property name="title visible" value="0" />
+                    <property name="colums" value="" />
+                    <property name="lines" value="25" />
+                </widget>
+                <widget class="TextListboxWidget" name="ConfigHierarchy">
+                    <property name="position" value="11 0.076" />
+                    <property name="size" value="0.1173 0.91139" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="font" value="gui/fonts/MetronBook12" />
+                    <property name="title visible" value="0" />
+                    <property name="colums" value="" />
+                    <property name="lines" value="25" />
+                </widget>
+            </widget>
+            <widget class="PanelWidget" name="EnScriptPanel">
+                <property name="visible" value="0" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0 0.05556" />
+                <property name="size" value="1.28 0.87778" />
+                <widget class="MultilineEditBoxWidget" name="MultilineEditBoxWidget0">
+                    <property name="position" value="0.005 0.013" />
+                    <property name="size" value="0.767 0.911" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="Print(&quot;Hello World&quot;);" />
+                    <property name="lines" value="20" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonWidget0">
+                    <property name="position" value="0.669 0.937" />
+                    <property name="size" value="0.098 0.051" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="Run" />
+                    <property name="text_proportion" value="0.8" />
+                </widget>
+            </widget>
+            <widget class="PanelWidget" name="GeneralPanel">
+                <property name="visible" value="1" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0.00074 45" />
+                <property name="size" value="0.99 0.88" />
+                <property name="halign" value="center_ref" />
+                <property name="vexactpos" value="1" />
+                <property name="style" value="rover_sim_black" />
+                <widget class="TextListboxWidget" name="DiagToggle">
+                    <property name="position" value="310 0" />
+                    <property name="size" value="300 0.45" />
+                    <property name="hexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="title visible" value="1" />
+                    <property name="colums" value="DIÁLOGOS DEBUG" />
+                    <property name="lines" value="15" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonDiagToggle">
+                    <property name="position" value="490 0.46" />
+                    <property name="size" value="125 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="ATIVAR" />
+                </widget>
+                <widget class="TextListboxWidget" name="DiagDrawmode">
+                    <property name="position" value="620 0" />
+                    <property name="size" value="300 0.45" />
+                    <property name="hexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="title visible" value="1" />
+                    <property name="colums" value="MODO DESENHO" />
+                    <property name="lines" value="15" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonDiagDraw">
+                    <property name="position" value="800 0.46" />
+                    <property name="size" value="125 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="DESENHAR" />
+                </widget>
+                <widget class="TextListboxWidget" name="PositionsList">
+                    <property name="position" value="0 0" />
+                    <property name="size" value="300 0.45" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="0" />
+                    <property name="title visible" value="1" />
+                    <property name="colums" value="POSIÇÕES" />
+                    <property name="lines" value="15" />
+                </widget>
+                <widget class="EditBoxWidget" name="TeleportX">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="45 0.46" />
+                    <property name="size" value="55 20" />
+                    <property name="halign" value="left" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="0" />
+                </widget>
+                <widget class="EditBoxWidget" name="TeleportY">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="110 0.46" />
+                    <property name="size" value="55 20" />
+                    <property name="halign" value="left" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="0" />
+                </widget>
+                <widget class="TextWidget" name="TeleportPosLabel">
+                    <property name="position" value="0 0.46" />
+                    <property name="size" value="35.47 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Normal" />
+                    <property name="text" value="X,Y:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonTeleport">
+                    <property name="visible" value="1" />
+                    <property name="position" value="180 0.46" />
+                    <property name="size" value="125 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="TELEPORTAR" />
+                </widget>
+                <widget class="TextWidget" name="PlayerPosLabel">
+                    <property name="position" value="0 0.5" />
+                    <property name="size" value="35.47 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="Normal" />
+                    <property name="text" value="Pos:" />
+                    <property name="exact text" value="1" />
+                    <property name="text valign" value="center" />
+                </widget>
+                <widget class="EditBoxWidget" name="PlayerPosX">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="45 0.5" />
+                    <property name="size" value="55 20" />
+                    <property name="halign" value="left" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="0" />
+                </widget>
+                <widget class="EditBoxWidget" name="PlayerPosY">
+                    <property name="inheritalpha" value="1" />
+                    <property name="color" value="1 1 1 1" />
+                    <property name="position" value="110 0.5" />
+                    <property name="size" value="55 20" />
+                    <property name="halign" value="left" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="priority" value="1" />
+                    <property name="style" value="Default" />
+                    <property name="text color" value="1 1 1 1" />
+                    <property name="text" value="0" />
+                </widget>
+                <widget class="PanelWidget" name="[DebugOptions]">
+                    <property name="position" value="0 0.55" />
+                    <property name="size" value="250 117" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="editor_quad" />
+                    <widget class="CheckBoxWidget" name="cbx_LogsEnabled">
+                        <property name="position" value="0 30" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Logs de script ativos" />
+                    </widget>
+                    <widget class="TextWidget" name="txt_dbo_title">
+                        <property name="ignorepointer" value="0" />
+                        <property name="position" value="0 0" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Opções Debug" />
+                        <property name="exact text" value="1" />
+                    </widget>
+                </widget>
+                <widget class="PanelWidget" name="[HudDebug]">
+                    <property name="visible" value="1" />
+                    <property name="position" value="255 0.55" />
+                    <property name="size" value="250 134" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="editor_quad" />
+                    <widget class="CheckBoxWidget" name="cbx_CharacterStats">
+                        <property name="position" value="0 30" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Status do personagem" />
+                    </widget>
+                    <widget class="TextWidget" name="txt_Title">
+                        <property name="ignorepointer" value="0" />
+                        <property name="position" value="0 0" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Hud Debug" />
+                        <property name="exact text" value="1" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_CharacterModifiers">
+                        <property name="position" value="0 50" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Modificadores" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_CharacterDebug">
+                        <property name="position" value="0 90" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Debug" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_FreeCamCross">
+                        <property name="position" value="0 110" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Mira da freecam" />
+                        <property name="checked" value="1" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_CharacterAgents">
+                        <property name="position" value="0 70" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Agentes" />
+                    </widget>
+                </widget>
+                <widget class="PanelWidget" name="[DevActions]">
+                    <property name="visible" value="1" />
+                    <property name="position" value="510 0.55" />
+                    <property name="size" value="330 134" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="style" value="editor_quad" />
+                    <widget class="TextWidget" name="txt_DevActionsTitle">
+                        <property name="ignorepointer" value="0" />
+                        <property name="position" value="0 0" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Ações Debug" />
+                        <property name="exact text" value="1" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_DebugGodMode">
+                        <property name="position" value="0 30" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Modo deus" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_DebugFreeCamera">
+                        <property name="position" value="0 50" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Freecam / noclip" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_DebugTeleportCursor">
+                        <property name="position" value="0 70" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Teleportar no cursor" />
+                    </widget>
+                    <widget class="CheckBoxWidget" name="cbx_DebugSpawnClipboard">
+                        <property name="position" value="0 90" />
+                        <property name="size" value="1 20" />
+                        <property name="hexactpos" value="1" />
+                        <property name="vexactpos" value="1" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="1" />
+                        <property name="text" value="Spawn do clipboard" />
+                    </widget>
+                </widget>
+                <widget class="ButtonWidget" name="ButtonClearScriptLogs">
+                    <property name="position" value="22.41 625" />
+                    <property name="size" value="209 25" />
+                    <property name="hexactpos" value="1" />
+                    <property name="vexactpos" value="1" />
+                    <property name="hexactsize" value="1" />
+                    <property name="vexactsize" value="1" />
+                    <property name="text" value="Limpar logs de script" />
+                </widget>
+            </widget>
+            <widget class="PanelWidget" name="OutputPanel">
+                <property name="visible" value="0" />
+                <property name="clipchildren" value="1" />
+                <property name="inheritalpha" value="1" />
+                <property name="position" value="0.008 0.05556" />
+                <property name="size" value="0.984 0.87778" />
+                <property name="style" value="rover_sim_black" />
+                <widget class="TextListboxWidget" name="TextListbox">
+                    <property name="position" value="0 0.01266" />
+                    <property name="size" value="0.98374 0.89873" />
+                    <property name="style" value="Default" />
+                    <property name="next down" value="" />
+                    <property name="title visible" value="0" />
+                    <property name="lines" value="50" />
+                </widget>
+                <widget class="CheckBoxWidget" name="CheckBoxAutoScroll">
+                    <property name="position" value="0.00813 0.92405" />
+                    <property name="size" value="0.15 0.04" />
+                    <property name="text" value="Auto Scroll" />
+                    <property name="checked" value="1" />
+                </widget>
+                <widget class="ButtonWidget" name="ButtonClear">
+                    <property name="position" value="0.9187 0.93671" />
+                    <property name="size" value="0.06504 0.05063" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="CLEAR" />
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="SelectedRowCopy">
+                <property name="visible" value="1" />
+                <property name="position" value="0.24465 0.0117" />
+                <property name="size" value="0.22 20" />
+                <property name="halign" value="right_ref" />
+                <property name="valign" value="bottom_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="1" />
+                <property name="userID" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="Copiar para clipboard" />
+                <property name="switch" value="normal" />
+            </widget>
+        </widget>
+    </widget>
+</layout>

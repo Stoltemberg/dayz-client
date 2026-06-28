@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="FrameWidget" name="CustomMapRoot">
+        <property name="position" value="0 0" />
+        <property name="size" value="1 1" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <property name="priority" value="980" />
+        <widget class="WindowWidget" name="CustomMapSidebar">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.18 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="color" value="0.04 0.08 0.18 0.96" />
+            <property name="style" value="Colorable" />
+            <widget class="TextWidget" name="CustomMapTitle">
+                <property name="position" value="0.08 0.026" />
+                <property name="size" value="0.84 0.055" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="BASIC MAP" />
+                <property name="text halign" value="center" />
+                <property name="text valign" value="center" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="TextWidget" name="CustomMapMarkerTitle">
+                <property name="position" value="0.08 0.105" />
+                <property name="size" value="0.84 0.04" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="Client Markers" />
+                <property name="text halign" value="center" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="CheckBoxWidget" name="CustomMapShowHud">
+                <property name="position" value="0.08 0.16" />
+                <property name="size" value="0.78 0.04" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="Show On HUD" />
+            </widget>
+            <widget class="CheckBoxWidget" name="CustomMapShowMap">
+                <property name="position" value="0.08 0.205" />
+                <property name="size" value="0.78 0.04" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="Show On Map" />
+            </widget>
+            <widget class="PanelWidget" name="CustomMapMarkerList">
+                <property name="position" value="0.03 0.265" />
+                <property name="size" value="0.94 0.49" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="color" value="0.03 0.07 0.15 0.82" />
+                <property name="style" value="Colorable" />
+                <widget class="TextListboxWidget" name="CustomMapMarkersListbox">
+                    <property name="visible" value="1" />
+                    <property name="position" value="0.04 0.04" />
+                    <property name="size" value="0.92 0.92" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="colums" value="" />
+                    <property name="lines" value="12" />
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapCenter">
+                <property name="position" value="0.12 0.775" />
+                <property name="size" value="0.76 0.055" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="Center On Me" />
+            </widget>
+            <widget class="TextWidget" name="CustomMapZoomText">
+                <property name="position" value="0.08 0.855" />
+                <property name="size" value="0.84 0.035" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="Zoom: 100%" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="TextWidget" name="CustomMapPositionText">
+                <property name="position" value="0.08 0.895" />
+                <property name="size" value="0.84 0.035" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="text" value="Pos: 0 / 0" />
+                <property name="color" value="0xFFFFFFFF" />
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapClose">
+                <property name="position" value="0.12 0.94" />
+                <property name="size" value="0.76 0.045" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="Close" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomMapViewport">
+            <property name="position" value="0.18 0" />
+            <property name="size" value="0.82 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="clipchildren" value="1" />
+            <property name="color" value="0.11 0.14 0.16 1" />
+            <property name="style" value="Colorable" />
+            <widget class="PanelWidget" name="CustomMapContent">
+                <property name="position" value="0 0" />
+                <property name="size" value="1 1" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="color" value="0.14 0.18 0.15 1" />
+                <property name="style" value="Colorable" />
+                <widget class="ImageWidget" name="CustomMapImage">
+                    <property name="position" value="0 0" />
+                    <property name="size" value="1 1" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapWater">
+                    <property name="visible" value="0" />
+                    <property name="position" value="0.60 0" />
+                    <property name="size" value="0.40 1" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="color" value="0.30 0.38 0.48 0.92" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapRoadA">
+                    <property name="visible" value="0" />
+                    <property name="position" value="0.08 0.77" />
+                    <property name="size" value="0.76 0.012" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="color" value="0.77 0.64 0.50 0.92" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapRoadB">
+                    <property name="visible" value="0" />
+                    <property name="position" value="0.34 0.10" />
+                    <property name="size" value="0.012 0.72" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="color" value="0.72 0.71 0.64 0.92" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridV1">
+                    <property name="position" value="0.2 0" />
+                    <property name="size" value="0.0015 1" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridV2">
+                    <property name="position" value="0.4 0" />
+                    <property name="size" value="0.0015 1" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridV3">
+                    <property name="position" value="0.6 0" />
+                    <property name="size" value="0.0015 1" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridV4">
+                    <property name="position" value="0.8 0" />
+                    <property name="size" value="0.0015 1" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridH1">
+                    <property name="position" value="0 0.2" />
+                    <property name="size" value="1 0.0015" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridH2">
+                    <property name="position" value="0 0.4" />
+                    <property name="size" value="1 0.0015" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridH3">
+                    <property name="position" value="0 0.6" />
+                    <property name="size" value="1 0.0015" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapGridH4">
+                    <property name="position" value="0 0.8" />
+                    <property name="size" value="1 0.0015" />
+                    <property name="color" value="0.55 0.60 0.65 0.18" />
+                    <property name="style" value="Colorable" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapPlayerMarker">
+                    <property name="position" value="0.5 0.5" />
+                    <property name="size" value="0.024 0.036" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="color" value="0.12 0.82 1.0 0.95" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapPlayerLabel">
+                        <property name="position" value="1.05 0.02" />
+                        <property name="size" value="2.0 1" />
+                        <property name="hexactpos" value="0" />
+                        <property name="vexactpos" value="0" />
+                        <property name="hexactsize" value="0" />
+                        <property name="vexactsize" value="0" />
+                        <property name="text" value="EU" />
+                        <property name="color" value="0xFF6FE6FF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ImageWidget" name="CustomMapPlayerMarkerOverlay">
+                <property name="visible" value="0" />
+                <property name="position" value="0.48 0.47" />
+                <property name="size" value="0.04 0.055" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+            </widget>
+            <widget class="PanelWidget" name="CustomMapPlayerMarkerNameBg">
+                <property name="visible" value="0" />
+                <property name="position" value="0.52 0.49" />
+                <property name="size" value="0.055 0.028" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="color" value="0.02 0.04 0.08 0.82" />
+                <property name="style" value="Colorable" />
+                <widget class="TextWidget" name="CustomMapPlayerMarkerName">
+                    <property name="position" value="0 0" />
+                    <property name="size" value="1 1" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="ME" />
+                    <property name="text halign" value="center" />
+                    <property name="text valign" value="center" />
+                    <property name="color" value="0xFFFFFFFF" />
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin0">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin1">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin2">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin3">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin4">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin5">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin6">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin7">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin8">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapMarkerPin9">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.22 0.05" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="" />
+                <widget class="ImageWidget" name="CustomMapMarkerIcon">
+                    <property name="position" value="0 0.04" />
+                    <property name="size" value="0.18 0.78" />
+                </widget>
+                <widget class="PanelWidget" name="CustomMapMarkerLabelBg">
+                    <property name="position" value="0.22 0.18" />
+                    <property name="size" value="0.74 0.56" />
+                    <property name="color" value="0.02 0.04 0.08 0.82" />
+                    <property name="style" value="Colorable" />
+                    <widget class="TextWidget" name="CustomMapMarkerLabel">
+                        <property name="position" value="0.06 0" />
+                        <property name="size" value="0.90 1" />
+                        <property name="text" value="" />
+                        <property name="text valign" value="center" />
+                        <property name="color" value="0xFFFFFFFF" />
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="WindowWidget" name="CustomMapMarkerEditor">
+                <property name="visible" value="0" />
+                <property name="position" value="0.18 0.08" />
+                <property name="size" value="0.34 0.145" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="color" value="0.03 0.06 0.13 0.96" />
+                <property name="style" value="Colorable" />
+                <widget class="TextWidget" name="CustomMapMarkerEditorTitle">
+                    <property name="position" value="0.04 0.08" />
+                    <property name="size" value="0.18 0.22" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="text" value="Nome:" />
+                    <property name="text valign" value="center" />
+                    <property name="color" value="0xFFFFFFFF" />
+                </widget>
+                <widget class="EditBoxWidget" name="CustomMapMarkerNameEdit">
+                    <property name="position" value="0.20 0.08" />
+                    <property name="size" value="0.74 0.28" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="font" value="gui/fonts/system" />
+                    <property name="text" value="" />
+                    <property name="text color" value="1 1 1 1" />
+                </widget>
+                <widget class="ButtonWidget" name="CustomMapMarkerSave">
+                    <property name="position" value="0.20 0.55" />
+                    <property name="size" value="0.25 0.28" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Salvar" />
+                </widget>
+                <widget class="ButtonWidget" name="CustomMapMarkerDelete">
+                    <property name="position" value="0.48 0.55" />
+                    <property name="size" value="0.25 0.28" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="Excluir" />
+                </widget>
+                <widget class="ButtonWidget" name="CustomMapMarkerCancel">
+                    <property name="position" value="0.76 0.55" />
+                    <property name="size" value="0.18 0.28" />
+                    <property name="hexactpos" value="0" />
+                    <property name="vexactpos" value="0" />
+                    <property name="hexactsize" value="0" />
+                    <property name="vexactsize" value="0" />
+                    <property name="style" value="Default" />
+                    <property name="text" value="X" />
+                </widget>
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapZoomIn">
+                <property name="position" value="0.925 0.03" />
+                <property name="size" value="0.045 0.055" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="+" />
+            </widget>
+            <widget class="ButtonWidget" name="CustomMapZoomOut">
+                <property name="position" value="0.925 0.095" />
+                <property name="size" value="0.045 0.055" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="style" value="Default" />
+                <property name="text" value="-" />
+            </widget>
+        </widget>
+    </widget>
+</layout>

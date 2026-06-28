@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="PanelWidget" name="CustomStatusPanel">
+        <property name="visible" value="1" />
+        <property name="position" value="0.01 0.005" />
+        <property name="size" value="0.198333 0.09" />
+        <property name="halign" value="right_ref" />
+        <property name="valign" value="bottom_ref" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <widget class="PanelWidget" name="CustomHudBleedingSlot">
+            <property name="position" value="0 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudBleeding">
+                <property name="visible" value="0" />
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/bleeding.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudEnergySlot">
+            <property name="position" value="0.142857 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudEnergy">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/energy_4.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudFoodSlot">
+            <property name="position" value="0.285714 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudFood">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/food_5.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudWaterSlot">
+            <property name="position" value="0.428571 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudWater">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/water_5.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudTemperatureSlot">
+            <property name="position" value="0.571428 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudTemperature">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/temperature_3.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudBloodSlot">
+            <property name="position" value="0.714285 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudBlood">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/blood_5.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+        <widget class="PanelWidget" name="CustomHudHealthSlot">
+            <property name="position" value="0.857142 0" />
+            <property name="size" value="0.142857 1" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <widget class="ImageWidget" name="CustomHudHealth">
+                <property name="position" value="0 0" />
+                <property name="size" value="0.58 0.58" />
+                <property name="halign" value="center_ref" />
+                <property name="valign" value="center_ref" />
+                <property name="hexactpos" value="0" />
+                <property name="vexactpos" value="0" />
+                <property name="hexactsize" value="0" />
+                <property name="vexactsize" value="0" />
+                <property name="fixaspect" value="inside" />
+                <property name="image0" value="gui/hud_custom/health_5.tga" />
+                <property name="mode" value="blend" />
+                <property name="src alpha" value="1" />
+                <property name="stretch" value="1" />
+            </widget>
+        </widget>
+    </widget>
+</layout>

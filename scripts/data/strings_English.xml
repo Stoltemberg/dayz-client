@@ -1,0 +1,779 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project name="DAY_Z">
+	<Package name="UI">
+		<Container name="Menu">
+			<Container name="Main">
+				<Key ID="main_menu_play">
+					<English>JOGAR</English>
+				<French>JOGAR</French></Key>
+				<Key ID="main_menu_character">
+					<English>PERSONAGEM</English>
+				<French>PERSONAGEM</French></Key>
+				<Key ID="main_menu_change_server">
+					<English>TROCAR SERVIDOR</English>
+				<French>TROCAR SERVIDOR</French></Key>
+				<Key ID="main_menu_configure">
+					<English>CONFIGURAR</English>
+				<French>CONFIGURAR</French></Key>
+				<Key ID="main_menu_exit">
+					<English>SAIR</English>
+				<French>SAIR</French></Key>
+				<Key ID="main_menu_restart">
+					<English>REINICIAR</English>
+				<French>REINICIAR</French></Key>
+        <Key ID="main_menu_respawn">
+          <English>RENASCER</English>
+        <French>RENASCER</French></Key>
+        <Key ID="main_menu_respawn_question">
+          <English>Tem certeza de que deseja renascer? Isso vai matar seu personagem atual.</English>
+        <French>Tem certeza de que deseja renascer? Isso vai matar seu personagem atual.</French></Key>
+				<Key ID="main_menu_continue">
+					<English>CONTINUAR</English>
+				<French>CONTINUAR</French></Key>
+				<Key ID="main_menu_version">
+					<English>Versao:</English>
+				<French>Versao:</French></Key>
+				<Key ID="character_menu_header">
+					<English>Personagem padrao</English>
+				<French>Personagem padrao</French></Key>
+				<Key ID="menu_back">
+					<English>Voltar</English>
+				<French>Voltar</French></Key>
+				<Key ID="menu_apply">
+					<English>Aplicar</English>
+				<French>Aplicar</French></Key>
+				<Key ID="menu_default">
+					<English>Padrao</English>
+				<French>Padrao</French></Key>
+				<Key ID="menu_reset">
+					<English>Redefinir</English>
+				<French>Redefinir</French></Key>
+				<Key ID="menu_random">
+					<English>Aleatorio</English>
+				<French>Aleatorio</French></Key>
+				<Key ID="menu_enable">
+					<English>Ativar</English>
+				<French>Ativar</French></Key>
+				<Key ID="menu_disable">
+					<English>Desativar</English>
+				<French>Desativar</French></Key>
+				<Key ID="menu_enabled">
+					<English>Ativado</English>
+				<French>Ativado</French></Key>
+				<Key ID="menu_disabled">
+					<English>Desativado</English>
+				<French>Desativado</French></Key>
+				<Key ID="menu_warning">
+					<English>Aviso</English>
+				<French>Aviso</French></Key>
+				<Key ID="menu_add">
+					<English>Adicionar</English>
+				<French>Adicionar</French></Key>
+				<Key ID="menu_remove">
+					<English>Remover</English>
+				<French>Remover</French></Key>
+				<Key ID="menu_yes">
+					<English>Sim</English>
+				<French>Sim</French></Key>
+				<Key ID="menu_no">
+					<English>Nao</English>
+				<French>Nao</French></Key>
+				<Key ID="menu_ok">
+					<English>OK</English>
+				<French>OK</French></Key>
+				<Key ID="menu_cancel">
+					<English>CANCELAR</English>
+				<French>CANCELAR</French></Key>
+				<Key ID="menu_test_settings">
+					<English>Testar configuracoes</English>
+				<French>Testar configuracoes</French></Key>
+				<Key ID="menu_restart_needed">
+					<English>Voce precisa reiniciar o jogo para aplicar algumas alteracoes.</English>
+				<French>Voce precisa reiniciar o jogo para aplicar algumas alteracoes.</French></Key>
+				<Key ID="early_access_header">
+					<English>Bem-vindo ao RemanescentZ</English>
+				<French>Bem-vindo ao RemanescentZ</French></Key>
+				<Key ID="early_access_text">
+					<English>Seja bem-vindo ao servidor.
+O projeto ainda esta em desenvolvimento.
+Bugs podem acontecer.
+Reporte erros no Discord.
+
+Boa sorte, sobrevivente.</English>
+				<French>Seja bem-vindo ao servidor.
+O projeto ainda esta em desenvolvimento.
+Bugs podem acontecer.
+Reporte erros no Discord.
+
+Boa sorte, sobrevivente.</French></Key>
+				<Key ID="early_access_alpha">
+					<English>Bem-vindo ao RemanescentZ</English>
+				<French>Bem-vindo ao RemanescentZ</French></Key>
+				<Key ID="early_access_alpha_understand">
+					<English>Entrar</English>
+				<French>Entrar</French></Key>
+				<Key ID="copyright_disclamer">
+					<English>Copyright (C) 2026 RemanescentZ. Projeto independente, sem afiliacao, parceria ou apoio da Bohemia Interactive. DayZ pertence aos seus respectivos donos.</English>
+				<French>Copyright (C) 2026 RemanescentZ. Projeto independente, sem afiliacao, parceria ou apoio da Bohemia Interactive. DayZ pertence aos seus respectivos donos.</French></Key>
+			</Container>
+			<Container name="ServerBrowser">
+				<Key ID="server_browser_servers">
+					<English>Navegador de servidores</English>
+				<French>Navegador de servidores</French></Key>
+				<Key ID="server_browser_tab_internet">
+					<English>Internet</English>
+				<French>Internet</French></Key>
+				<Key ID="server_browser_tab_official">
+					<English>Oficial</English>
+				<French>Oficial</French></Key>
+				<Key ID="server_browser_tab_community">
+					<English>Comunidade</English>
+				<French>Comunidade</French></Key>
+				<Key ID="server_browser_tab_favorite">
+					<English>Favorito</English>
+				<French>Favorito</French></Key>
+				<Key ID="server_browser_tab_history">
+					<English>Historico</English>
+				<French>Historico</French></Key>
+				<Key ID="server_browser_tab_friends">
+					<English>Amigos</English>
+				<French>Amigos</French></Key>
+				<Key ID="server_browser_tab_lan">
+					<English>LAN</English>
+				<French>LAN</French></Key>
+				<Key ID="server_browser_tab_remote">
+					<English>Remoto</English>
+				<French>Remoto</French></Key>
+				<Key ID="server_browser_column_host">
+					<English>Servidor</English>
+				<French>Servidor</French></Key>
+				<Key ID="server_browser_column_pass">
+					<English>SENHA</English>
+				<French>SENHA</French></Key>
+				<Key ID="server_browser_column_hive">
+					<English>HIVE</English>
+				<French>HIVE</French></Key>
+				<Key ID="server_browser_column_mode">
+					<English>MODO</English>
+				<French>MODO</French></Key>
+				<Key ID="server_browser_column_version">
+					<English>VERSAO</English>
+				<French>VERSAO</French></Key>
+				<Key ID="server_browser_column_time">
+					<English>Hora</English>
+				<French>Hora</French></Key>
+				<Key ID="server_browser_column_friends">
+					<English>AMIGOS</English>
+				<French>AMIGOS</French></Key>
+				<Key ID="server_browser_column_players">
+					<English>JOGADORES</English>
+				<French>JOGADORES</French></Key>
+				<Key ID="server_browser_column_ping">
+					<English>Ping</English>
+				<French>Ping</French></Key>
+				<Key ID="server_browser_column_popularity">
+					<English>Pop.</English>
+				<French>Pop.</French></Key>
+				<Key ID="server_browser_column_slots">
+					<English>Vagas</English>
+				<French>Vagas</French></Key>
+				<Key ID="server_browser_refresh">
+					<English>Atualizar lista</English>
+				<French>Atualizar lista</French></Key>
+				<Key ID="server_browser_filter">
+					<English>Filtro</English>
+				<French>Filtro</French></Key>
+				<Key ID="server_browser_add_favorite">
+					<English>Adicionar aos favoritos</English>
+				<French>Adicionar aos favoritos</French></Key>
+				<Key ID="server_browser_remove_favorite">
+					<English>Remover dos favoritos</English>
+				<French>Remover dos favoritos</French></Key>
+				<Key ID="server_browser_details">
+					<English>Detalhes</English>
+				<French>Detalhes</French></Key>
+				<Key ID="server_browser_connect">
+					<English>Conectar</English>
+				<French>Conectar</French></Key>
+				<Key ID="server_browser_agree_battleye_license">
+					<English>Este servidor usa o anti-cheat BattlEye. Para conectar, voce precisa aceitar a licenca do BattlEye.</English>
+				<French>Este servidor usa o anti-cheat BattlEye. Para conectar, voce precisa aceitar a licenca do BattlEye.</French></Key>
+				<Key ID="server_browser_connect_label">
+					<English>CONECTAR</English>
+				<French>CONECTAR</French></Key>
+				<Key ID="multi_server_not_compatible_message">
+					<English>A versao do jogo instalada nao e compativel com este servidor</English>
+				<French>A versao do jogo instalada nao e compativel com este servidor</French></Key>
+
+				<Key ID="multi_enter_server_password_label">
+					<English>SERVIDOR PROTEGIDO POR SENHA</English>
+				<French>SERVIDOR PROTEGIDO POR SENHA</French></Key>
+				<Key ID="multi_enter_server_password_message">
+					<English>Digite a senha do jogo</English>
+				<French>Digite a senha do jogo</French></Key>
+				<Key ID="multi_enter_server_password_edit_label">
+					<English>Senha:</English>
+				<French>Senha:</French></Key>
+
+				<Key ID="multi_enter_server_host_label">
+					<English>Endereco IP do servidor</English>
+				<French>Endereco IP do servidor</French></Key>
+				<Key ID="multi_enter_server_host_message">
+					<English>Digite o endereco IP e a porta do servidor</English>
+				<French>Digite o endereco IP e a porta do servidor</French></Key>
+				<Key ID="multi_enter_server_address_edit_label">
+					<English>Endereco:</English>
+				<French>Endereco:</French></Key>
+				<Key ID="multi_enter_server_port_edit_label">
+					<English>Porta:</English>
+				<French>Porta:</French></Key>
+
+				<Key ID="multi_server_password_invalid_message">
+					<English>Voce digitou uma senha invalida</English>
+				<French>Voce digitou uma senha invalida</French></Key>
+				
+				<Key ID="server_browser_agree">
+					<English>ACEITAR</English>
+				<French>ACEITAR</French></Key>
+				<Key ID="server_browser_disagree">
+					<English>RECUSAR</English>
+				<French>RECUSAR</French></Key>
+				<Key ID="server_browser_license">
+					<English>LICENCA</English>
+				<French>LICENCA</French></Key>
+				<Key ID="server_browser_wrong_password">
+					<English>Nao foi possivel entrar na sessao. A senha esta incorreta.</English>
+				<French>Nao foi possivel entrar na sessao. A senha esta incorreta.</French></Key>
+				<Key ID="server_browser_wrong_version">
+					<English>Versao incorreta, o servidor rejeitou a conexao.</English>
+				<French>Versao incorreta, o servidor rejeitou a conexao.</French></Key>
+				<Key ID="server_browser_wrong_connect_error">
+					<English>Falha ao conectar.</English>
+				<French>Falha ao conectar.</French></Key>
+				<Key ID="server_browser_session_full">
+					<English>O numero maximo de jogadores foi atingido.</English>
+				<French>O numero maximo de jogadores foi atingido.</French></Key>
+				
+				<Key ID="server_browser_steam_friends_text">
+					<English>Amigos Steam</English>
+				<French>Amigos Steam</French></Key>
+				<Key ID="server_browser_no_steam_friends">
+					<English>nenhum</English>
+				<French>nenhum</French></Key>
+				<Key ID="server_browser_name_filter_default">
+					<English>Nome do servidor</English>
+				<French>Nome do servidor</French></Key>
+				<Key ID="server_browser_ping_filter">
+					<English>Ping</English>
+				<French>Ping</French></Key>
+				<Key ID="server_browser_favorite_filter">
+					<English>Favoritos</English>
+				<French>Favoritos</French></Key>
+				<Key ID="server_browser_friend_filter">
+					<English>Amigos jogando</English>
+				<French>Amigos jogando</French></Key>
+				<Key ID="server_browser_battleye_filter">
+					<English>Protegido por BattlEye</English>
+				<French>Protegido por BattlEye</French></Key>
+				<Key ID="server_browser_password_filter">
+					<English>Com senha</English>
+				<French>Com senha</French></Key>
+				<Key ID="server_browser_prev_play_filter">
+					<English>Jogado anteriormente</English>
+				<French>Jogado anteriormente</French></Key>
+				<Key ID="server_browser_version_filter">
+					<English>Versao compativel</English>
+				<French>Versao compativel</French></Key>
+				<Key ID="server_browser_full_servers_filter">
+					<English>Servidores cheios</English>
+				<French>Servidores cheios</French></Key>
+				<Key ID="server_browser_third_person_filter">
+					<English>Terceira pessoa</English>
+				<French>Terceira pessoa</French></Key>
+				<Key ID="server_browser_acc_time_filter">
+					<English>Tempo acelerado</English>
+				<French>Tempo acelerado</French></Key>
+				<Key ID="server_browser_public_filter">
+					<English>Publico</English>
+				<French>Publico</French></Key>
+				<Key ID="server_browser_expand">
+					<English>Expandir detalhes dos servidores</English>
+				<French>Expandir detalhes dos servidores</French></Key>
+				
+				<Key ID="server_browser_collapse">
+					<English>Recolher detalhes dos servidores</English>
+				<French>Recolher detalhes dos servidores</French></Key>
+				
+				<Key ID="server_browser_remote_default">
+					<English>IP e porta do servidor</English>
+				<French>IP e porta do servidor</French></Key>
+				<Key ID="server_browser_filter_reset">
+					<English>Redefinir filtros</English>
+				<French>Redefinir filtros</French></Key>
+				<Key ID="server_browser_password_default">
+					<English>Senha do servidor...</English>
+				<French>Senha do servidor...</French></Key>
+				
+				<Key ID="servers_count">
+					<English>servidores encontrados</English>
+				<French>servidores encontrados</French></Key>
+				<Key ID="server_browser_char_restrict">
+					<English>Restringir ao personagem selecionado</English>
+				<French>Restringir ao personagem selecionado</French></Key>
+			</Container>
+			<Container name="ServerDetails">
+				<Key ID="server_details_header">
+					<English>Detalhes do servidor</English>
+				<French>Detalhes do servidor</French></Key>
+				<Key ID="server_details_name">
+					<English>Nome:</English>
+				<French>Nome:</French></Key>
+				<Key ID="server_details_address">
+					<English>Endereco:</English>
+				<French>Endereco:</French></Key>
+				<Key ID="server_details_shard">
+					<English>Shard:</English>
+				<French>Shard:</French></Key>
+				<Key ID="server_details_hive">
+					<English>Hive:</English>
+				<French>Hive:</French></Key>
+				<Key ID="server_details_mode">
+					<English>Modo:</English>
+				<French>Modo:</French></Key>
+				<Key ID="server_details_version">
+					<English>Versao:</English>
+				<French>Versao:</French></Key>
+				<Key ID="server_details_current_time">
+					<English>Hora atual:</English>
+				<French>Hora atual:</French></Key>
+				<Key ID="server_details_last_played">
+					<English>Ultima vez jogado:</English>
+				<French>Ultima vez jogado:</French></Key>
+				<Key ID="server_details_character_alive">
+					<English>Personagem vivo:</English>
+				<French>Personagem vivo:</French></Key>
+				<Key ID="server_details_character_none">
+					<English>nenhum</English>
+				<French>nenhum</French></Key>
+				<Key ID="server_details_ip">
+					<English>IP:</English>
+				<French>IP:</French></Key>
+				<Key ID="server_details_time_multiplier">
+					<English>Multiplicador de tempo:</English>
+				<French>Multiplicador de tempo:</French></Key>
+				<Key ID="server_details_friends">
+					<English>Amigos:</English>
+				<French>Amigos:</French></Key>
+				<Key ID="server_details_players">
+					<English>Jogadores:</English>
+				<French>Jogadores:</French></Key>
+				<Key ID="server_details_ping">
+					<English>Ping:</English>
+				<French>Ping:</French></Key>
+				<Key ID="server_details_popularity_low">
+					<English>Baixa</English>
+				<French>Baixa</French></Key>
+				<Key ID="server_details_popularity_medium">
+					<English>Media</English>
+				<French>Media</French></Key>
+				<Key ID="server_details_popularity_high">
+					<English>Alta</English>
+				<French>Alta</French></Key>
+				<Key ID="server_details_popularity_full">
+					<English>Cheio</English>
+				<French>Cheio</French></Key>
+				
+			</Container>
+			<Container name="ServerFilter">
+				<Key ID="server_filter_filter_settings">
+					<English>Configuracoes de filtro</English>
+				<French>Configuracoes de filtro</French></Key>
+				<Key ID="server_filter_host">
+					<English>Servidor:</English>
+				<French>Servidor:</French></Key>
+				<Key ID="server_filter_version">
+					<English>Versao:</English>
+				<French>Versao:</French></Key>
+				<Key ID="server_filter_max_players">
+					<English>Max. jogadores:</English>
+				<French>Max. jogadores:</French></Key>
+				<Key ID="server_filter_min_players">
+					<English>Min. jogadores:</English>
+				<French>Min. jogadores:</French></Key>
+				<Key ID="server_filter_max_ping">
+					<English>Ping max.:</English>
+				<French>Ping max.:</French></Key>
+				<Key ID="server_filter_full_servers">
+					<English>Mostrar servidores cheios:</English>
+				<French>Mostrar servidores cheios:</French></Key>
+				<Key ID="server_filter_passworded">
+					<English>Mostrar apenas com senha:</English>
+				<French>Mostrar apenas com senha:</French></Key>
+				<Key ID="server_filter_battle_eye">
+					<English>BattlEye obrigatorio:</English>
+				<French>BattlEye obrigatorio:</French></Key>
+			</Container>
+
+			<Container name="Options">
+				<Key ID="options_system_chat_messages">
+					<English>Mostrar mensagens do sistema</English>
+				<French>Mostrar mensagens do sistema</French></Key>
+				<Key ID="options_global_chat_messages">
+					<English>Mostrar mensagens do chat global</English>
+				<French>Mostrar mensagens do chat global</French></Key>
+				<Key ID="options_direct_chat_messages">
+					<English>Mostrar mensagens do chat direto</English>
+				<French>Mostrar mensagens do chat direto</French></Key>
+				<Key ID="options_vehicle_chat_messages">
+					<English>Mostrar mensagens do chat do veiculo</English>
+				<French>Mostrar mensagens do chat do veiculo</French></Key>
+				<Key ID="options_radio_chat_messages">
+					<English>Mostrar mensagens do radio</English>
+				<French>Mostrar mensagens do radio</French></Key>
+				
+				<Key ID="options_label">
+					<English>Opcoes</English>
+				<French>Opcoes</French></Key>
+        <Key ID="options_presets">
+					<English>Predefinicoes</English>
+				<French>Predefinicoes</French></Key>
+        <Key ID="options_assign">
+          <English>Atribuir</English>
+        <French>Atribuir</French></Key>
+        <Key ID="options_default_preset_label">
+          <English>Selecionar esquema padrao</English>
+        <French>Selecionar esquema padrao</French></Key>
+        <Key ID="options_tab_game">
+					<English>Jogo</English>
+				<French>Jogo</French></Key>
+				<Key ID="options_tab_sound">
+					<English>Som</English>
+				<French>Som</French></Key>
+				<Key ID="options_tab_video">
+					<English>Video</English>
+				<French>Video</French></Key>
+				<Key ID="options_tab_controls">
+					<English>Controles</English>
+				<French>Controles</French></Key>
+				<Container name="Game">
+					<Key ID="options_game_language">
+						<English>Idioma:</English>
+					<French>Idioma:</French></Key>
+					<Key ID="options_game_perspective">
+						<English>Perspectiva:</English>
+					<French>Perspectiva:</French></Key>
+					<Key ID="options_game_inv_mouse">
+						<English>Inverter mouse:</English>
+					<French>Inverter mouse:</French></Key>
+					<Key ID="options_game_fov">
+						<English>Campo de visao:</English>
+					<French>Campo de visao:</French></Key>
+					<Key ID="options_head_bob">
+						<English>Balanco da cabeca:</English>
+					<French>Balanco da cabeca:</French></Key>					
+				</Container>
+				<Container name="Sound">
+					<Key ID="options_sound_effects">
+						<English>Efeitos:</English>
+					<French>Efeitos:</French></Key>
+					<Key ID="options_sound_music">
+						<English>Musica:</English>
+					<French>Musica:</French></Key>
+					<Key ID="options_sound_voip">
+						<English>VoIP:</English>
+					<French>VoIP:</French></Key>
+					<Key ID="options_sound_master">
+						<English>Principal:</English>
+					<French>Principal:</French></Key>
+				</Container>
+				<Container name="Video">
+					<Key ID="options_video_overall_label">
+						<English>Geral:</English>
+					<French>Geral:</French></Key>
+          <Key ID="options_overall_set_button">
+            <English>Definir</English>
+          <French>Definir</French></Key>
+					<Key ID="options_video_overall_quality">
+						<English>Qualidade geral:</English>
+					<French>Qualidade geral:</French></Key>
+					<Key ID="options_video_rendring_resolution">
+						<English>Resolucao de renderizacao:</English>
+					<French>Resolucao de renderizacao:</French></Key>
+					<Key ID="options_video_brightness">
+						<English>Brilho:</English>
+					<French>Brilho:</French></Key>
+					<Key ID="options_video_gamma">
+						<English>Gama:</English>
+					<French>Gama:</French></Key>
+					<Key ID="options_video_vsynch">
+						<English>V-Sync:</English>
+					<French>V-Sync:</French></Key>
+					
+					<Key ID="options_video_ui_label">
+						<English>Interface:</English>
+					<French>Interface:</French></Key>
+					<Key ID="options_video_ui_resolution">
+						<English>Resolucao:</English>
+					<French>Resolucao:</French></Key>
+					<Key ID="options_video_ui_size">
+						<English>Tamanho:</English>
+					<French>Tamanho:</French></Key>
+					<Key ID="options_video_ui_aspect">
+						<English>Proporcao da tela:</English>
+					<French>Proporcao da tela:</French></Key>
+					
+					<Key ID="options_video_textures_label">
+						<English>Texturas:</English>
+					<French>Texturas:</French></Key>
+					<Key ID="options_video_textures_video_memory">
+						<English>Memoria de video:</English>
+					<French>Memoria de video:</French></Key>
+					<Key ID="options_video_textures_detail">
+						<English>Detalhe das texturas:</English>
+					<French>Detalhe das texturas:</French></Key>
+					<Key ID="options_video_textures_filtering">
+						<English>Filtragem das texturas:</English>
+					<French>Filtragem das texturas:</French></Key>
+					
+					<Key ID="options_video_quality_label">
+						<English>Qualidade:</English>
+					<French>Qualidade:</French></Key>
+					<Key ID="options_video_quality_objects">
+						<English>Objetos:</English>
+					<French>Objetos:</French></Key>
+					<Key ID="options_video_quality_terrain">
+						<English>Terreno:</English>
+					<French>Terreno:</French></Key>
+					<Key ID="options_video_quality_clouds">
+						<English>Nuvens:</English>
+					<French>Nuvens:</French></Key>
+					<Key ID="options_video_quality_shadows">
+						<English>Sombras:</English>
+					<French>Sombras:</French></Key>
+					
+					<Key ID="options_video_rendering_label">
+						<English>Renderizacao:</English>
+					<French>Renderizacao:</French></Key>
+					<Key ID="options_video_rendering_antialiasing">
+						<English>Antisserrilhamento:</English>
+					<French>Antisserrilhamento:</French></Key>
+					<Key ID="options_video_rendering_atc">
+						<English>Alpha To Coverage:</English>
+					<French>Alpha To Coverage:</French></Key>
+					<Key ID="options_video_rendering_edge_smooth">
+						<English>Suavizacao de bordas:</English>
+					<French>Suavizacao de bordas:</French></Key>
+					<Key ID="options_video_rendering_hdr">
+						<English>Qualidade HDR:</English>
+					<French>Qualidade HDR:</French></Key>
+					<Key ID="options_video_rendering_ao">
+						<English>Oclusao de ambiente:</English>
+					<French>Oclusao de ambiente:</French></Key>
+					<Key ID="options_video_rendering_postprocess">
+						<English>Qualidade de pos-processamento:</English>
+					<French>Qualidade de pos-processamento:</French></Key>
+					<Key ID="options_video_rendering_bloom">
+						<English>Bloom:</English>
+					<French>Bloom:</French></Key>
+					<Key ID="options_video_rendering_rot_blur">
+						<English>Desfoque de rotacao:</English>
+					<French>Desfoque de rotacao:</French></Key>
+				</Container>
+				<Container name="Controls">
+					<Key ID="options_controls_sensitivity_label">
+						<English>Sensibilidade do mouse:</English>
+					<French>Sensibilidade do mouse:</French></Key>
+					<Key ID="options_controls_x_axis">
+						<English>Eixo X:</English>
+					<French>Eixo X:</French></Key>
+					<Key ID="options_controls_y_axis">
+						<English>Eixo Y:</English>
+					<French>Eixo Y:</French></Key>
+					
+					<Key ID="options_controls_devices_label">
+						<English>Dispositivos:</English>
+					<French>Dispositivos:</French></Key>
+					
+					<Key ID="options_controls_devices_xinput">
+						<English>Usar XInput</English>
+					<French>Usar XInput</French></Key>
+					
+					<Key ID="options_controls_features_label">
+						<English>Recursos do mouse:</English>
+					<French>Recursos do mouse:</French></Key>
+					<Key ID="options_controls_smoothing">
+						<English>Suavizacao:</English>
+					<French>Suavizacao:</French></Key>
+					<Key ID="options_controls_deadzone">
+						<English>Zona morta da mira:</English>
+					<French>Zona morta da mira:</French></Key>
+					
+					<Key ID="options_controls_assignments_label">
+						<English>Atribuicoes:</English>
+					<French>Atribuicoes:</French></Key>
+				</Container>
+				<Container name="Assignments">
+					<Key ID="options_controls_assignments_label2">
+						<English>Atribuicoes</English>
+					<French>Atribuicoes</French></Key>
+					<Key ID="options_controls_action_label">
+						<English>Acao:</English>
+					<French>Acao:</French></Key>
+					<Key ID="options_controls_assigned_keys">
+						<English>Teclas atribuidas:</English>
+					<French>Teclas atribuidas:</French></Key>
+					<Key ID="options_controls_special_keys">
+						<English>Teclas especiais:</English>
+					<French>Teclas especiais:</French></Key>
+					<Key ID="options_controls_add_special">
+						<English>Adicionar especial</English>
+					<French>Adicionar especial</French></Key>
+					<Key ID="options_controls_press_key">
+						<English>Pressione uma tecla para atribuir:</English>
+					<French>Pressione uma tecla para atribuir:</French></Key>
+				</Container>
+			</Container>
+
+			<Container name="MessageDialog">
+				<Key ID="message_dialog_ok">
+					<English>OK</English>
+				<French>OK</French></Key>
+				<Key ID="message_dialog_yes">
+					<English>SIM</English>
+				<French>SIM</French></Key>
+				<Key ID="message_dialog_cancel">
+					<English>CANCELAR</English>
+				<French>CANCELAR</French></Key>
+				<Key ID="message_dialog_continuewithoutsave">
+					<English>Nao foi possivel encontrar armazenamento com espaco suficiente. Continuar sem salvar?</English>
+				<French>Nao foi possivel encontrar armazenamento com espaco suficiente. Continuar sem salvar?</French></Key>
+				<Key ID="message_dialog_no">
+					<English>NAO</English>
+				<French>NAO</French></Key>
+				<Key ID="message_dialog_diskisfull">
+					<English>MEMORIA CHEIA!</English>
+				<French>MEMORIA CHEIA!</French></Key>
+				<Key ID="message_dialog_off">
+					<English>DESLIGADO</English>
+				<French>DESLIGADO</French></Key>
+				<Key ID="message_dialog_on">
+					<English>LIGADO</English>
+				<French>LIGADO</French></Key>
+			</Container>
+			<Container name="Inventory">
+				<Container name="ContextMenu">
+					<Key ID="inv_context_inspect">
+						<English>Inspecionar</English>
+					<French>Inspecionar</French></Key>
+					<Key ID="inv_context_remove_from_hands">
+						<English>Remover das maos</English>
+					<French>Remover das maos</French></Key>
+					<Key ID="inv_context_take_to_hands">
+						<English>Pegar nas maos</English>
+					<French>Pegar nas maos</French></Key>
+					<Key ID="inv_context_take_to_hands">
+						<English>Pegar nas maos</English>
+					<French>Pegar nas maos</French></Key>
+					<Key ID="inv_context_add_as_attachment">
+						<English>Adicionar como anexo</English>
+					<French>Adicionar como anexo</French></Key>
+					<Key ID="inv_context_add_as_cargo">
+						<English>Adicionar como carga</English>
+					<French>Adicionar como carga</French></Key>
+					<Key ID="inv_context_combine">
+						<English>Combinar</English>
+					<French>Combinar</French></Key>
+					<Key ID="inv_context_repair">
+						<English>Reparar</English>
+					<French>Reparar</French></Key>
+					<Key ID="inv_context_swap">
+						<English>Trocar</English>
+					<French>Trocar</French></Key>
+          <Key ID="inv_receiving">
+            <English>Recebendo...</English>
+          <French>Recebendo...</French></Key>          
+        </Container>
+				<Key ID="inspect_title">
+					<English>Inspecionar</English>
+				<French>Inspecionar</French></Key>
+				<Key ID="container_empty">
+					<English>VAZIO</English>
+				<French>VAZIO</French></Key>
+				<Key ID="container_hands">
+					<English>MAOS</English>
+				<French>MAOS</French></Key>
+				<Key ID="container_containers">
+					<English>CONTEINERES</English>
+				<French>CONTEINERES</French></Key>
+				<Key ID="container_inventory">
+					<English>EQUIPAMENTO</English>
+				<French>EQUIPAMENTO</French></Key>
+				<Key ID="container_vicinity">
+					<English>PROXIMIDADE</English>
+				<French>PROXIMIDADE</French></Key>
+				<Key ID="container_shortcuts">
+					<English>Atalhos</English>
+				<French>Atalhos</French></Key>
+				<Key ID="container_type_cargo">
+				  <English>Carga:</English>
+				<French>Carga:</French></Key>
+				<Key ID="container_type_attachment">
+				  <English>Anexo:</English>
+				<French>Anexo:</French></Key>
+			</Container>
+			<Container name="Players">
+				<Key ID="players_title">
+					<English>Jogadores</English>
+				<French>Jogadores</French></Key>
+				<Key ID="players_name">
+					<English>NOME</English>
+				<French>NOME</French></Key>
+				<Key ID="players_ping_min">
+					<English>PING MIN</English>
+				<French>PING MIN</French></Key>
+				<Key ID="players_ping_max">
+					<English>MAX</English>
+				<French>MAX</French></Key>
+				<Key ID="players_ping_avg">
+					<English>MEDIA</English>
+				<French>MEDIA</French></Key>
+				<Key ID="players_bandwidth_min">
+					<English>BANDA MIN</English>
+				<French>BANDA MIN</French></Key>
+				<Key ID="players_bandwidth_max">
+					<English>MAX</English>
+				<French>MAX</French></Key>
+				<Key ID="players_bandwidth_avg">
+					<English>MEDIA</English>
+				<French>MEDIA</French></Key>
+				<Key ID="players_desynch">
+					<English>DESSINC</English>
+				<French>DESSINC</French></Key>
+			</Container>
+		</Container>
+	</Package>
+	<Package name="UserActions">
+		<Container name="ActionsElectricity">
+			<Key ID="user_action_elect_installed_sparkplug">
+				<English>Instalei a vela de ignicao no gerador.</English>
+			<French>Instalei a vela de ignicao no gerador.</French></Key>
+			<Key ID="user_action_elect_removed_sparkplug">
+				<English>Removi a vela de ignicao do gerador.</English>
+			<French>Removi a vela de ignicao do gerador.</French></Key>
+			<Key ID="range_finder_distance">
+				<English>Distancia</English>
+			<French>Distancia</French></Key>
+			<Key ID="meters">
+				<English>metros.</English>
+			<French>metros.</French></Key>
+			
+		</Container>
+	</Package>
+	<Package name="Recipes">
+		<Container name="PlayerMessages">
+			<Key ID="blood_type_result">
+				<English>Tipo sanguineo: </English>
+			<French>Tipo sanguineo: </French></Key>
+		</Container>
+	</Package>
+</Project>

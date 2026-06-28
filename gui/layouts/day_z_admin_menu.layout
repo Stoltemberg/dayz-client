@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+	<widget class="WindowWidget" name="AdminRoot">
+		<property name="disabled" value="0" />
+		<property name="inheritalpha" value="0" />
+		<property name="position" value="0 0" />
+		<property name="size" value="1 1" />
+		<property name="hexactpos" value="0" />
+		<property name="vexactpos" value="0" />
+		<property name="hexactsize" value="0" />
+		<property name="vexactsize" value="0" />
+		<property name="color" value="0 0 0 0.502" />
+		<property name="style" value="Colorable" />
+		<property name="priority" value="1000" />
+		<widget class="PanelWidget" name="AdminShade">
+			<property name="position" value="0 0" />
+			<property name="size" value="1 1" />
+			<property name="hexactpos" value="0" />
+			<property name="vexactpos" value="0" />
+			<property name="hexactsize" value="0" />
+			<property name="vexactsize" value="0" />
+			<property name="color" value="0 0 0 0.45" />
+			<property name="style" value="Colorable" />
+		</widget>
+		<widget class="PanelWidget" name="AdminMainPanel">
+			<property name="visible" value="1" />
+			<property name="clipchildren" value="1" />
+			<property name="inheritalpha" value="0" />
+			<property name="position" value="0.008 0.075" />
+			<property name="size" value="0.984 0.845" />
+			<property name="hexactpos" value="0" />
+			<property name="vexactpos" value="0" />
+			<property name="hexactsize" value="0" />
+			<property name="vexactsize" value="0" />
+			<property name="color" value="0 0 0 0.72" />
+			<property name="style" value="rover_sim_black_2" />
+			<widget class="PanelWidget" name="AdminTopBar">
+				<property name="position" value="0 0" />
+				<property name="size" value="1 0.055" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.86" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="AdminTitle">
+					<property name="position" value="0.025 0.10" />
+					<property name="size" value="0.30 0.70" />
+					<property name="text" value="PAINEL ADMIN" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextWidget" name="AdminStatus">
+					<property name="position" value="0.34 0.12" />
+					<property name="size" value="0.48 0.64" />
+					<property name="text" value="Validando UID..." />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFE4EAF2" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminClose">
+					<property name="position" value="0.88 0.12" />
+					<property name="size" value="0.10 0.64" />
+					<property name="text" value="FECHAR" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="AdminPlayersPanel">
+				<property name="position" value="0.025 0.08" />
+				<property name="size" value="0.45 0.875" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.64" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="AdminPlayersTitle">
+					<property name="position" value="0.03 0.025" />
+					<property name="size" value="0.60 0.06" />
+					<property name="text" value="Jogadores online" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminRefresh">
+					<property name="position" value="0.70 0.02" />
+					<property name="size" value="0.26 0.075" />
+					<property name="text" value="Atualizar" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextListboxWidget" name="AdminPlayerList">
+					<property name="position" value="0.03 0.12" />
+					<property name="size" value="0.94 0.84" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+			</widget>
+			<widget class="PanelWidget" name="AdminActionsPanel">
+				<property name="position" value="0.50 0.08" />
+				<property name="size" value="0.475 0.875" />
+				<property name="hexactpos" value="0" />
+				<property name="vexactpos" value="0" />
+				<property name="hexactsize" value="0" />
+				<property name="vexactsize" value="0" />
+				<property name="color" value="0 0 0 0.58" />
+				<property name="style" value="Colorable" />
+				<widget class="TextWidget" name="AdminActionsTitle">
+					<property name="position" value="0.035 0.025" />
+					<property name="size" value="0.80 0.06" />
+					<property name="text" value="Acoes do admin" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminGodMode">
+					<property name="position" value="0.035 0.12" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="Godmode" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminEsp">
+					<property name="position" value="0.535 0.12" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="ESP esqueleto" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminTeleportPlayer">
+					<property name="position" value="0.035 0.26" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="TP ate player" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminPullPlayer">
+					<property name="position" value="0.535 0.26" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="Puxar player" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminItems">
+					<property name="position" value="0.035 0.40" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="Kit admin" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminKick">
+					<property name="position" value="0.535 0.40" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="Kick player" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminBan">
+					<property name="position" value="0.035 0.54" />
+					<property name="size" value="0.42 0.10" />
+					<property name="text" value="Ban por UID" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextWidget" name="AdminCityTitle">
+					<property name="position" value="0.035 0.675" />
+					<property name="size" value="0.42 0.05" />
+					<property name="text" value="Teleportar para cidade" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextListboxWidget" name="AdminCityList">
+					<property name="position" value="0.035 0.735" />
+					<property name="size" value="0.42 0.18" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminTeleportCity">
+					<property name="position" value="0.035 0.925" />
+					<property name="size" value="0.42 0.07" />
+					<property name="text" value="Teleportar cidade" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+				<widget class="TextWidget" name="AdminItemTitle">
+					<property name="position" value="0.535 0.675" />
+					<property name="size" value="0.42 0.05" />
+					<property name="text" value="Spawnar item" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="color" value="0xFFFFFFFF" />
+				</widget>
+				<widget class="TextListboxWidget" name="AdminItemList">
+					<property name="position" value="0.535 0.735" />
+					<property name="size" value="0.42 0.18" />
+					<property name="font" value="gui/fonts/system" />
+				</widget>
+				<widget class="ButtonWidget" name="AdminSpawnSelectedItem">
+					<property name="position" value="0.535 0.925" />
+					<property name="size" value="0.42 0.07" />
+					<property name="text" value="Spawnar item" />
+					<property name="font" value="gui/fonts/system" />
+					<property name="style" value="Default" />
+				</widget>
+			</widget>
+		</widget>
+	</widget>
+</layout>

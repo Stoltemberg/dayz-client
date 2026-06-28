@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="PanelWidget" name="HudTestsPanel">
+        <property name="visible" value="1" />
+        <property name="position" value="0.445 0.48" />
+        <property name="size" value="0.22 0.36" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <widget class="TextWidget" name="HudTestsTitle">
+            <property name="position" value="0.02 0.02" />
+            <property name="size" value="0.96 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Testes HUD" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="CheckBoxWidget" name="HudTestEnabled">
+            <property name="position" value="0.02 0.13" />
+            <property name="size" value="0.48 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Ativar teste" />
+        </widget>
+        <widget class="TextWidget" name="HudTestStatus">
+            <property name="position" value="0.52 0.13" />
+            <property name="size" value="0.46 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Pronto" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="TextWidget" name="HudTestFoodLabel">
+            <property name="position" value="0.02 0.25" />
+            <property name="size" value="0.25 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Fome" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestFood1">
+            <property name="position" value="0.30 0.235" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestFood2">
+            <property name="position" value="0.44 0.235" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="2" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestFood3">
+            <property name="position" value="0.58 0.235" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="3" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestFood4">
+            <property name="position" value="0.72 0.235" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="4" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestFood5">
+            <property name="position" value="0.86 0.235" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="5" />
+        </widget>
+        <widget class="TextWidget" name="HudTestWaterLabel">
+            <property name="position" value="0.02 0.37" />
+            <property name="size" value="0.25 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Sede" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestWater1">
+            <property name="position" value="0.30 0.355" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestWater2">
+            <property name="position" value="0.44 0.355" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="2" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestWater3">
+            <property name="position" value="0.58 0.355" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="3" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestWater4">
+            <property name="position" value="0.72 0.355" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="4" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestWater5">
+            <property name="position" value="0.86 0.355" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="5" />
+        </widget>
+        <widget class="TextWidget" name="HudTestTemperatureLabel">
+            <property name="position" value="0.02 0.49" />
+            <property name="size" value="0.25 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Temp" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestTemperature1">
+            <property name="position" value="0.30 0.475" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestTemperature2">
+            <property name="position" value="0.44 0.475" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="2" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestTemperature3">
+            <property name="position" value="0.58 0.475" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="3" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestTemperature4">
+            <property name="position" value="0.72 0.475" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="4" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestTemperature5">
+            <property name="position" value="0.86 0.475" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="5" />
+        </widget>
+        <widget class="TextWidget" name="HudTestBloodLabel">
+            <property name="position" value="0.02 0.61" />
+            <property name="size" value="0.25 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Sangue" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestBlood1">
+            <property name="position" value="0.30 0.595" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestBlood2">
+            <property name="position" value="0.44 0.595" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="2" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestBlood3">
+            <property name="position" value="0.58 0.595" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="3" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestBlood4">
+            <property name="position" value="0.72 0.595" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="4" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestBlood5">
+            <property name="position" value="0.86 0.595" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="5" />
+        </widget>
+        <widget class="TextWidget" name="HudTestHealthLabel">
+            <property name="position" value="0.02 0.73" />
+            <property name="size" value="0.25 0.10" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="Vida" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestHealth1">
+            <property name="position" value="0.30 0.715" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestHealth2">
+            <property name="position" value="0.44 0.715" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="2" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestHealth3">
+            <property name="position" value="0.58 0.715" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="3" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestHealth4">
+            <property name="position" value="0.72 0.715" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="4" />
+        </widget>
+        <widget class="ButtonWidget" name="HudTestHealth5">
+            <property name="position" value="0.86 0.715" />
+            <property name="size" value="0.12 0.115" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="5" />
+        </widget>
+        <widget class="TextWidget" name="HudTestsHint">
+            <property name="position" value="0.02 0.88" />
+            <property name="size" value="0.96 0.09" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="1 critico / 5 cheio" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+    </widget>
+</layout>

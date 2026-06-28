@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <widget class="PanelWidget" name="CustomMapHudMarkerRoot">
+        <property name="visible" value="0" />
+        <property name="position" value="0 0" />
+        <property name="size" value="0.16 0.055" />
+        <property name="hexactpos" value="0" />
+        <property name="vexactpos" value="0" />
+        <property name="hexactsize" value="0" />
+        <property name="vexactsize" value="0" />
+        <property name="color" value="0.02 0.05 0.04 0.68" />
+        <property name="style" value="Colorable" />
+        <widget class="MultilineTextWidget" name="CustomMapHudMarkerText">
+            <property name="position" value="0.04 0.08" />
+            <property name="size" value="0.92 0.84" />
+            <property name="hexactpos" value="0" />
+            <property name="vexactpos" value="0" />
+            <property name="hexactsize" value="0" />
+            <property name="vexactsize" value="0" />
+            <property name="text" value="" />
+            <property name="text halign" value="center" />
+            <property name="text valign" value="center" />
+            <property name="color" value="0xFFFFFFFF" />
+        </widget>
+    </widget>
+</layout>
