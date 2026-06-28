@@ -101,9 +101,27 @@
       "md5": "1711464a23e9a0c222a361c3fcf3c318",
       "size": 235600
     },
+    "Addons/animals.pbo": {
+      "md5": "e00cc02a9ec822b23bbd225f9fee046c",
+      "size": 243890419,
+      "parts": [
+        "Addons/animals.pbo.part0",
+        "Addons/animals.pbo.part1",
+        "Addons/animals.pbo.part2"
+      ]
+    },
     "Addons/anims.pbo": {
       "md5": "62b0dc7f3cffebd914081c348bd5350e",
       "size": 4273799
+    },
+    "Addons/anims_anm_player.pbo": {
+      "md5": "47621cfea6cbdb12fdbe414a6c152bb5",
+      "size": 254839495,
+      "parts": [
+        "Addons/anims_anm_player.pbo.part0",
+        "Addons/anims_anm_player.pbo.part1",
+        "Addons/anims_anm_player.pbo.part2"
+      ]
     },
     "Addons/anims_anm_zombie.pbo": {
       "md5": "5c15650724ef372f3ca96243a3b6dc20",
@@ -113,13 +131,69 @@
       "md5": "aa2045ef6fe9f82ecd77266da54bf2bf",
       "size": 827847
     },
+    "Addons/anims_rtm.pbo": {
+      "md5": "b89ae6ace508832e1c7403f4bf997808",
+      "size": 180106354,
+      "parts": [
+        "Addons/anims_rtm.pbo.part0",
+        "Addons/anims_rtm.pbo.part1"
+      ]
+    },
     "Addons/anims_workspaces.pbo": {
       "md5": "2b6ddc6df588ec0c93932a338f31a850",
       "size": 631075
     },
+    "Addons/assets_buildings.pbo": {
+      "md5": "6046801c8b5ce475ff4399600b358d19",
+      "size": 264637732,
+      "parts": [
+        "Addons/assets_buildings.pbo.part0",
+        "Addons/assets_buildings.pbo.part1",
+        "Addons/assets_buildings.pbo.part2"
+      ]
+    },
+    "Addons/assets_buildings2.pbo": {
+      "md5": "bb389d0fcb9895e2dafce91e916cf51a",
+      "size": 579495968,
+      "parts": [
+        "Addons/assets_buildings2.pbo.part0",
+        "Addons/assets_buildings2.pbo.part1",
+        "Addons/assets_buildings2.pbo.part2",
+        "Addons/assets_buildings2.pbo.part3",
+        "Addons/assets_buildings2.pbo.part4",
+        "Addons/assets_buildings2.pbo.part5",
+        "Addons/assets_buildings2.pbo.part6"
+      ]
+    },
+    "Addons/assets_misc.pbo": {
+      "md5": "653926ab0c639493e5d4f91bf420cd8b",
+      "size": 121758326,
+      "parts": [
+        "Addons/assets_misc.pbo.part0",
+        "Addons/assets_misc.pbo.part1"
+      ]
+    },
     "Addons/assets_misc2.pbo": {
       "md5": "5c17efa7c28afada65153decae608d20",
       "size": 33326855
+    },
+    "Addons/assets_misc3.pbo": {
+      "md5": "148b77ea32d69a42fb79bb097141406a",
+      "size": 239211765,
+      "parts": [
+        "Addons/assets_misc3.pbo.part0",
+        "Addons/assets_misc3.pbo.part1",
+        "Addons/assets_misc3.pbo.part2"
+      ]
+    },
+    "Addons/assets_roads2.pbo": {
+      "md5": "f7db475ca45491a03482363f8603aeb5",
+      "size": 224450974,
+      "parts": [
+        "Addons/assets_roads2.pbo.part0",
+        "Addons/assets_roads2.pbo.part1",
+        "Addons/assets_roads2.pbo.part2"
+      ]
     },
     "Addons/assets_rocks2.pbo": {
       "md5": "4cb2964b667143776546777a44add7c6",
@@ -128,6 +202,37 @@
     "Addons/assets_signs2.pbo": {
       "md5": "412a9d593930301c0de3c0c9218c37b4",
       "size": 95557867
+    },
+    "Addons/assets_structures.pbo": {
+      "md5": "62c42fcb4a670cac5f7a7a52ba0b74a9",
+      "size": 824159489,
+      "parts": [
+        "Addons/assets_structures.pbo.part0",
+        "Addons/assets_structures.pbo.part1",
+        "Addons/assets_structures.pbo.part2",
+        "Addons/assets_structures.pbo.part3",
+        "Addons/assets_structures.pbo.part4",
+        "Addons/assets_structures.pbo.part5",
+        "Addons/assets_structures.pbo.part6",
+        "Addons/assets_structures.pbo.part7",
+        "Addons/assets_structures.pbo.part8"
+      ]
+    },
+    "Addons/books.pbo": {
+      "md5": "8c20aed6a8e32d012676eab1a78a8a59",
+      "size": 148613903,
+      "parts": [
+        "Addons/books.pbo.part0",
+        "Addons/books.pbo.part1"
+      ]
+    },
+    "Addons/characters_backpacks.pbo": {
+      "md5": "534428878611a187a74754829e2f21c3",
+      "size": 155341279,
+      "parts": [
+        "Addons/characters_backpacks.pbo.part0",
+        "Addons/characters_backpacks.pbo.part1"
+      ]
     },
     "Addons/characters_bodies.pbo": {
       "md5": "2d05e585aa703f363fd1f9d53a105d4d",
@@ -145,9 +250,39 @@
       "md5": "aae68174fa6d1882e08a79abd6941fa0",
       "size": 3920137
     },
+    "Addons/characters_headgear.pbo": {
+      "md5": "4cc09438f8b3100ec5d75d00653202b3",
+      "size": 184171661,
+      "parts": [
+        "Addons/characters_headgear.pbo.part0",
+        "Addons/characters_headgear.pbo.part1"
+      ]
+    },
+    "Addons/characters_heads.pbo": {
+      "md5": "e122d9448ffd6bf5ad00b73c88178776",
+      "size": 745199070,
+      "parts": [
+        "Addons/characters_heads.pbo.part0",
+        "Addons/characters_heads.pbo.part1",
+        "Addons/characters_heads.pbo.part2",
+        "Addons/characters_heads.pbo.part3",
+        "Addons/characters_heads.pbo.part4",
+        "Addons/characters_heads.pbo.part5",
+        "Addons/characters_heads.pbo.part6",
+        "Addons/characters_heads.pbo.part7"
+      ]
+    },
     "Addons/characters_masks.pbo": {
       "md5": "ae10bcb3f5f020a5f236036cefd90c96",
       "size": 38669631
+    },
+    "Addons/characters_pants.pbo": {
+      "md5": "58e2653dc2910ebb574f72ba80ce8117",
+      "size": 144346920,
+      "parts": [
+        "Addons/characters_pants.pbo.part0",
+        "Addons/characters_pants.pbo.part1"
+      ]
     },
     "Addons/characters_proxies.pbo": {
       "md5": "6c0e5843f21a13b1addac747bdc54b75",
@@ -157,17 +292,56 @@
       "md5": "0ff4894546bd98b2531938f6a3089281",
       "size": 27539711
     },
+    "Addons/characters_tops.pbo": {
+      "md5": "df5f06efe322a042a74f7126a654b3ca",
+      "size": 364926230,
+      "parts": [
+        "Addons/characters_tops.pbo.part0",
+        "Addons/characters_tops.pbo.part1",
+        "Addons/characters_tops.pbo.part2",
+        "Addons/characters_tops.pbo.part3"
+      ]
+    },
     "Addons/characters_vests.pbo": {
       "md5": "e901ad4a218d4180c08b8f6496303e86",
       "size": 82667132
+    },
+    "Addons/characters_zombies.pbo": {
+      "md5": "e0ae65da36396ea0ab69dc4fc0290112",
+      "size": 651734010,
+      "parts": [
+        "Addons/characters_zombies.pbo.part0",
+        "Addons/characters_zombies.pbo.part1",
+        "Addons/characters_zombies.pbo.part2",
+        "Addons/characters_zombies.pbo.part3",
+        "Addons/characters_zombies.pbo.part4",
+        "Addons/characters_zombies.pbo.part5",
+        "Addons/characters_zombies.pbo.part6"
+      ]
     },
     "Addons/code.pbo": {
       "md5": "2411b387ae6a671f5345d6e85228dd4c",
       "size": 503
     },
+    "Addons/DZ.pbo": {
+      "md5": "5a06d17093857f527a76924888fba9e5",
+      "size": 120963680,
+      "parts": [
+        "Addons/DZ.pbo.part0",
+        "Addons/DZ.pbo.part1"
+      ]
+    },
     "Addons/functions.pbo": {
       "md5": "f957e2c8431eb50a1ab595e056112833",
       "size": 1215124
+    },
+    "Addons/gear_camping.pbo": {
+      "md5": "ebaf6802e447fdd577f29bcd4812e405",
+      "size": 152334213,
+      "parts": [
+        "Addons/gear_camping.pbo.part0",
+        "Addons/gear_camping.pbo.part1"
+      ]
     },
     "Addons/gear_consumables.pbo": {
       "md5": "69489f70f4995e9ef650f0aa71dc8251",
@@ -193,6 +367,15 @@
       "md5": "10e4a6c5013344926bb0cd5680f71f6d",
       "size": 7173155
     },
+    "Addons/gear_food.pbo": {
+      "md5": "ef208a5b4da7d00f99d6658ae1f4f1eb",
+      "size": 198486412,
+      "parts": [
+        "Addons/gear_food.pbo.part0",
+        "Addons/gear_food.pbo.part1",
+        "Addons/gear_food.pbo.part2"
+      ]
+    },
     "Addons/gear_medical.pbo": {
       "md5": "51103860aed43dff5b28f698137646d1",
       "size": 18636723
@@ -208,6 +391,14 @@
     "Addons/gear_radio.pbo": {
       "md5": "ff1ba1a76b7873ad7dc7860c85a53f4e",
       "size": 42175452
+    },
+    "Addons/gear_tools.pbo": {
+      "md5": "96b6f12c25f2c85a2607f45bf7a4d723",
+      "size": 118314405,
+      "parts": [
+        "Addons/gear_tools.pbo.part0",
+        "Addons/gear_tools.pbo.part1"
+      ]
     },
     "Addons/gear_traps.pbo": {
       "md5": "dd05fe275528970380489ef6ca5d6528",
@@ -233,6 +424,26 @@
       "md5": "66bf5513d0ab24dc20174a4d6403e66a",
       "size": 153315
     },
+    "Addons/pistols.pbo": {
+      "md5": "baed57d75a48a1df2473bb546fab0129",
+      "size": 111576349,
+      "parts": [
+        "Addons/pistols.pbo.part0",
+        "Addons/pistols.pbo.part1"
+      ]
+    },
+    "Addons/plants.pbo": {
+      "md5": "841cd2421269cb858e45e654d64b9c94",
+      "size": 552072103,
+      "parts": [
+        "Addons/plants.pbo.part0",
+        "Addons/plants.pbo.part1",
+        "Addons/plants.pbo.part2",
+        "Addons/plants.pbo.part3",
+        "Addons/plants.pbo.part4",
+        "Addons/plants.pbo.part5"
+      ]
+    },
     "Addons/plants2_bush.pbo": {
       "md5": "9b584c49fc72fd57936df718ea18f386",
       "size": 80754744
@@ -249,6 +460,16 @@
       "md5": "26ed7954881bd112af0de89b316e3174",
       "size": 38872337
     },
+    "Addons/plants2_tree.pbo": {
+      "md5": "de346f0ee84aaca26b0f1148475539fc",
+      "size": 320548086,
+      "parts": [
+        "Addons/plants2_tree.pbo.part0",
+        "Addons/plants2_tree.pbo.part1",
+        "Addons/plants2_tree.pbo.part2",
+        "Addons/plants2_tree.pbo.part3"
+      ]
+    },
     "Addons/plants_bush.pbo": {
       "md5": "234b56a48045315becb5ff3a773e74fd",
       "size": 32679794
@@ -257,13 +478,80 @@
       "md5": "f7d15d13a95e2cd455a67f07bb68bc41",
       "size": 30956374
     },
+    "Addons/plants_tree.pbo": {
+      "md5": "9d388d8a667ae13ed60308bcf2a4189a",
+      "size": 488429655,
+      "parts": [
+        "Addons/plants_tree.pbo.part0",
+        "Addons/plants_tree.pbo.part1",
+        "Addons/plants_tree.pbo.part2",
+        "Addons/plants_tree.pbo.part3",
+        "Addons/plants_tree.pbo.part4",
+        "Addons/plants_tree.pbo.part5"
+      ]
+    },
+    "Addons/rocks3.pbo": {
+      "md5": "300e22d91cd044647b0c3e06160d9c65",
+      "size": 171264704,
+      "parts": [
+        "Addons/rocks3.pbo.part0",
+        "Addons/rocks3.pbo.part1"
+      ]
+    },
     "Addons/server_data.pbo": {
       "md5": "09290546001f4b3db3a1233faf5c3c9e",
       "size": 1341599
     },
+    "Addons/sounds_arma2.pbo": {
+      "md5": "ba84e94cce5dc65d72aaa3b091493f77",
+      "size": 435184655,
+      "parts": [
+        "Addons/sounds_arma2.pbo.part0",
+        "Addons/sounds_arma2.pbo.part1",
+        "Addons/sounds_arma2.pbo.part2",
+        "Addons/sounds_arma2.pbo.part3",
+        "Addons/sounds_arma2.pbo.part4"
+      ]
+    },
     "Addons/sounds_mod.pbo": {
       "md5": "79ea75c61ba210cdeecfbd5a212adcf2",
       "size": 36885804
+    },
+    "Addons/sound_effects.pbo": {
+      "md5": "760890b80370f0b73d8cb378b3d4b91d",
+      "size": 1726375445,
+      "parts": [
+        "Addons/sound_effects.pbo.part0",
+        "Addons/sound_effects.pbo.part1",
+        "Addons/sound_effects.pbo.part2",
+        "Addons/sound_effects.pbo.part3",
+        "Addons/sound_effects.pbo.part4",
+        "Addons/sound_effects.pbo.part5",
+        "Addons/sound_effects.pbo.part6",
+        "Addons/sound_effects.pbo.part7",
+        "Addons/sound_effects.pbo.part8",
+        "Addons/sound_effects.pbo.part9",
+        "Addons/sound_effects.pbo.part10",
+        "Addons/sound_effects.pbo.part11",
+        "Addons/sound_effects.pbo.part12",
+        "Addons/sound_effects.pbo.part13",
+        "Addons/sound_effects.pbo.part14",
+        "Addons/sound_effects.pbo.part15",
+        "Addons/sound_effects.pbo.part16",
+        "Addons/sound_effects.pbo.part17",
+        "Addons/sound_effects.pbo.part18"
+      ]
+    },
+    "Addons/sound_weapons.pbo": {
+      "md5": "65eea1140dead87b00bf579944635ddf",
+      "size": 446865822,
+      "parts": [
+        "Addons/sound_weapons.pbo.part0",
+        "Addons/sound_weapons.pbo.part1",
+        "Addons/sound_weapons.pbo.part2",
+        "Addons/sound_weapons.pbo.part3",
+        "Addons/sound_weapons.pbo.part4"
+      ]
     },
     "Addons/structures_abadoned_bulldozer.pbo": {
       "md5": "c33627d9877d9617221d8e1547ff3113",
@@ -272,6 +560,14 @@
     "Addons/structures_abandoned_digger.pbo": {
       "md5": "a127690bf92209050ce98513e8c658cc",
       "size": 16164390
+    },
+    "Addons/structures_abandoned_ship.pbo": {
+      "md5": "a2813b4503f15fc203b79d178779fbfa",
+      "size": 113728461,
+      "parts": [
+        "Addons/structures_abandoned_ship.pbo.part0",
+        "Addons/structures_abandoned_ship.pbo.part1"
+      ]
     },
     "Addons/structures_barn_w.pbo": {
       "md5": "cdb8fcf37569d96746c9df5f7ba81177",
@@ -292,6 +588,25 @@
     "Addons/structures_cranecon.pbo": {
       "md5": "96b2d4473e6c162f68470bce5b88fe54",
       "size": 12713446
+    },
+    "Addons/structures_furniture.pbo": {
+      "md5": "1f5866c89c2b60181adff61077ef7f26",
+      "size": 178798718,
+      "parts": [
+        "Addons/structures_furniture.pbo.part0",
+        "Addons/structures_furniture.pbo.part1"
+      ]
+    },
+    "Addons/structures_houses.pbo": {
+      "md5": "2f0197820c86b74b10562f3b9ed3f318",
+      "size": 456639856,
+      "parts": [
+        "Addons/structures_houses.pbo.part0",
+        "Addons/structures_houses.pbo.part1",
+        "Addons/structures_houses.pbo.part2",
+        "Addons/structures_houses.pbo.part3",
+        "Addons/structures_houses.pbo.part4"
+      ]
     },
     "Addons/structures_industrial.pbo": {
       "md5": "502081bb920cd47128d209e3287c1acc",
@@ -333,6 +648,14 @@
       "md5": "f6930da1da7e1a3a0b07869412df3eb2",
       "size": 44942345
     },
+    "Addons/structures_misc.pbo": {
+      "md5": "ad7b0d314543b449aa19d036ec4f4cfe",
+      "size": 138083803,
+      "parts": [
+        "Addons/structures_misc.pbo.part0",
+        "Addons/structures_misc.pbo.part1"
+      ]
+    },
     "Addons/structures_misc_powerlines.pbo": {
       "md5": "30f1559047e0533656f18857a4073b7e",
       "size": 21398649
@@ -365,6 +688,14 @@
       "md5": "3f0eec975b31ac7c70242ea2f14ec66e",
       "size": 54213476
     },
+    "Addons/structures_railway.pbo": {
+      "md5": "25c1b852ccb19a438a91209ca982e301",
+      "size": 124235754,
+      "parts": [
+        "Addons/structures_railway.pbo.part0",
+        "Addons/structures_railway.pbo.part1"
+      ]
+    },
     "Addons/structures_ruins.pbo": {
       "md5": "28a4f30e04436ea00925d7272db95873",
       "size": 12309071
@@ -385,6 +716,15 @@
       "md5": "b6b19bcc5a52583e4f471d30c25bd5a3",
       "size": 21883527
     },
+    "Addons/structures_tisy_base.pbo": {
+      "md5": "973a32af02c5c4004bb1ac9b48eac59a",
+      "size": 231950010,
+      "parts": [
+        "Addons/structures_tisy_base.pbo.part0",
+        "Addons/structures_tisy_base.pbo.part1",
+        "Addons/structures_tisy_base.pbo.part2"
+      ]
+    },
     "Addons/structures_tvtower.pbo": {
       "md5": "cbb335d24583e536b827607ca39eec61",
       "size": 13963849
@@ -396,6 +736,14 @@
     "Addons/structures_wrecks.pbo": {
       "md5": "8289235670a387f00ff2c01f0581ded0",
       "size": 4082388
+    },
+    "Addons/surfaces.pbo": {
+      "md5": "f3135b4de5b5ce1962f59487cdafa977",
+      "size": 138469024,
+      "parts": [
+        "Addons/surfaces.pbo.part0",
+        "Addons/surfaces.pbo.part1"
+      ]
     },
     "Addons/ui.pbo": {
       "md5": "d0cd7a912211f8f5a24012f8ff866d4d",
@@ -412,6 +760,27 @@
     "Addons/vehicles_tracked.pbo": {
       "md5": "0fa5538060bcc91d36ddba35d6f12a36",
       "size": 28078003
+    },
+    "Addons/vehicles_wheeled.pbo": {
+      "md5": "fcb8011f3a4b3e0988f7ed50d44629e6",
+      "size": 495737662,
+      "parts": [
+        "Addons/vehicles_wheeled.pbo.part0",
+        "Addons/vehicles_wheeled.pbo.part1",
+        "Addons/vehicles_wheeled.pbo.part2",
+        "Addons/vehicles_wheeled.pbo.part3",
+        "Addons/vehicles_wheeled.pbo.part4",
+        "Addons/vehicles_wheeled.pbo.part5"
+      ]
+    },
+    "Addons/vehicles_wrecks.pbo": {
+      "md5": "7eb872b5bdd574c4f995eef193bca069",
+      "size": 263876397,
+      "parts": [
+        "Addons/vehicles_wrecks.pbo.part0",
+        "Addons/vehicles_wrecks.pbo.part1",
+        "Addons/vehicles_wrecks.pbo.part2"
+      ]
     },
     "Addons/weapons_ammunition.pbo": {
       "md5": "215200b0b4f22836fc93808a2d9076ee",
@@ -432,6 +801,17 @@
     "Addons/weapons_explosives.pbo": {
       "md5": "af417583a6b4378abf9f72c543aacfbc",
       "size": 12485106
+    },
+    "Addons/weapons_firearms.pbo": {
+      "md5": "1f4ba1bd4002ed0081d29ec617abcc88",
+      "size": 388002923,
+      "parts": [
+        "Addons/weapons_firearms.pbo.part0",
+        "Addons/weapons_firearms.pbo.part1",
+        "Addons/weapons_firearms.pbo.part2",
+        "Addons/weapons_firearms.pbo.part3",
+        "Addons/weapons_firearms.pbo.part4"
+      ]
     },
     "Addons/weapons_launchers.pbo": {
       "md5": "888df241eef6aa26b196dd42c531fdac",
@@ -461,6 +841,14 @@
       "md5": "161178969b89517bab782f2055cfa14c",
       "size": 47670616
     },
+    "Addons/weapon_attachments_textures.pbo": {
+      "md5": "9060dc8037397d4796321fd4d5caeee5",
+      "size": 141043833,
+      "parts": [
+        "Addons/weapon_attachments_textures.pbo.part0",
+        "Addons/weapon_attachments_textures.pbo.part1"
+      ]
+    },
     "Addons/weapon_lights.pbo": {
       "md5": "44a5252506e2e2f4e30fb214d71b4df3",
       "size": 307225
@@ -485,6 +873,15 @@
       "md5": "ca82c690bff80f32fcdbe30423b50012",
       "size": 903654
     },
+    "Addons/worlds_chernarusplus.pbo": {
+      "md5": "e76534a5963dab71356e2d22fde8583f",
+      "size": 241724953,
+      "parts": [
+        "Addons/worlds_chernarusplus.pbo.part0",
+        "Addons/worlds_chernarusplus.pbo.part1",
+        "Addons/worlds_chernarusplus.pbo.part2"
+      ]
+    },
     "Addons/worlds_chernarusplus_ai.pbo": {
       "md5": "252c77d478ff43fe27e7db68e3857228",
       "size": 794156
@@ -492,6 +889,30 @@
     "Addons/worlds_chernarusplus_am.pbo": {
       "md5": "ad27ffce8de53ce9a027e526e1d9fbb1",
       "size": 16777393
+    },
+    "Addons/worlds_chernarusplus_data.pbo": {
+      "md5": "27d4cdbffd860453e2d64c9fdb38469a",
+      "size": 286615697,
+      "parts": [
+        "Addons/worlds_chernarusplus_data.pbo.part0",
+        "Addons/worlds_chernarusplus_data.pbo.part1",
+        "Addons/worlds_chernarusplus_data.pbo.part2",
+        "Addons/worlds_chernarusplus_data.pbo.part3"
+      ]
+    },
+    "Addons/worlds_chernarusplus_nav.pbo": {
+      "md5": "f0c9b96f58d65840aa96d34cc789901b",
+      "size": 742252222,
+      "parts": [
+        "Addons/worlds_chernarusplus_nav.pbo.part0",
+        "Addons/worlds_chernarusplus_nav.pbo.part1",
+        "Addons/worlds_chernarusplus_nav.pbo.part2",
+        "Addons/worlds_chernarusplus_nav.pbo.part3",
+        "Addons/worlds_chernarusplus_nav.pbo.part4",
+        "Addons/worlds_chernarusplus_nav.pbo.part5",
+        "Addons/worlds_chernarusplus_nav.pbo.part6",
+        "Addons/worlds_chernarusplus_nav.pbo.part7"
+      ]
     },
     "Addons/worlds_chernarusplus_pe.pbo": {
       "md5": "6885a24bec68cb85ab5df9f647f8efa0",
@@ -536,6 +957,23 @@
     "dta/core.pbo": {
       "md5": "425b6abfbd856089eff6dc4b04458776",
       "size": 9700320
+    },
+    "dta/graphics.pbo": {
+      "md5": "7b618b626ed10b1c41617c17712c7c72",
+      "size": 169562448,
+      "parts": [
+        "dta/graphics.pbo.part0",
+        "dta/graphics.pbo.part1"
+      ]
+    },
+    "dta/gui.pbo": {
+      "md5": "1fecc3ef6ca4b586883d7678ce2b8e81",
+      "size": 240389938,
+      "parts": [
+        "dta/gui.pbo.part0",
+        "dta/gui.pbo.part1",
+        "dta/gui.pbo.part2"
+      ]
     },
     "dta/languagecore.pbo": {
       "md5": "b4030578c51fb900c597f5df7a7215f7",
@@ -4552,444 +4990,6 @@
     "SmartSteamEmu/SmartSteamEmu/Plugins/x86/SSEOverlay.dll": {
       "md5": "f204ca9b0cbc6bccf9df5549ae16b5cf",
       "size": 875520
-    },
-    "Addons/animals.pbo": {
-      "md5": "e00cc02a9ec822b23bbd225f9fee046c",
-      "size": 243890419,
-      "parts": [
-        "Addons/animals.pbo.part0",
-        "Addons/animals.pbo.part1",
-        "Addons/animals.pbo.part2"
-      ]
-    },
-    "Addons/anims_anm_player.pbo": {
-      "md5": "47621cfea6cbdb12fdbe414a6c152bb5",
-      "size": 254839495,
-      "parts": [
-        "Addons/anims_anm_player.pbo.part0",
-        "Addons/anims_anm_player.pbo.part1",
-        "Addons/anims_anm_player.pbo.part2"
-      ]
-    },
-    "Addons/anims_rtm.pbo": {
-      "md5": "b89ae6ace508832e1c7403f4bf997808",
-      "size": 180106354,
-      "parts": [
-        "Addons/anims_rtm.pbo.part0",
-        "Addons/anims_rtm.pbo.part1"
-      ]
-    },
-    "Addons/assets_buildings.pbo": {
-      "md5": "6046801c8b5ce475ff4399600b358d19",
-      "size": 264637732,
-      "parts": [
-        "Addons/assets_buildings.pbo.part0",
-        "Addons/assets_buildings.pbo.part1",
-        "Addons/assets_buildings.pbo.part2"
-      ]
-    },
-    "Addons/assets_buildings2.pbo": {
-      "md5": "bb389d0fcb9895e2dafce91e916cf51a",
-      "size": 579495968,
-      "parts": [
-        "Addons/assets_buildings2.pbo.part0",
-        "Addons/assets_buildings2.pbo.part1",
-        "Addons/assets_buildings2.pbo.part2",
-        "Addons/assets_buildings2.pbo.part3",
-        "Addons/assets_buildings2.pbo.part4",
-        "Addons/assets_buildings2.pbo.part5",
-        "Addons/assets_buildings2.pbo.part6"
-      ]
-    },
-    "Addons/assets_misc.pbo": {
-      "md5": "653926ab0c639493e5d4f91bf420cd8b",
-      "size": 121758326,
-      "parts": [
-        "Addons/assets_misc.pbo.part0",
-        "Addons/assets_misc.pbo.part1"
-      ]
-    },
-    "Addons/assets_misc3.pbo": {
-      "md5": "148b77ea32d69a42fb79bb097141406a",
-      "size": 239211765,
-      "parts": [
-        "Addons/assets_misc3.pbo.part0",
-        "Addons/assets_misc3.pbo.part1",
-        "Addons/assets_misc3.pbo.part2"
-      ]
-    },
-    "Addons/assets_roads2.pbo": {
-      "md5": "f7db475ca45491a03482363f8603aeb5",
-      "size": 224450974,
-      "parts": [
-        "Addons/assets_roads2.pbo.part0",
-        "Addons/assets_roads2.pbo.part1",
-        "Addons/assets_roads2.pbo.part2"
-      ]
-    },
-    "Addons/assets_structures.pbo": {
-      "md5": "62c42fcb4a670cac5f7a7a52ba0b74a9",
-      "size": 824159489,
-      "parts": [
-        "Addons/assets_structures.pbo.part0",
-        "Addons/assets_structures.pbo.part1",
-        "Addons/assets_structures.pbo.part2",
-        "Addons/assets_structures.pbo.part3",
-        "Addons/assets_structures.pbo.part4",
-        "Addons/assets_structures.pbo.part5",
-        "Addons/assets_structures.pbo.part6",
-        "Addons/assets_structures.pbo.part7",
-        "Addons/assets_structures.pbo.part8"
-      ]
-    },
-    "Addons/books.pbo": {
-      "md5": "8c20aed6a8e32d012676eab1a78a8a59",
-      "size": 148613903,
-      "parts": [
-        "Addons/books.pbo.part0",
-        "Addons/books.pbo.part1"
-      ]
-    },
-    "Addons/characters_backpacks.pbo": {
-      "md5": "534428878611a187a74754829e2f21c3",
-      "size": 155341279,
-      "parts": [
-        "Addons/characters_backpacks.pbo.part0",
-        "Addons/characters_backpacks.pbo.part1"
-      ]
-    },
-    "Addons/characters_headgear.pbo": {
-      "md5": "4cc09438f8b3100ec5d75d00653202b3",
-      "size": 184171661,
-      "parts": [
-        "Addons/characters_headgear.pbo.part0",
-        "Addons/characters_headgear.pbo.part1"
-      ]
-    },
-    "Addons/characters_heads.pbo": {
-      "md5": "e122d9448ffd6bf5ad00b73c88178776",
-      "size": 745199070,
-      "parts": [
-        "Addons/characters_heads.pbo.part0",
-        "Addons/characters_heads.pbo.part1",
-        "Addons/characters_heads.pbo.part2",
-        "Addons/characters_heads.pbo.part3",
-        "Addons/characters_heads.pbo.part4",
-        "Addons/characters_heads.pbo.part5",
-        "Addons/characters_heads.pbo.part6",
-        "Addons/characters_heads.pbo.part7"
-      ]
-    },
-    "Addons/characters_pants.pbo": {
-      "md5": "58e2653dc2910ebb574f72ba80ce8117",
-      "size": 144346920,
-      "parts": [
-        "Addons/characters_pants.pbo.part0",
-        "Addons/characters_pants.pbo.part1"
-      ]
-    },
-    "Addons/characters_tops.pbo": {
-      "md5": "df5f06efe322a042a74f7126a654b3ca",
-      "size": 364926230,
-      "parts": [
-        "Addons/characters_tops.pbo.part0",
-        "Addons/characters_tops.pbo.part1",
-        "Addons/characters_tops.pbo.part2",
-        "Addons/characters_tops.pbo.part3"
-      ]
-    },
-    "Addons/characters_zombies.pbo": {
-      "md5": "e0ae65da36396ea0ab69dc4fc0290112",
-      "size": 651734010,
-      "parts": [
-        "Addons/characters_zombies.pbo.part0",
-        "Addons/characters_zombies.pbo.part1",
-        "Addons/characters_zombies.pbo.part2",
-        "Addons/characters_zombies.pbo.part3",
-        "Addons/characters_zombies.pbo.part4",
-        "Addons/characters_zombies.pbo.part5",
-        "Addons/characters_zombies.pbo.part6"
-      ]
-    },
-    "Addons/DZ.pbo": {
-      "md5": "5a06d17093857f527a76924888fba9e5",
-      "size": 120963680,
-      "parts": [
-        "Addons/DZ.pbo.part0",
-        "Addons/DZ.pbo.part1"
-      ]
-    },
-    "Addons/gear_camping.pbo": {
-      "md5": "ebaf6802e447fdd577f29bcd4812e405",
-      "size": 152334213,
-      "parts": [
-        "Addons/gear_camping.pbo.part0",
-        "Addons/gear_camping.pbo.part1"
-      ]
-    },
-    "Addons/gear_food.pbo": {
-      "md5": "ef208a5b4da7d00f99d6658ae1f4f1eb",
-      "size": 198486412,
-      "parts": [
-        "Addons/gear_food.pbo.part0",
-        "Addons/gear_food.pbo.part1",
-        "Addons/gear_food.pbo.part2"
-      ]
-    },
-    "Addons/gear_tools.pbo": {
-      "md5": "96b6f12c25f2c85a2607f45bf7a4d723",
-      "size": 118314405,
-      "parts": [
-        "Addons/gear_tools.pbo.part0",
-        "Addons/gear_tools.pbo.part1"
-      ]
-    },
-    "Addons/pistols.pbo": {
-      "md5": "baed57d75a48a1df2473bb546fab0129",
-      "size": 111576349,
-      "parts": [
-        "Addons/pistols.pbo.part0",
-        "Addons/pistols.pbo.part1"
-      ]
-    },
-    "Addons/plants.pbo": {
-      "md5": "841cd2421269cb858e45e654d64b9c94",
-      "size": 552072103,
-      "parts": [
-        "Addons/plants.pbo.part0",
-        "Addons/plants.pbo.part1",
-        "Addons/plants.pbo.part2",
-        "Addons/plants.pbo.part3",
-        "Addons/plants.pbo.part4",
-        "Addons/plants.pbo.part5"
-      ]
-    },
-    "Addons/plants2_tree.pbo": {
-      "md5": "de346f0ee84aaca26b0f1148475539fc",
-      "size": 320548086,
-      "parts": [
-        "Addons/plants2_tree.pbo.part0",
-        "Addons/plants2_tree.pbo.part1",
-        "Addons/plants2_tree.pbo.part2",
-        "Addons/plants2_tree.pbo.part3"
-      ]
-    },
-    "Addons/plants_tree.pbo": {
-      "md5": "9d388d8a667ae13ed60308bcf2a4189a",
-      "size": 488429655,
-      "parts": [
-        "Addons/plants_tree.pbo.part0",
-        "Addons/plants_tree.pbo.part1",
-        "Addons/plants_tree.pbo.part2",
-        "Addons/plants_tree.pbo.part3",
-        "Addons/plants_tree.pbo.part4",
-        "Addons/plants_tree.pbo.part5"
-      ]
-    },
-    "Addons/rocks3.pbo": {
-      "md5": "300e22d91cd044647b0c3e06160d9c65",
-      "size": 171264704,
-      "parts": [
-        "Addons/rocks3.pbo.part0",
-        "Addons/rocks3.pbo.part1"
-      ]
-    },
-    "Addons/sounds_arma2.pbo": {
-      "md5": "ba84e94cce5dc65d72aaa3b091493f77",
-      "size": 435184655,
-      "parts": [
-        "Addons/sounds_arma2.pbo.part0",
-        "Addons/sounds_arma2.pbo.part1",
-        "Addons/sounds_arma2.pbo.part2",
-        "Addons/sounds_arma2.pbo.part3",
-        "Addons/sounds_arma2.pbo.part4"
-      ]
-    },
-    "Addons/sound_effects.pbo": {
-      "md5": "760890b80370f0b73d8cb378b3d4b91d",
-      "size": 1726375445,
-      "parts": [
-        "Addons/sound_effects.pbo.part0",
-        "Addons/sound_effects.pbo.part1",
-        "Addons/sound_effects.pbo.part2",
-        "Addons/sound_effects.pbo.part3",
-        "Addons/sound_effects.pbo.part4",
-        "Addons/sound_effects.pbo.part5",
-        "Addons/sound_effects.pbo.part6",
-        "Addons/sound_effects.pbo.part7",
-        "Addons/sound_effects.pbo.part8",
-        "Addons/sound_effects.pbo.part9",
-        "Addons/sound_effects.pbo.part10",
-        "Addons/sound_effects.pbo.part11",
-        "Addons/sound_effects.pbo.part12",
-        "Addons/sound_effects.pbo.part13",
-        "Addons/sound_effects.pbo.part14",
-        "Addons/sound_effects.pbo.part15",
-        "Addons/sound_effects.pbo.part16",
-        "Addons/sound_effects.pbo.part17",
-        "Addons/sound_effects.pbo.part18"
-      ]
-    },
-    "Addons/sound_weapons.pbo": {
-      "md5": "65eea1140dead87b00bf579944635ddf",
-      "size": 446865822,
-      "parts": [
-        "Addons/sound_weapons.pbo.part0",
-        "Addons/sound_weapons.pbo.part1",
-        "Addons/sound_weapons.pbo.part2",
-        "Addons/sound_weapons.pbo.part3",
-        "Addons/sound_weapons.pbo.part4"
-      ]
-    },
-    "Addons/structures_abandoned_ship.pbo": {
-      "md5": "a2813b4503f15fc203b79d178779fbfa",
-      "size": 113728461,
-      "parts": [
-        "Addons/structures_abandoned_ship.pbo.part0",
-        "Addons/structures_abandoned_ship.pbo.part1"
-      ]
-    },
-    "Addons/structures_furniture.pbo": {
-      "md5": "1f5866c89c2b60181adff61077ef7f26",
-      "size": 178798718,
-      "parts": [
-        "Addons/structures_furniture.pbo.part0",
-        "Addons/structures_furniture.pbo.part1"
-      ]
-    },
-    "Addons/structures_houses.pbo": {
-      "md5": "2f0197820c86b74b10562f3b9ed3f318",
-      "size": 456639856,
-      "parts": [
-        "Addons/structures_houses.pbo.part0",
-        "Addons/structures_houses.pbo.part1",
-        "Addons/structures_houses.pbo.part2",
-        "Addons/structures_houses.pbo.part3",
-        "Addons/structures_houses.pbo.part4"
-      ]
-    },
-    "Addons/structures_misc.pbo": {
-      "md5": "ad7b0d314543b449aa19d036ec4f4cfe",
-      "size": 138083803,
-      "parts": [
-        "Addons/structures_misc.pbo.part0",
-        "Addons/structures_misc.pbo.part1"
-      ]
-    },
-    "Addons/structures_railway.pbo": {
-      "md5": "25c1b852ccb19a438a91209ca982e301",
-      "size": 124235754,
-      "parts": [
-        "Addons/structures_railway.pbo.part0",
-        "Addons/structures_railway.pbo.part1"
-      ]
-    },
-    "Addons/structures_tisy_base.pbo": {
-      "md5": "973a32af02c5c4004bb1ac9b48eac59a",
-      "size": 231950010,
-      "parts": [
-        "Addons/structures_tisy_base.pbo.part0",
-        "Addons/structures_tisy_base.pbo.part1",
-        "Addons/structures_tisy_base.pbo.part2"
-      ]
-    },
-    "Addons/surfaces.pbo": {
-      "md5": "f3135b4de5b5ce1962f59487cdafa977",
-      "size": 138469024,
-      "parts": [
-        "Addons/surfaces.pbo.part0",
-        "Addons/surfaces.pbo.part1"
-      ]
-    },
-    "Addons/vehicles_wheeled.pbo": {
-      "md5": "fcb8011f3a4b3e0988f7ed50d44629e6",
-      "size": 495737662,
-      "parts": [
-        "Addons/vehicles_wheeled.pbo.part0",
-        "Addons/vehicles_wheeled.pbo.part1",
-        "Addons/vehicles_wheeled.pbo.part2",
-        "Addons/vehicles_wheeled.pbo.part3",
-        "Addons/vehicles_wheeled.pbo.part4",
-        "Addons/vehicles_wheeled.pbo.part5"
-      ]
-    },
-    "Addons/vehicles_wrecks.pbo": {
-      "md5": "7eb872b5bdd574c4f995eef193bca069",
-      "size": 263876397,
-      "parts": [
-        "Addons/vehicles_wrecks.pbo.part0",
-        "Addons/vehicles_wrecks.pbo.part1",
-        "Addons/vehicles_wrecks.pbo.part2"
-      ]
-    },
-    "Addons/weapons_firearms.pbo": {
-      "md5": "1f4ba1bd4002ed0081d29ec617abcc88",
-      "size": 388002923,
-      "parts": [
-        "Addons/weapons_firearms.pbo.part0",
-        "Addons/weapons_firearms.pbo.part1",
-        "Addons/weapons_firearms.pbo.part2",
-        "Addons/weapons_firearms.pbo.part3",
-        "Addons/weapons_firearms.pbo.part4"
-      ]
-    },
-    "Addons/weapon_attachments_textures.pbo": {
-      "md5": "9060dc8037397d4796321fd4d5caeee5",
-      "size": 141043833,
-      "parts": [
-        "Addons/weapon_attachments_textures.pbo.part0",
-        "Addons/weapon_attachments_textures.pbo.part1"
-      ]
-    },
-    "Addons/worlds_chernarusplus.pbo": {
-      "md5": "e76534a5963dab71356e2d22fde8583f",
-      "size": 241724953,
-      "parts": [
-        "Addons/worlds_chernarusplus.pbo.part0",
-        "Addons/worlds_chernarusplus.pbo.part1",
-        "Addons/worlds_chernarusplus.pbo.part2"
-      ]
-    },
-    "Addons/worlds_chernarusplus_data.pbo": {
-      "md5": "27d4cdbffd860453e2d64c9fdb38469a",
-      "size": 286615697,
-      "parts": [
-        "Addons/worlds_chernarusplus_data.pbo.part0",
-        "Addons/worlds_chernarusplus_data.pbo.part1",
-        "Addons/worlds_chernarusplus_data.pbo.part2",
-        "Addons/worlds_chernarusplus_data.pbo.part3"
-      ]
-    },
-    "Addons/worlds_chernarusplus_nav.pbo": {
-      "md5": "f0c9b96f58d65840aa96d34cc789901b",
-      "size": 742252222,
-      "parts": [
-        "Addons/worlds_chernarusplus_nav.pbo.part0",
-        "Addons/worlds_chernarusplus_nav.pbo.part1",
-        "Addons/worlds_chernarusplus_nav.pbo.part2",
-        "Addons/worlds_chernarusplus_nav.pbo.part3",
-        "Addons/worlds_chernarusplus_nav.pbo.part4",
-        "Addons/worlds_chernarusplus_nav.pbo.part5",
-        "Addons/worlds_chernarusplus_nav.pbo.part6",
-        "Addons/worlds_chernarusplus_nav.pbo.part7"
-      ]
-    },
-    "dta/graphics.pbo": {
-      "md5": "7b618b626ed10b1c41617c17712c7c72",
-      "size": 169562448,
-      "parts": [
-        "dta/graphics.pbo.part0",
-        "dta/graphics.pbo.part1"
-      ]
-    },
-    "dta/gui.pbo": {
-      "md5": "1fecc3ef6ca4b586883d7678ce2b8e81",
-      "size": 240389938,
-      "parts": [
-        "dta/gui.pbo.part0",
-        "dta/gui.pbo.part1",
-        "dta/gui.pbo.part2"
-      ]
     }
   }
 }
