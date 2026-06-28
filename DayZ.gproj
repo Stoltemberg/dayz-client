@@ -1,0 +1,58 @@
+GameProjectClass {
+ ID "DayZ"
+ TITLE "DayZ"
+ Configurations {
+  GameProjectConfigClass PC {
+   platformHardware PC
+   FileSystem {
+		 FileSystemPathClass {
+			Name "Game Root"
+			Directory "./"
+		 } 
+	 }
+	imageSets {
+	  "gui/imagesets/ccgui_enforce.imageset" 
+	  "gui/imagesets/rover_imageset.imageset" 
+	  "gui/imagesets/dayz_gui.imageset" 
+	  "gui/imagesets/dayz_inventory.imageset" 
+	 }
+	 widgetStyles {
+	  "gui/looknfeel/dayzwidgets.styles" 
+	  "gui/looknfeel/widgets.styles"
+	 }
+	 ScriptModules {
+		ScriptModulePathClass {
+			Name "core"
+			Path "scripts/1_CoreExt"
+			EntryPoint ""
+		}
+		ScriptModulePathClass {
+			Name "gameLib"
+			Path "scripts/2_GameLibExt"
+			EntryPoint ""
+		}
+		ScriptModulePathClass {
+			Name "game"
+			Path "scripts/3_Game"
+			EntryPoint "CreateGame"
+		}
+		ScriptModulePathClass {
+			Name "world"
+			Path "scripts/4_World"
+			EntryPoint ""
+		}
+		ScriptModulePathClass {
+			Name "mission"
+			Path "scripts/5_Mission"
+			EntryPoint "CreateMission"
+		}
+	 }
+  }
+  GameProjectConfigClass XBOX_ONE {
+   platformHardware XBOX_ONE
+  }
+  GameProjectConfigClass PS4 {
+   platformHardware PS4
+  }
+ }
+}
