@@ -34,7 +34,7 @@ PlayerSaves/
 # Script generated lists / temporary lists
 *.lst
 
-# Start script is not distributed; launcher button starts the game
+# Start script is not distributed; launcher already performs this function
 !Start_client_game.cmd
 
 # Full large PBO originals are kept outside Client after split; never commit accidental backups
