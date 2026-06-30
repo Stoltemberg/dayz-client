@@ -1,0 +1,110 @@
+# GitHub Actions Workflow — Build Launcher and Generate Manifest
+# This workflow:
+# 1. Generates version.json with commit info
+# 2. Generates manifest.json with file hashes
+# 3. Builds the launcher executable with PyInstaller
+# 4. Creates a GitHub Release with the launcher
+
+name: Build and Release
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'manifest.json'
+      - 'version.json'
+      - 'launcher_cache.json'
+      - '.github/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest  # Windows for building .exe
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller pillow certifi
+
+      - name: Bump version
+        run: python bump_version.py
+        working-directory: Client
+
+      - name: Generate manifest
+        run: python generate_manifest.py
+        working-directory: Client
+        env:
+          FORCE_MANIFEST_HASH: "1"
+
+      - name: Check for changes
+        id: check
+        shell: bash
+        run: |
+          cd Client
+          if git diff --quiet manifest.json version.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to manifest"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "manifest/version has changes"
+          fi
+
+      - name: Commit manifest and version
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Client/manifest.json Client/version.json
+          $version = (Get-Content Client/version.json | ConvertFrom-Json).version
+          git commit -m "chore: update manifest v$version [skip ci]"
+          git push
+
+      - name: Build Launcher
+        working-directory: launcher
+        run: |
+          pyinstaller launcher.spec --clean --noconfirm
+
+      - name: Get version
+        id: version
+        shell: bash
+        run: |
+          cd Client
+          version=$(python -c "import json; print(json.load(open('version.json'))['version'])")
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Release v${{ steps.version.outputs.version }}
+          body: |
+            ## Remanescent Z Launcher v${{ steps.version.outputs.version }}
+            
+            ### Mudanças
+            - Manifest atualizado automaticamente
+            - Launcher compilado com PyInstaller
+            
+            ### Instalação
+            1. Baixe o `Launcher.exe`
+            2. Coloque na pasta do jogo
+            3. Execute como administrador
+          files: |
+            launcher/dist/Launcher.exe
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -4999,5 +4999,11 @@
         "dta/gui.pbo.part2"
       ]
     }
+  },
+  "build_info": {
+    "server_version": "0.62.142963",
+    "build_name": "123new",
+    "chernarusplus": true,
+    "dayz_version": "0.62"
   }
 }

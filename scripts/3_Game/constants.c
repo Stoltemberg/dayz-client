@@ -209,9 +209,17 @@ const int PARTY_RPC_MESSAGE						= 403;
  * \desc Respawn city selector authorized by the server.
  * @{
  */
-const int SPAWN_SELECTOR_RPC_SHOW					= 501;
-const int SPAWN_SELECTOR_RPC_SELECT					= 502;
-const int SPAWN_SELECTOR_RPC_MESSAGE				= 503;
+const int SPAWN_SELECTOR_RPC_SHOW						= 501;
+const int SPAWN_SELECTOR_RPC_SELECT						= 502;
+const int SPAWN_SELECTOR_RPC_MESSAGE					= 503;
+/** @}*/
+
+/**
+ * \defgroup Helicrash indicator RPC commands
+ * \desc Server sends helicrash positions to clients
+ * @{
+ */
+const int HELICRASH_RPC_POSITIONS						= 601;
 /** @}*/
 
 /**
