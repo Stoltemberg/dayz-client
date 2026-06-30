@@ -329,6 +329,27 @@ class PartyMenu extends UIScriptedMenu
 		TStringArray lines = new TStringArray;
 		blob.Split("\n", lines);
 
+		// [2026-06-30] FEATURE: [3.5.6] Paginação — mostrar apenas 15 membros por vez
+		int PAGE_SIZE = 15;
+		int total_members = 0;
+		
+		// Contar membros válidos primeiro
+		for ( int i = 0; i < lines.Count(); i++ )
+		{
+			TStringArray parts = new TStringArray;
+			lines.Get(i).Split("|", parts);
+			if ( parts.Count() >= 4 ) { total_members++; };
+		}
+		
+		// Calcular paginação
+		int total_pages = (total_members + PAGE_SIZE - 1) / PAGE_SIZE;
+		if (total_pages < 1) { total_pages = 1; };
+		
+		// Usar m_CurrentPage (adicionar como membro da classe se não existir)
+		int start_idx = 0;
+		int end_idx = PAGE_SIZE;
+		int displayed = 0;
+
 		for ( int i = 0; i < lines.Count(); i++ )
 		{
 			TStringArray parts = new TStringArray;
@@ -362,14 +383,25 @@ class PartyMenu extends UIScriptedMenu
 			float health_percent = health * 100.0;
 			string health_text = Math.Round(health_percent).ToString();
 
-			string display = name + "  " + GetRankLabel(rank) + "  " + health_text + "%";
-
-			m_MemberList.AddItem(display, NULL, 0);
+			// Paginação: só adicionar itens da página atual
+			if (displayed >= start_idx && displayed < end_idx)
+			{
+				string display = name + "  " + GetRankLabel(rank) + "  " + health_text + "%";
+				m_MemberList.AddItem(display, NULL, 0);
+			};
+			
 			m_MemberNames.Insert(name);
 			m_MemberUIDs.Insert(uid);
 			m_MemberOwnerFlags.Insert(owner);
 			m_MemberRanks.Insert(rank);
+			displayed++;
 		}
+		
+		// Mostrar info de paginação
+		if (total_pages > 1)
+		{
+			m_MemberList.AddItem("--- Página 1/" + total_pages + " (" + total_members + " membros) ---", NULL, 0);
+		};
 	}
 
 	protected void RenderClanList(string blob)
