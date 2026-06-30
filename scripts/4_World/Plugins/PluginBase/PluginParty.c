@@ -8,6 +8,10 @@ class PluginParty extends PluginBase
 	protected const string PARTY_CMD_DENY = "deny";
 	protected const string PARTY_CMD_LEAVE = "leave";
 	protected const string PARTY_CMD_KICK = "kick";
+	
+	// [2026-06-30] SEC: [3.5.1] Rate limiting
+	protected float m_LastRPCtime = 0;
+	protected const float RPC_COOLDOWN = 1.0; // 1 segundo entre RPCs
 	protected const string PARTY_CMD_ROLE = "role";
 	protected const string PARTY_RANK_TRIAL = "trial";
 	protected const string PARTY_RANK_MEMBER = "member";
@@ -129,6 +133,16 @@ class PluginParty extends PluginBase
 
 	void OnRPC(PlayerBase player, int rpc_type, ParamsReadContext ctx)
 	{
+		// [2026-06-30] SEC: [3.5.1] Rate limiting no servidor
+		if ( GetGame().IsServer() )
+		{
+			float now = GetGame().GetTime();
+			if (now - m_LastRPCtime < RPC_COOLDOWN * 1000) {
+				return; // Rate limited
+			};
+			m_LastRPCtime = now;
+		};
+		
 		if ( GetGame().IsServer() )
 		{
 			if ( rpc_type == PARTY_RPC_COMMAND )

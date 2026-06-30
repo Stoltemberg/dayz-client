@@ -2242,6 +2242,13 @@ class IngameHud extends Hud
 			
 			if( !instant_hide )
 			{
+				// [2026-06-30] FIX: [3.5.4] Limpar timers existentes antes de criar novos
+				foreach (WidgetFadeTimer t : m_fade_timers)
+				{
+					t.Stop();
+				}
+				m_fade_timers.Clear();
+				
 				Widget child = quickbarGrid.GetRoot().GetChildren();
 				while (child)
 				{

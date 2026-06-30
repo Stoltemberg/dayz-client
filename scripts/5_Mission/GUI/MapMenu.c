@@ -146,8 +146,16 @@ class MapMenu extends UIScriptedMenu
 		{
 			m_MapImage.SetFlags(WidgetFlags.STRETCH | WidgetFlags.NOWRAP | WidgetFlags.VISIBLE);
 			m_MapImage.SetSort(30);
-			bool map_loaded = m_MapImage.LoadImageFile(0, "gui/maps/BALOTA.tga", true);
-			Print("[CustomMap] BALOTA.tga loaded=" + map_loaded.ToString());
+			// [2026-06-30] FEATURE: [3.5.5] Mapa dinâmico baseado no mundo atual
+			string world_name = GetGame().GetWorldName();
+			string map_path = "gui/maps/" + world_name + ".tga";
+			bool map_loaded = m_MapImage.LoadImageFile(0, map_path, true);
+			if (!map_loaded) {
+				// Fallback para BALOTA.tga se o mapa do mundo não existir
+				map_loaded = m_MapImage.LoadImageFile(0, "gui/maps/BALOTA.tga", true);
+				Print("[CustomMap] Map for '" + world_name + "' not found, fallback to BALOTA.tga");
+			};
+			Print("[CustomMap] Map loaded=" + map_loaded.ToString() + " path=" + map_path);
 		}
 		else
 		{
