@@ -343,18 +343,21 @@ class PartyMenu extends UIScriptedMenu
 			string owner = parts.Get(2);
 			string rank = "member";
 			float health = 1.0;
+			// [2026-06-30] FIX: [1.2.5] Parsing robusto para 4-8+ campos
 			if ( parts.Count() >= 8 )
+			{
+				rank = parts.Get(3);
+				health = parts.Get(4).ToFloat();
+			}
+			else if ( parts.Count() >= 5 )
 			{
 				rank = parts.Get(3);
 				health = parts.Get(4).ToFloat();
 			}
 			else
 			{
-				health = parts.Get(3).ToFloat();
-				if ( owner == "1" )
-				{
-					rank = "owner";
-				}
+				// Fallback: 4 campos — owner flag indica rank
+				if ( owner == "1" ) { rank = "owner"; };
 			}
 			float health_percent = health * 100.0;
 			string health_text = Math.Round(health_percent).ToString();
