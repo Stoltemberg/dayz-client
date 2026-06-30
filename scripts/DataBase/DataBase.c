@@ -1,4 +1,22 @@
 
+// [2026-06-30] FIX: [ISSUE-005] Sanitização contra path traversal
+// Motivo: Parâmetros usados em paths de arquivo sem validação
+// Solução: Remover caracteres perigosos (.., /, \) de todos os inputs
+static string DataBase_Sanitize(string input)
+{
+	if (input == "") return "";
+	// Remover path traversal
+	input.Replace("../", "");
+	input.Replace("..\\", "");
+	input.Replace("..", "");
+	// Remover separadores de diretório
+	input.Replace("/", "");
+	input.Replace("\\", "");
+	// Remover caracteres nulos
+	input.Replace("\0", "");
+	return input;
+}
+
 static string DataBase_GetDate()
 {
 	int year, month, day, hour, minute, second;
@@ -32,6 +50,11 @@ static void DataBaseDelete(string in1, string in2)
 {
 	string player_alive, player_dead, file_name, date;
 	
+	// [2026-06-30] FIX: [ISSUE-005] Sanitizar inputs
+	in1 = DataBase_Sanitize(in1);
+	in2 = DataBase_Sanitize(in2);
+	if (in1 == "" || in2 == "") return;
+	
 	MakeDirectory(DataBase_BASE_DIR + DataBase_DEAD_DIR + in2);
 	
 	file_name = "$FILENAME$.sqf";
@@ -63,6 +86,11 @@ static void DataBaseDelete(string in1, string in2)
 static void DataBaseWrite(string in1, string in2, string in3)
 {	
 	string player_alive, file_name;
+
+	// [2026-06-30] FIX: [ISSUE-005] Sanitizar inputs
+	in1 = DataBase_Sanitize(in1);
+	in2 = DataBase_Sanitize(in2);
+	if (in1 == "" || in2 == "") return;
 
 	file_name = "$FILENAME$.sqf";
 	
@@ -103,6 +131,11 @@ static string DataBaseRead(string in1, string in2)
 	string player_alive, file_content, file_name;
 	
 	file_content = "";
+	
+	// [2026-06-30] FIX: [ISSUE-005] Sanitizar inputs
+	in1 = DataBase_Sanitize(in1);
+	in2 = DataBase_Sanitize(in2);
+	if (in1 == "" || in2 == "") return "";
 	
 	file_name = "$FILENAME$.sqf";
 	

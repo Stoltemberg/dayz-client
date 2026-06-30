@@ -4,6 +4,7 @@ launcher_cache.json
 *.download
 *.tmp
 *.bak
+*.bak.*
 *.old
 *.backup_*
 

@@ -641,7 +641,8 @@ class IngameHud extends Hud
 
 	void InitAdminEspWidgets()
 	{
-		return;
+		// [2026-06-30] FIX: [ISSUE-012] Removido return prematuro — ESP admin agora funciona
+		// O return abaixo desabilitava todo o código de ESP admin
 
 		if ( !m_HudPanelWidget )
 		{
@@ -1857,8 +1858,9 @@ class IngameHud extends Hud
 				if( !faded )
 				{
 					m_fade_timer_zeroing_old.FadeOut( m_WeaponStats, 5 );
-					m_fade_timer_magazine_name.FadeOut( m_WeaponName, 5 );
-					m_fade_timer_weapon_name.FadeOut( m_MagazineName, 5 );
+					// [2026-06-30] FIX: [ISSUE-013] Timers de fade estavam invertidos
+					m_fade_timer_magazine_name.FadeOut( m_MagazineName, 5 );
+					m_fade_timer_weapon_name.FadeOut( m_WeaponName, 5 );
 					m_fade_timer_weapon_stats.FadeOut( m_ZeroingOld, 5 );
 					faded = true;
 				}

@@ -354,7 +354,8 @@ class PlayerBase extends ManBase
 	{
 		if ( GetDayZGame().IsNewPlayer() && GetGame().IsServer() )
 		{
-			m_Environment.ProcessItemsWetness();
+			// [2026-06-30] FIX: [ISSUE-006] Null check para m_Environment
+			if( m_Environment ) m_Environment.ProcessItemsWetness();
 		}
 	}
 
@@ -1621,7 +1622,9 @@ class PlayerBase extends ManBase
 	}
 	array<PlayerStatBase> GetStatsArray()
 	{
-		return m_PlayerStats.Get();
+		// [2026-06-30] FIX: [ISSUE-006] Null check para m_PlayerStats
+		if( m_PlayerStats ) return m_PlayerStats.Get();
+		return NULL;
 	}
 
 	//Get aim (player crosshair) position

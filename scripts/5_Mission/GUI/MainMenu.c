@@ -7,7 +7,7 @@ class MainMenu extends UIScriptedMenu
 		m_fade_timer = new WidgetFadeTimer;
 		m_statisticsUpdateTimer = new Timer(CALL_CATEGORY_GUI);
 		m_statisticsLoadedSuccessfully = false;
-		if( g_Game.GetMissionState() == DayZGame.MISSION_STATE_FINNISH )
+		if( g_Game.GetMissionState() == DayZGame.MISSION_STATE_FINISH )
 		{
 			GetGame().GetCallQueue(CALL_CATEGORY_GUI).Call(GetGame().GetUIManager(), "EnterServerBrowser", new Param1<UIMenuPanel>(this));
 	}

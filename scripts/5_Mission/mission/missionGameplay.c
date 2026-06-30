@@ -177,7 +177,7 @@ class MissionGameplay extends MissionBase
 		m_hud_root_widget.Destroy();
 		m_hud_root_widget = NULL;
 		g_Game.GetUIManager().ShowCursor(false);
-		g_Game.SetMissionState( DayZGame.MISSION_STATE_FINNISH );
+		g_Game.SetMissionState( DayZGame.MISSION_STATE_FINISH );
 	}
 
 	void OnUpdate(float timeslice)

@@ -202,7 +202,7 @@ class DayZGame extends CGame
 {
 	const int MISSION_STATE_MAINMENU = 0;
 	const int MISSION_STATE_GAME = 1;
-	const int MISSION_STATE_FINNISH = 2;
+	const int MISSION_STATE_FINISH = 2;
 	
 	private int m_MissionState;
 	
