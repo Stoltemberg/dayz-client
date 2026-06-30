@@ -2216,13 +2216,17 @@ class IngameHud extends Hud
 				m_quickbar_state = true;
 				
 				while (child)
-				{
-					child.Show(true);
-					child.GetChildren().Show(true);
-					child.SetAlpha(alpha);
-					child.GetChildren().SetAlpha(1);
-					child = child.GetSibling();
-				}
+					{
+						child.Show(true);
+						// [2026-06-30] FIX: [1.2.3] Null check para GetChildren()
+						Widget childChildren = child.GetChildren();
+						if (childChildren) {
+							childChildren.Show(true);
+							childChildren.SetAlpha(1);
+						};
+						child.SetAlpha(alpha);
+						child = child.GetSibling();
+					}
 				m_quickbar_timer.Stop();
 				m_quickbar_timer.Run( 45, this, "HideQuickbar" );
 		}
