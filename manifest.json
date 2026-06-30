@@ -1009,10 +1009,6 @@
       "md5": "109c3f688ff2b7bf6e8755ab1ae0f2a7",
       "size": 18484
     },
-    "scripts/3_Game/DayZGame.c.bak.20260630": {
-      "md5": "0698dd7f8525494cd03c1b717aa3b6c4",
-      "size": 18485
-    },
     "scripts/3_Game/game.c": {
       "md5": "35800be05a836028e306264c9c5d8ba3",
       "size": 360
@@ -3821,10 +3817,6 @@
       "md5": "67a5fde1330b1420d626bc6b13346548",
       "size": 44626
     },
-    "scripts/4_World/Entities/ManBase/PlayerBase.c.bak.20260630": {
-      "md5": "b086666a823b29aeb78316c2466513d8",
-      "size": 44440
-    },
     "scripts/4_World/Entities/ManBase/PlayerBaseClient.c": {
       "md5": "804a54bf7a9cf8ee010b8bfcb4761e55",
       "size": 48
@@ -4089,10 +4081,6 @@
       "md5": "6930c1535698ce8224d911e18841517d",
       "size": 61064
     },
-    "scripts/5_Mission/GUI/IngameHud.c.bak.20260630": {
-      "md5": "06afada901cf28869ff46bfbfe4847f5",
-      "size": 60171
-    },
     "scripts/5_Mission/GUI/InGameMenu.c": {
       "md5": "406c71a8cda4db96745e31d19e532095",
       "size": 2831
@@ -4113,10 +4101,6 @@
       "md5": "d371b839392475dacbb1db1ae6606200",
       "size": 4657
     },
-    "scripts/5_Mission/GUI/MainMenu.c.bak.20260630": {
-      "md5": "9dae133105ef2d718d235aea39d2e942",
-      "size": 4658
-    },
     "scripts/5_Mission/GUI/MainMenu2.c": {
       "md5": "7ce9e014d553079417b4c863d27035cd",
       "size": 4306
@@ -4136,10 +4120,6 @@
     "scripts/5_Mission/GUI/PartyMenu.c": {
       "md5": "d0f8ce4883bfca4275bb72e0048803ad",
       "size": 17214
-    },
-    "scripts/5_Mission/GUI/PartyMenu.c.bak.20260630": {
-      "md5": "594564a32b6bcfd6449a7fa8c1bb634f",
-      "size": 16083
     },
     "scripts/5_Mission/GUI/PresetsMenu.c": {
       "md5": "c4a7e43aa4cc72cac7d97aa8db8609fe",
@@ -4329,10 +4309,6 @@
       "md5": "5909f48d451ca1fbd4e510aeafd75bdb",
       "size": 12989
     },
-    "scripts/5_Mission/mission/missionGameplay.c.bak.20260630": {
-      "md5": "985476f8052e043b516c0ddddb099fb7",
-      "size": 12990
-    },
     "scripts/5_Mission/mission/missionMainMenu.c": {
       "md5": "4f819a40f0fbdf1e1ff28571489fb802",
       "size": 1997
@@ -4352,10 +4328,6 @@
     "scripts/DataBase/DataBase.c": {
       "md5": "da5872d0e6e6c4022c2ed3d22ab1093a",
       "size": 3850
-    },
-    "scripts/DataBase/DataBase.c.bak.20260630": {
-      "md5": "859ad4b3c41cff0fbfedb9e3490b16bf",
-      "size": 2837
     },
     "scripts/DataBase/DataBase.h": {
       "md5": "c8d6930795f04fdc523ee0097a9d24f5",
