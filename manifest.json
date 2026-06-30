@@ -2,8 +2,12 @@
   "version": "0.62.0.1",
   "files": {
     "!Start_client_parameters.ini": {
-      "md5": "4cd771d13b5ac34fefcab2246742c7ef",
-      "size": 465
+      "md5": "a875648250434a46eb45f7903d5134e3",
+      "size": 528
+    },
+    "bump_version.py": {
+      "md5": "f75ceef6a134fc2a6967825a4aef66b6",
+      "size": 2973
     },
     "DayZ.exe": {
       "md5": "4fef38af4175464e2e34badb99faa7ce",
@@ -78,8 +82,8 @@
       "size": 1070000
     },
     "SmartSteamEmu.ini": {
-      "md5": "5118a1d92f8513183cccfd1878fe1d84",
-      "size": 589
+      "md5": "627cb4d233e16f470f5a20faa7f66aa3",
+      "size": 588
     },
     "steam_api.dll": {
       "md5": "a83ade32811f1419685e90f592adf505",
@@ -100,6 +104,10 @@
     "ValveAPI64.dll": {
       "md5": "1711464a23e9a0c222a361c3fcf3c318",
       "size": 235600
+    },
+    ".github/workflows/build-and-release.yml": {
+      "md5": "7154181bc747a3c6be95e802dfca1565",
+      "size": 3261
     },
     "Addons/anims.pbo": {
       "md5": "62b0dc7f3cffebd914081c348bd5350e",
@@ -994,10 +1002,14 @@
       "size": 1993
     },
     "scripts/3_Game/constants.c": {
-      "md5": "707cd4dad700c2e8c013c9445abc43b9",
-      "size": 14255
+      "md5": "fc2708b23e9f65808dd4bcb16f4453a0",
+      "size": 14427
     },
     "scripts/3_Game/DayZGame.c": {
+      "md5": "109c3f688ff2b7bf6e8755ab1ae0f2a7",
+      "size": 18484
+    },
+    "scripts/3_Game/DayZGame.c.bak.20260630": {
       "md5": "0698dd7f8525494cd03c1b717aa3b6c4",
       "size": 18485
     },
@@ -3806,6 +3818,10 @@
       "size": 39
     },
     "scripts/4_World/Entities/ManBase/PlayerBase.c": {
+      "md5": "67a5fde1330b1420d626bc6b13346548",
+      "size": 44626
+    },
+    "scripts/4_World/Entities/ManBase/PlayerBase.c.bak.20260630": {
       "md5": "b086666a823b29aeb78316c2466513d8",
       "size": 44440
     },
@@ -3934,8 +3950,8 @@
       "size": 1706
     },
     "scripts/4_World/Plugins/PluginBase/PluginParty.c": {
-      "md5": "166407e4bd17b6f18c5c8cb20b016f90",
-      "size": 32864
+      "md5": "94cb84960fbbe7d07be86004baf7767c",
+      "size": 33779
     },
     "scripts/4_World/Plugins/PluginBase/PluginPlayerStatus.c": {
       "md5": "48f6a9f6814ddf9d4a140892259e667e",
@@ -3964,6 +3980,10 @@
     "scripts/4_World/Plugins/PluginBase/PluginVariables.c": {
       "md5": "daba1c29acb94ed90dfb0e54032ae67d",
       "size": 605
+    },
+    "scripts/4_World/Plugins/PluginBase/SharedPlayerCache.c": {
+      "md5": "d9c9d027ba4fdd71335451365660239f",
+      "size": 2206
     },
     "scripts/4_World/Plugins/PluginBase/PluginDeveloper/DeveloperFreeCamera.c": {
       "md5": "a109896682cb56b78fdaeb67979b478d",
@@ -4066,6 +4086,10 @@
       "size": 4817
     },
     "scripts/5_Mission/GUI/IngameHud.c": {
+      "md5": "6930c1535698ce8224d911e18841517d",
+      "size": 61064
+    },
+    "scripts/5_Mission/GUI/IngameHud.c.bak.20260630": {
       "md5": "06afada901cf28869ff46bfbfe4847f5",
       "size": 60171
     },
@@ -4086,6 +4110,10 @@
       "size": 600
     },
     "scripts/5_Mission/GUI/MainMenu.c": {
+      "md5": "d371b839392475dacbb1db1ae6606200",
+      "size": 4657
+    },
+    "scripts/5_Mission/GUI/MainMenu.c.bak.20260630": {
       "md5": "9dae133105ef2d718d235aea39d2e942",
       "size": 4658
     },
@@ -4094,8 +4122,8 @@
       "size": 4306
     },
     "scripts/5_Mission/GUI/MapMenu.c": {
-      "md5": "b921217e060c19b48c9097ebb9528943",
-      "size": 23012
+      "md5": "69ca84bd90f5501ebb08caa548a8c8f4",
+      "size": 23449
     },
     "scripts/5_Mission/GUI/NoteMenu.c": {
       "md5": "274be5fb5cd913e7122039d1fe6fff22",
@@ -4106,6 +4134,10 @@
       "size": 16859
     },
     "scripts/5_Mission/GUI/PartyMenu.c": {
+      "md5": "d0f8ce4883bfca4275bb72e0048803ad",
+      "size": 17214
+    },
+    "scripts/5_Mission/GUI/PartyMenu.c.bak.20260630": {
       "md5": "594564a32b6bcfd6449a7fa8c1bb634f",
       "size": 16083
     },
@@ -4294,6 +4326,10 @@
       "size": 9066
     },
     "scripts/5_Mission/mission/missionGameplay.c": {
+      "md5": "5909f48d451ca1fbd4e510aeafd75bdb",
+      "size": 12989
+    },
+    "scripts/5_Mission/mission/missionGameplay.c.bak.20260630": {
       "md5": "985476f8052e043b516c0ddddb099fb7",
       "size": 12990
     },
@@ -4314,6 +4350,10 @@
       "size": 30299
     },
     "scripts/DataBase/DataBase.c": {
+      "md5": "da5872d0e6e6c4022c2ed3d22ab1093a",
+      "size": 3850
+    },
+    "scripts/DataBase/DataBase.c.bak.20260630": {
       "md5": "859ad4b3c41cff0fbfedb9e3490b16bf",
       "size": 2837
     },
@@ -4385,6 +4425,10 @@
       "md5": "f97305e7a5ec46586db04fa53f61b272",
       "size": 52
     },
+    "SmartSteamEmu/README_HERMES_STABILITY.txt": {
+      "md5": "fb0777e0c4ddcbfb221a5460ddf76c26",
+      "size": 1695
+    },
     "SmartSteamEmu/SmartSteamEmu.dll": {
       "md5": "04c104b053033de230ca0cf2fb7551db",
       "size": 5036032
@@ -4430,7 +4474,7 @@
       "size": 20992
     },
     "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay.ini": {
-      "md5": "648a406fe0f2ca3b32ccd1fb7493d294",
+      "md5": "95873844e3e81f1bb5d03cbd15ddc30c",
       "size": 55
     },
     "SmartSteamEmu/SmartSteamEmu/Plugins/SSEOverlay/Language.ini": {
@@ -4999,11 +5043,5 @@
         "dta/gui.pbo.part2"
       ]
     }
-  },
-  "build_info": {
-    "server_version": "0.62.142963",
-    "build_name": "123new",
-    "chernarusplus": true,
-    "dayz_version": "0.62"
   }
 }
