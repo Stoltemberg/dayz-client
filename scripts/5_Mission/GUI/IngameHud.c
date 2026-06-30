@@ -2044,20 +2044,14 @@ class IngameHud extends Hud
 
 	void ShowHudTemporarily()
 	{
-		// [2026-06-30] FEATURE: [3.5.7] Auto-hide HUD após 10 segundos
+		// HUD sempre visível em DayZ 0.62
 		m_HudVisible = true;
-		// CallLater substitui chamadas anteriores automaticamente
-		GetGame().GetCallQueue(CALL_CATEGORY_GUI).CallLater(this, "CheckAndHideHud", 10000, false);
 	}
 
 	void CheckAndHideHud()
 	{
-		// [2026-06-30] FEATURE: [3.5.7] Esconder HUD se não houver interação
-		if (m_HudVisible)
-		{
-			m_HudVisible = false;
-			FadeHudOut(1.0);
-		}
+		// HUD sempre visível em DayZ 0.62
+		m_HudVisible = true;
 	}
 
 	void FadeHudIn(float time)
