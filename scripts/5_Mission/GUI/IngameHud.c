@@ -1951,6 +1951,7 @@ class IngameHud extends Hud
 	bool ZeroingKeyPress()
 	{
 		zeroing_key_pressed = true;
+		return true;
 	}
 	
 	void DisplayStance( int stance )
