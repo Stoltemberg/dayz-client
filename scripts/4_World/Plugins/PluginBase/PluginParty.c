@@ -1012,9 +1012,27 @@ class PluginParty extends PluginBase
 	{
 		EnsureClanFile();
 
+		// [2026-06-30] FEATURE: [3.5.3] File locking — usar arquivo de lock
+		string lock_file = PARTY_CLAN_FILE + ".lock";
+		int max_retries = 10;
+		int retry_count = 0;
+		
+		// Esperar até obter o lock
+		while (FileExist(lock_file) && retry_count < max_retries)
+		{
+			Sleep(100);
+			retry_count++;
+		};
+		
+		// Criar lock
+		FileHandle lock = OpenFile(lock_file, FileMode.WRITE);
+		if (lock != 0) { CloseFile(lock); };
+
 		FileHandle file = OpenFile(PARTY_CLAN_FILE, FileMode.WRITE);
 		if ( file == 0 )
 		{
+			// Remover lock se falhou
+			DeleteFile(lock_file);
 			return;
 		}
 
@@ -1027,6 +1045,9 @@ class PluginParty extends PluginBase
 		}
 
 		CloseFile(file);
+		
+		// Remover lock
+		DeleteFile(lock_file);
 	}
 
 	protected void EnsureClanFile()
