@@ -2046,7 +2046,7 @@ class IngameHud extends Hud
 	{
 		// [2026-06-30] FEATURE: [3.5.7] Auto-hide HUD após 10 segundos
 		m_HudVisible = true;
-		GetGame().GetCallQueue(CALL_CATEGORY_GUI).Remove(this, "CheckAndHideHud");
+		// CallLater substitui chamadas anteriores automaticamente
 		GetGame().GetCallQueue(CALL_CATEGORY_GUI).CallLater(this, "CheckAndHideHud", 10000, false);
 	}
 
