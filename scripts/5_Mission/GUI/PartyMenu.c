@@ -350,10 +350,11 @@ class PartyMenu extends UIScriptedMenu
 		int start_idx = 0;
 		int end_idx = PAGE_SIZE;
 		int displayed = 0;
+		TStringArray parts = new TStringArray;
 
 		for ( int i = 0; i < lines.Count(); i++ )
 		{
-			TStringArray parts = new TStringArray;
+			parts.Clear();
 			lines.Get(i).Split("|", parts);
 			if ( parts.Count() < 4 )
 			{
