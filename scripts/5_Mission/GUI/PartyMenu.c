@@ -337,9 +337,9 @@ class PartyMenu extends UIScriptedMenu
 		int count_idx = 0;
 		for ( count_idx = 0; count_idx < lines.Count(); count_idx++ )
 		{
-			TStringArray parts = new TStringArray;
 			lines.Get(count_idx).Split("|", parts);
 			if ( parts.Count() >= 4 ) { total_members++; };
+			parts.Clear();
 		}
 		
 		// Calcular paginação
