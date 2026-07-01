@@ -334,10 +334,11 @@ class PartyMenu extends UIScriptedMenu
 		int total_members = 0;
 		
 		// Contar membros válidos primeiro
-		for ( int i = 0; i < lines.Count(); i++ )
+		int count_idx = 0;
+		for ( count_idx = 0; count_idx < lines.Count(); count_idx++ )
 		{
 			TStringArray parts = new TStringArray;
-			lines.Get(i).Split("|", parts);
+			lines.Get(count_idx).Split("|", parts);
 			if ( parts.Count() >= 4 ) { total_members++; };
 		}
 		
