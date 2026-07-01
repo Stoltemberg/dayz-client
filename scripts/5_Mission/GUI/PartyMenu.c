@@ -332,6 +332,7 @@ class PartyMenu extends UIScriptedMenu
 		// [2026-06-30] FEATURE: [3.5.6] Paginação — mostrar apenas 15 membros por vez
 		int PAGE_SIZE = 15;
 		int total_members = 0;
+		TStringArray parts = new TStringArray;
 		
 		// Contar membros válidos primeiro
 		int count_idx = 0;
@@ -350,7 +351,6 @@ class PartyMenu extends UIScriptedMenu
 		int start_idx = 0;
 		int end_idx = PAGE_SIZE;
 		int displayed = 0;
-		TStringArray parts = new TStringArray;
 
 		for ( int i = 0; i < lines.Count(); i++ )
 		{
